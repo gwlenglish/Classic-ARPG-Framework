@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ac3552d3f2ecb4098c61dbb9849f17, type: 3}
+  m_Name: Demo Creature
+  m_EditorClassIdentifier: 
+  goals:
+  - GoalTemplate: {fileID: 11400000, guid: 14b8f3ee866e9a5449900f4d0b8a2222, type: 2}
+    KillAmount: 3
+    Current: 3
+    Complete: 1

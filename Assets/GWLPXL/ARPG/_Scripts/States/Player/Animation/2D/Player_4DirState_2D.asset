@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4626482db0453c46ae8b80b205f9a82, type: 3}
+  m_Name: Player_4DirState_2D
+  m_EditorClassIdentifier: 
+  Moving:
+  - {fileID: 11400000, guid: c8a1c7902e908a64ab216e78de04a74b, type: 2}
+  - {fileID: 11400000, guid: f86f4b6e121809541b0fe5e9333b9b4b, type: 2}
+  - {fileID: 11400000, guid: 4255782c9840fdf4cbc785d55db28379, type: 2}
+  - {fileID: 11400000, guid: 720fdaa56234aa3418a1cd9e64559026, type: 2}
+  Idle: []

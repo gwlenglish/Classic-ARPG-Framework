@@ -1,0 +1,53 @@
+{
+    "config": {
+        "instanceID": 26244
+    },
+    "id": {
+        "Name": "",
+        "ID": 5,
+        "Ability": {
+            "instanceID": 25360
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Roll",
+        "Description": "Rolls in the facing direction of the caster",
+        "DamageMultiplier": 1.0,
+        "Range": 1.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "AnimationTrigger": "Ability",
+        "AnimationIndex": 0,
+        "Logics": [
+            {
+                "instanceID": 26246
+            }
+        ],
+        "UniqueID": 0,
+        "Sprite": {
+            "instanceID": 0
+        }
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 0.0,
+    "Duration": 0.30000001192092898,
+    "CanLoop": false,
+    "AddDelay": false,
+    "Delay": 0.0,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 1
+            }
+        ],
+        "PhysicsType": 1,
+        "OnCasterDamaged": true,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

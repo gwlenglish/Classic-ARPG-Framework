@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 193f2142f98da1d46839bd7765d6c4a9, type: 3}
+  m_Name: Small Gem Dexterity
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 43c137d0025796a4c94888f7ecaf838e, type: 3}
+  itemID:
+    Name: Small Gem Dexterity
+    ID: 33
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: 4df0bc156be553c4c9f8f3217ab8189b, type: 2}
+  meshPrefab: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 6c0361b4cfcbc8f4f9fa96c4b1473240, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  SocketableVariables:
+    BaseName: 'Small Dexterity '
+    StackingAmount: 1
+    GeneratedName: 
+    Type: 100
+    Description: Small Dexterity Gem
+  EquipmentTraitSocketable:
+  - {fileID: 11400000, guid: 643585ed04e6b724a9ef13fb1c0ffdb2, type: 2}

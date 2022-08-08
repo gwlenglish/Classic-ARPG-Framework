@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417dcf1b16f3f1a4c94655c7ddfc95c0, type: 3}
+  m_Name: Demo Tree
+  m_EditorClassIdentifier: 
+  JsonConfig: {fileID: 4900000, guid: 30e77dbf048860a44a8e03adf38c638d, type: 3}
+  ID:
+    Name: 
+    Description: 
+    UniqueID: 0
+  autoName: 0
+  autoAssignID: 0
+  pointsAvailable: 200
+  theTree:
+  - TierDescription: Tier 0
+    tierAvailable: 0
+    nodesOnLevel:
+    - {fileID: 11400000, guid: e85631b05f05af741a6652ff3271e366, type: 2}
+    - {fileID: 11400000, guid: 2e2b9cbc0d2674447b530019172c498a, type: 2}
+    - {fileID: 11400000, guid: 3a6437c0718b3474caac2e08a76259ea, type: 2}
+  - TierDescription: Tier 1
+    tierAvailable: 0
+    nodesOnLevel:
+    - {fileID: 11400000, guid: e527646c0b0aa3e44b847554668019e8, type: 2}
+    - {fileID: 11400000, guid: 887d1e548ef5af847a768d47b1efdbab, type: 2}
+    - {fileID: 11400000, guid: 9ee5301d6ada1ba44937b1cc5096d40d, type: 2}
+    - {fileID: 11400000, guid: edee0b33142fa5242bd16dddc5c31f85, type: 2}
+  - TierDescription: Tier 2
+    tierAvailable: 0
+    nodesOnLevel:
+    - {fileID: 11400000, guid: 680c1ac0ba8ccd24d90fab257e046213, type: 2}
+    - {fileID: 11400000, guid: 220bb59aa9773864db9ecc991da05920, type: 2}
+    - {fileID: 11400000, guid: 3c638e5feeedcb248aa3bafcd2ed859a, type: 2}
+    - {fileID: 11400000, guid: d5bed2bacc966fc4bb7946ce1f0a884c, type: 2}

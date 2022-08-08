@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Fire Ball with AOE
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: d23611d178eafb74a9e5232862553948, type: 3}
+  id:
+    Name: Fire Ball with AOE
+    ID: 26
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Quick Shot
+    Description: 'Quick shot with your arrow. '
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 7a6c190c80ea8c34bae95f8956f26fbb, type: 2}
+    - {fileID: 11400000, guid: 58e2c39828848d644aeb7fda317be0e7, type: 2}
+    UniqueID: 6
+    Sprite: {fileID: 0}
+    AnimationTrigger: Ability
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.3
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303f765ed8a94bf4d818209aceeb3ab0, type: 3}
+  m_Name: NONE_class
+  m_EditorClassIdentifier: 
+  Config: {fileID: 4900000, guid: f7d9e4496b13b6949b40ea18e5134ff5, type: 3}
+  classID:
+    Name: NONE
+    ID: 1
+    SOReference: {fileID: 11400000}
+  classAttributes:
+    ClassName: NONE
+    ClassType: 0
+    AllowedSlots: 00000000050000000a0000000f00000014000000190000001a0000001b0000001e0000001f00000020000000210000002200000023000000280000002d00000032000000
+    AllowedWeapons: 0000000001000000020000000300000064000000650000006600000067000000
+    AllowedArmors: 0000000001000000020000000300000004000000
+    AllowedAccessories: 00000000010000000200000003000000
+  autoName: 1

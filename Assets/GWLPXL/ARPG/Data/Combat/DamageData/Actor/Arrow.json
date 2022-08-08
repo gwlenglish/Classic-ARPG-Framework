@@ -1,0 +1,41 @@
+{
+    "config": {
+        "instanceID": 17712
+    },
+    "id": {
+        "Name": "Arrow",
+        "ID": 13,
+        "Instance": {
+            "instanceID": 17532
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Arrow",
+        "damageOptions": {
+            "physdmg": true,
+            "elemdg": true,
+            "sotmod": false
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 8,
+                "maxD": 12,
+                "percentOfCasterAttack": 0.0
+            },
+            "elementMultipliers": []
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": []
+        }
+    }
+}

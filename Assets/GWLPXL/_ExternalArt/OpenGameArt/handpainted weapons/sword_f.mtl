@@ -1,0 +1,24 @@
+# Blender MTL File: 'handpainted weapons.blend'
+# Material Count: 2
+
+newmtl sword_f
+Ns 487.526323
+Ka 0.636000 0.636000 0.636000
+Kd 0.800000 0.800000 0.800000
+Ks 0.376000 0.376000 0.376000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures/sword_f.png
+
+newmtl sword_f_2
+Ns 114.062366
+Ka 0.400000 0.400000 0.400000
+Kd 0.800000 0.800000 0.800000
+Ks 0.540000 0.540000 0.540000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures/sword_f.png

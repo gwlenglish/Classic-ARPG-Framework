@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d64d0984701314dac14e0ffbb15bee, type: 3}
+  m_Name: AoEKnockback
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 7d51fba6e82bf734ebc5a77bf5a1aa02, type: 3}
+  StatusChanges:
+  - {fileID: 11400000, guid: a03378ecbd35d1a479d5f80bcf481428, type: 2}

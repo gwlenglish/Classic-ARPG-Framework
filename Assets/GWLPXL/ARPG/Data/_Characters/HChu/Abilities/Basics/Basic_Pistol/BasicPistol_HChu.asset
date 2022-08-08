@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: BasicPistol_HChu
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: f06f208afb592bd4cab413416332069e, type: 3}
+  id:
+    Name: 
+    ID: 7
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Quick Shot
+    Description: 'Quick shot with your pistol. '
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 3a23c05a8c8371f40b3ba4a10501a301, type: 2}
+    UniqueID: 8
+    Sprite: {fileID: 0}
+    AnimationTrigger: BasicPistol
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 0
+  AddCooldown: 1
+  CoolDownRate: 0
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.33
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

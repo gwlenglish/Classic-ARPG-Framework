@@ -1,0 +1,36 @@
+{
+    "config": {
+        "instanceID": 15140
+    },
+    "itemID": {
+        "Name": "Small Gem Dexterity",
+        "ID": 33,
+        "Item": {
+            "instanceID": 15138
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 14864
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 14866
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "SocketableVariables": {
+        "BaseName": "Small Dexterity ",
+        "StackingAmount": 1,
+        "GeneratedName": "",
+        "Type": 100,
+        "Description": "Small Dexterity Gem"
+    },
+    "EquipmentTraitSocketable": [
+        {
+            "instanceID": 58600
+        }
+    ]
+}

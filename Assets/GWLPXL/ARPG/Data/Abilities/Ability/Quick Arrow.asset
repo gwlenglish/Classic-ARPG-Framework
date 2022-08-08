@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Quick Arrow
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: cf18412db426fca46bd1f0ef629719c9, type: 3}
+  id:
+    Name: 
+    ID: 20
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Quick Arrow
+    Description: 'Quick shot with your arrow. '
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 1d6a8fca8a8309346a7e3df24fee58a7, type: 2}
+    UniqueID: 8
+    Sprite: {fileID: 0}
+    AnimationTrigger: Ability
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.25
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

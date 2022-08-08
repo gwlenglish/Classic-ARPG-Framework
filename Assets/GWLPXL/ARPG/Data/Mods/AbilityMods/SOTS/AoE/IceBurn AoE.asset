@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e613ad890bdf43a429ba9750c6595d66, type: 3}
+  m_Name: IceBurn AoE
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 598622cc61c994d42b181c963ced47fc, type: 3}
+  AoE_Vars:
+    Radius: 5
+    Angle: 20
+  DoT_Vars:
+    TypeToDrain: 0
+    ElementDamage: 2
+    AmountPerTick: -1
+    ModifyDuration: 10
+    ModifyRate: 1
+    StackAmount: 5

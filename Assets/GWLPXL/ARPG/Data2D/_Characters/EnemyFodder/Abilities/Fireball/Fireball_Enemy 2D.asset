@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Fireball_Enemy 2D
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 2926669744e752641a0ca5ba15fa93f0, type: 3}
+  id:
+    Name: 
+    ID: 2
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Fireball
+    Description: 'Casts a fire ball. '
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 0
+    ResourceType: 20
+    AnimationTrigger: Ability
+    AnimationIndex: 1
+    Logics:
+    - {fileID: 11400000, guid: 85069cfb8fa6f8a47a9cae2433ebafee, type: 2}
+    UniqueID: 7
+    Sprite: {fileID: 0}
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.024
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

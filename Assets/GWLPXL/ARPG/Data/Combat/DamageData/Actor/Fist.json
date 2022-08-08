@@ -1,0 +1,41 @@
+{
+    "config": {
+        "instanceID": 26240
+    },
+    "id": {
+        "Name": "Fist",
+        "ID": 4,
+        "Instance": {
+            "instanceID": 25692
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Fist",
+        "damageOptions": {
+            "physdmg": true,
+            "elemdg": false,
+            "sotmod": false
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 3,
+                "maxD": 5,
+                "percentOfCasterAttack": 0.20000000298023225
+            },
+            "elementMultipliers": []
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": []
+        }
+    }
+}

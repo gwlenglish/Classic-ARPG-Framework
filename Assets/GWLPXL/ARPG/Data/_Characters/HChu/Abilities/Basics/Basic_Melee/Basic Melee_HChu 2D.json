@@ -1,0 +1,40 @@
+{
+    "config": {
+        "instanceID": 42030
+    },
+    "id": {
+        "Name": "Basic Melee HChu",
+        "ID": 8,
+        "Ability": {
+            "instanceID": 42026
+        }
+    },
+    "autoGenerateID": false,
+    "autoName": false,
+    "Data": {
+        "Name": "Basic Melee",
+        "Description": "Basic Melee",
+        "DamageMultiplier": 1.0,
+        "Range": 1.5,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "AnimationTrigger": "BasicAttack",
+        "AnimationIndex": 0,
+        "Logics": [
+            {
+                "instanceID": 16904
+            }
+        ],
+        "UniqueID": 8,
+        "Sprite": {
+            "instanceID": 0
+        }
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CooldownRate": 0.5,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.019999999552965165,
+    "ForwardSightAngle": 180.0
+}

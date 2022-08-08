@@ -1,0 +1,65 @@
+{
+    "config": {
+        "instanceID": 32314
+    },
+    "databaseID": {
+        "Name": "Generic Breakable 2D",
+        "ID": 6,
+        "ActorStats": {
+            "instanceID": 32230
+        }
+    },
+    "LevelUpEvent": {
+        "instanceID": 0
+    },
+    "myLevel": 15,
+    "restoreOnLevel": true,
+    "ActorName": "Generic Breakable 2D",
+    "maxLevel": 99,
+    "baseStat": 0,
+    "Resources": [
+        {
+            "NowValue": 0,
+            "Level1Value": 10,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 1.0,
+                        "outSlope": 1.0,
+                        "tangentMode": 34,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 1.0,
+                        "outSlope": 1.0,
+                        "tangentMode": 34,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 0
+            },
+            "Level99Max": 10,
+            "Type": 0
+        }
+    ],
+    "Stats": [],
+    "resourceLinks": [],
+    "combatLinks": [],
+    "ElementAttacks": [],
+    "ElementResists": [],
+    "abilityMods": [],
+    "others": []
+}

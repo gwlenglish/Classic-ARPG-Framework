@@ -1,0 +1,58 @@
+{
+    "config": {
+        "instanceID": 16760
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 29,
+        "Item": {
+            "instanceID": 16574
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 16762
+    },
+    "sprite": {
+        "instanceID": 16764
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        30,
+        35
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Longbow",
+        "baseType": 1,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 1.0,
+        "nativeTraits": [],
+        "sockets": [
+            {
+                "SocketedThing": {
+                    "instanceID": 0
+                },
+                "SocketType": 102
+            }
+        ]
+    },
+    "wearablePefab": {
+        "instanceID": 16766
+    },
+    "enchantable": true,
+    "weaponType": 100
+}

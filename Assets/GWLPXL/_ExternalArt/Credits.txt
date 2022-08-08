@@ -1,0 +1,102 @@
+zone 1
+https://hotpink.itch.io/zone-tan-3d-model
+
+gems & gems no background
+https://opengameart.org/content/gems-jewels
+
+
+3d weapon pack
+https://elijahcobden.itch.io/3d-melee-weapon-pack
+
+katana
+https://niko-3d-models.itch.io/katana-comission
+
+fantasy swords
+https://edgardescarate.itch.io/fantasy-swords-pbr
+
+combat axe
+https://jhonyy.itch.io/combat-axe
+
+blackhand bomb
+https://skywolfgamestudios.itch.io/black-hand-bomb
+
+3d gameready highlander
+https://narrenschlag.itch.io/highlander
+
+pump shotgun
+https://liwordev.itch.io/old-derty-pump-shotgun
+
+orc sword
+https://moonmail-industries.itch.io/moonmailindustries
+
+
+Ralph Robot
+https://newyearstudios.itch.io/ralph
+
+Low Poly 3D and Pixel 2D RPG Game Assets
+https://devilsworkshop.itch.io/low-poly-3d-and-pixel-2d-rpg-game-assets
+
+Ultimate Dungeon low poly dungeon
+https://brokenvector.itch.io/ultimate-low-poly-dungeon
+
+Ultimate low poly survival
+https://brokenvector.itch.io/ultimate-low-poly-survival
+
+
+
+* Everything is under CC-BY 3.0
+
+> armor.png, armor(leather-vest_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's leather-vest_lorc_originals_svg_000000_transparent
+
+> belt.png, belt.svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+
+> body.png, body(robe_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's robe_lorc_originals_svg_000000_transparent
+
+> chest.png, chest(shirt_bt).svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+
+> eyes.png, eyes(spectacles_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's spectacles_lorc_originals_svg_000000_transparent
+
+> face.png, face(visored-helm_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's visored-helm_lorc_originals_svg_000000_transparent
+
+> feet.png, feet.svg:
+	Based on feet(leather-boot_lorc_originals_svg_000000_transparent):
+		From game-icons.net's leather-boot_lorc_originals_svg_000000_transparent
+
+> frame64.png, frame.xcf:
+	Lamoot, http://opengameart.org/content/rpg-gui-construction-kit-v10, 	CC-BY 3.0
+
+> hands_left.png, hands_right.png, hands(mailed-fist_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's mailed-fist_lorc_originals_svg_000000_transparent
+
+> head.png, head(pointy-hat_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's pointy-hat_lorc_originals_svg_000000_transparent
+
+> headband.png, headband.svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+
+> mainhand.png, offhand.png, mainhand, offhand(punch_lorc_originals_svg_000000_transparent).svg:
+	From game-icons.net's punch_lorc_originals_svg_000000_transparent
+
+> mainwrist.png, offwrist.png, mainwrist, offwrist(bracer_delapouite_originals_svg_000000_transparent).svg:
+	From game-icons.net's bracer_delapouite_originals_svg_000000_transparent
+
+> neck.png, neck(necklace).svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+	Uses game-icons.net's abstract-007_viscious-speed_abstract_png_000000_transparent as the jewel.
+
+> ring.png, ring_delapouite_originals_svg_000000_transparent.svg:
+	From game-icons.net's ring_delapouite_originals_svg_000000_transparent
+
+> shoulders.png, shoulders(cloak).svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+	Based on game-icons.net's cloak-dagger_lorc_originals_svg_000000_transparent
+
+> trousers.png, trousers.svg:
+	Created by Lucas Siqueira (lucas.morais.siqueira@gmail.com), released under CC0. Give credit if possible.
+	Based on game-icons.net's trousers_lorc_originals_svg_000000_transparent

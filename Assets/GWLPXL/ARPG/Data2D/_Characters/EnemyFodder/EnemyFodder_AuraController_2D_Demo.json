@@ -1,0 +1,28 @@
+{
+    "config": {
+        "instanceID": 32332
+    },
+    "AuraControllerData": {
+        "AutoName": false,
+        "AutoAssignUniqueID": false,
+        "Name": "EnemyFodder_AuraController_2D_Demo",
+        "Description": "",
+        "ID": 5,
+        "ControllerRef": {
+            "instanceID": 32252
+        }
+    },
+    "startingAuras": [
+        {
+            "instanceID": 16602
+        },
+        {
+            "instanceID": 16604
+        },
+        {
+            "instanceID": 16606
+        }
+    ],
+    "equippedcap": 3,
+    "learnedCap": 100
+}

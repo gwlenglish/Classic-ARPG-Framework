@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43bc9eec23183ba4fbfea91c3edfbf2c, type: 3}
+  m_Name: Apply Explosive Mod
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 5849816062eb30844926bf4ed0ef9439, type: 3}
+  Vars:
+    ActorDamage: {fileID: 11400000, guid: e83299772652382458d9acc53091552f, type: 2}
+    ExplosionPrefab: {fileID: 7218042794662503724, guid: 3c957d4ec88d1fa44a23f44685ab038b,
+      type: 3}
+    StickToTarget: 0
+    EndRadius: 3
+    ExplosionCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Delay: 0.25
+    Duration: 0.25

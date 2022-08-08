@@ -1,0 +1,35 @@
+{
+    "config": {
+        "instanceID": 0
+    },
+    "DamageVars": {
+        "combatHandler": {
+            "instanceID": 16592
+        },
+        "damageMultipliers": {
+            "elementalMultipliers": [
+                {
+                    "editorDescription": "",
+                    "damageType": 1,
+                    "baseElementDamageAmount": 25
+                }
+            ]
+        },
+        "damageOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [
+                {
+                    "TypeToDrain": 0,
+                    "ElementDamage": 1,
+                    "AmountPerTick": -1,
+                    "Duration": 5.0,
+                    "TickRate": 1.0,
+                    "StackAmount": 1
+                }
+            ],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 32330
+    },
+    "id": {
+        "Name": "EnemyFodder",
+        "ID": 1,
+        "AbilityController": {
+            "instanceID": 32220
+        }
+    },
+    "Data": {
+        "AutoName": false,
+        "AutoAssignUniqueID": false,
+        "Name": "Enemy Fodder",
+        "Description": "For the Demo Scene",
+        "UniqueID": 1
+    },
+    "BasicAttacks": [
+        {
+            "instanceID": 25454
+        }
+    ],
+    "StartingAbilities": [
+        {
+            "instanceID": 32212
+        }
+    ],
+    "EquippedCap": 1,
+    "LearnedCap": 1
+}

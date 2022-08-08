@@ -1,0 +1,47 @@
+{
+    "config": {
+        "instanceID": 16804
+    },
+    "auraID": {
+        "Name": "ARPG Max HP +80%",
+        "ID": 9,
+        "Aura": {
+            "instanceID": 16628
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": true,
+        "AuraName": "ARPG Max HP +80%",
+        "AuraDescription": "",
+        "AuraPrefab": {
+            "instanceID": 16806
+        },
+        "auraCategory": 0,
+        "uniqueID": 16628,
+        "AuraLogics": [
+            {
+                "instanceID": 16808
+            }
+        ],
+        "AuraGroups": [
+            1
+        ],
+        "Pulses": false,
+        "PulseRate": 0.0,
+        "AOE": true,
+        "LayersToCheck": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 1
+            },
+            {
+                "serializedVersion": "2",
+                "m_Bits": 33554432
+            }
+        ],
+        "ColliderType": 0,
+        "AreaRadius": 5.0,
+        "CheckAreaRate": 0.25
+    }
+}

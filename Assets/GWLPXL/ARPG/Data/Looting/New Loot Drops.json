@@ -1,0 +1,17 @@
+{
+    "config": {
+        "instanceID": 25554
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "New Loot Drops",
+        "ID": 11,
+        "LootDrops": {
+            "instanceID": 24964
+        }
+    },
+    "AllPossibleItems": [],
+    "LootTable": []
+}

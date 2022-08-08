@@ -1,0 +1,163 @@
+{
+    "config": {
+        "instanceID": 32312
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "2D DropTable",
+        "ID": 1,
+        "LootDrops": {
+            "instanceID": 32288
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 32284
+        },
+        {
+            "instanceID": 32268
+        },
+        {
+            "instanceID": 32276
+        },
+        {
+            "instanceID": 32274
+        },
+        {
+            "instanceID": 32272
+        },
+        {
+            "instanceID": 32270
+        },
+        {
+            "instanceID": 32268
+        },
+        {
+            "instanceID": 32284
+        },
+        {
+            "instanceID": 32282
+        },
+        {
+            "instanceID": 32280
+        },
+        {
+            "instanceID": 32278
+        },
+        {
+            "instanceID": 32286
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_1.086957",
+            "RelativePercent": 1.08695650100708,
+            "RangeFrom": 210,
+            "RangeTo": 215,
+            "Item": {
+                "instanceID": 32272
+            }
+        },
+        {
+            "Description": "_1.086957",
+            "RelativePercent": 1.08695650100708,
+            "RangeFrom": 440,
+            "RangeTo": 445,
+            "Item": {
+                "instanceID": 32278
+            }
+        },
+        {
+            "Description": "_3.26087",
+            "RelativePercent": 3.2608695030212404,
+            "RangeFrom": 215,
+            "RangeTo": 230,
+            "Item": {
+                "instanceID": 32270
+            }
+        },
+        {
+            "Description": "_3.26087",
+            "RelativePercent": 3.2608695030212404,
+            "RangeFrom": 445,
+            "RangeTo": 460,
+            "Item": {
+                "instanceID": 32286
+            }
+        },
+        {
+            "Description": "_7.608696",
+            "RelativePercent": 7.6086955070495609,
+            "RangeFrom": 175,
+            "RangeTo": 210,
+            "Item": {
+                "instanceID": 32274
+            }
+        },
+        {
+            "Description": "_7.608696",
+            "RelativePercent": 7.6086955070495609,
+            "RangeFrom": 405,
+            "RangeTo": 440,
+            "Item": {
+                "instanceID": 32280
+            }
+        },
+        {
+            "Description": "_10.86957",
+            "RelativePercent": 10.8695650100708,
+            "RangeFrom": 0,
+            "RangeTo": 50,
+            "Item": {
+                "instanceID": 32284
+            }
+        },
+        {
+            "Description": "_10.86957",
+            "RelativePercent": 10.8695650100708,
+            "RangeFrom": 50,
+            "RangeTo": 100,
+            "Item": {
+                "instanceID": 32268
+            }
+        },
+        {
+            "Description": "_10.86957",
+            "RelativePercent": 10.8695650100708,
+            "RangeFrom": 230,
+            "RangeTo": 280,
+            "Item": {
+                "instanceID": 32268
+            }
+        },
+        {
+            "Description": "_10.86957",
+            "RelativePercent": 10.8695650100708,
+            "RangeFrom": 280,
+            "RangeTo": 330,
+            "Item": {
+                "instanceID": 32284
+            }
+        },
+        {
+            "Description": "_16.30435",
+            "RelativePercent": 16.30434799194336,
+            "RangeFrom": 100,
+            "RangeTo": 175,
+            "Item": {
+                "instanceID": 32276
+            }
+        },
+        {
+            "Description": "_16.30435",
+            "RelativePercent": 16.30434799194336,
+            "RangeFrom": 330,
+            "RangeTo": 405,
+            "Item": {
+                "instanceID": 32282
+            }
+        }
+    ]
+}

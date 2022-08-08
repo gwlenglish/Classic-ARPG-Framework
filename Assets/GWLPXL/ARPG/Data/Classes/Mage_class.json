@@ -1,0 +1,52 @@
+{
+    "Config": {
+        "instanceID": 25542
+    },
+    "classID": {
+        "Name": "Mage_class",
+        "ID": 3,
+        "SOReference": {
+            "instanceID": 24948
+        }
+    },
+    "classAttributes": {
+        "ClassName": "Mage",
+        "ClassType": 2,
+        "AllowedSlots": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            40,
+            45,
+            50
+        ],
+        "AllowedWeapons": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "AllowedArmors": [
+            0,
+            1
+        ],
+        "AllowedAccessories": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "autoName": true
+}

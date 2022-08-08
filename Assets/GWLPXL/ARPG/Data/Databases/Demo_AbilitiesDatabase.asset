@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195d94aeb1159a1479a30c731da13cf3, type: 3}
+  m_Name: Demo_AbilitiesDatabase
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: AoE Spin HChu
+    ID:
+      Name: 
+      ID: 4
+      Ability: {fileID: 11400000, guid: 389e400f76657834393c977d483870e5, type: 2}
+    Ability: {fileID: 11400000, guid: 389e400f76657834393c977d483870e5, type: 2}
+  - DescriptiveName: AoE blastssss
+    ID:
+      Name: 
+      ID: 5
+      Ability: {fileID: 11400000, guid: 3d50906db8b018b44b907001abff8b42, type: 2}
+    Ability: {fileID: 11400000, guid: 3d50906db8b018b44b907001abff8b42, type: 2}
+  - DescriptiveName: Quick Shot
+    ID:
+      Name: 
+      ID: 6
+      Ability: {fileID: 11400000, guid: da27d6f7236b71f4db5dc15daa4cf041, type: 2}
+    Ability: {fileID: 11400000, guid: da27d6f7236b71f4db5dc15daa4cf041, type: 2}
+  - DescriptiveName: Quick Shot
+    ID:
+      Name: 
+      ID: 7
+      Ability: {fileID: 11400000, guid: 7fdce26e482e8164da1937ceb74e2093, type: 2}
+    Ability: {fileID: 11400000, guid: 7fdce26e482e8164da1937ceb74e2093, type: 2}
+  - DescriptiveName: Enemy Melee
+    ID:
+      Name: 
+      ID: 9
+      Ability: {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
+    Ability: {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
+  - DescriptiveName: Basic Melee
+    ID:
+      Name: Basic Melee HChu
+      ID: 10
+      Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
+    Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
+  - DescriptiveName: Quick Shot
+    ID:
+      Name: 
+      ID: 11
+      Ability: {fileID: 11400000, guid: 5aa17562c380b8e4f9db9143237e058a, type: 2}
+    Ability: {fileID: 11400000, guid: 5aa17562c380b8e4f9db9143237e058a, type: 2}
+  - DescriptiveName: Chain Lightning
+    ID:
+      Name: 
+      ID: 12
+      Ability: {fileID: 11400000, guid: 2c161ab1ae7a1e846b0ff42ef87411ef, type: 2}
+    Ability: {fileID: 11400000, guid: 2c161ab1ae7a1e846b0ff42ef87411ef, type: 2}
+  - DescriptiveName: Fireball
+    ID:
+      Name: 
+      ID: 13
+      Ability: {fileID: 11400000, guid: 5e4137af16a7f1341b3a1bfdd275854a, type: 2}
+    Ability: {fileID: 11400000, guid: 5e4137af16a7f1341b3a1bfdd275854a, type: 2}
+  - DescriptiveName: Dash Forward
+    ID:
+      Name: 
+      ID: 14
+      Ability: {fileID: 11400000, guid: c4b0ff4aef2602a46b9100fc73c7eb63, type: 2}
+    Ability: {fileID: 11400000, guid: c4b0ff4aef2602a46b9100fc73c7eb63, type: 2}
+  - DescriptiveName: Glowy Fist
+    ID:
+      Name: 
+      ID: 15
+      Ability: {fileID: 11400000, guid: 3021edcd1d6a71a47a5e764093f31460, type: 2}
+    Ability: {fileID: 11400000, guid: 3021edcd1d6a71a47a5e764093f31460, type: 2}
+  - DescriptiveName: Leap Smash
+    ID:
+      Name: 
+      ID: 16
+      Ability: {fileID: 11400000, guid: 6684ad7596de61e48a3df966e0d7b2ec, type: 2}
+    Ability: {fileID: 11400000, guid: 6684ad7596de61e48a3df966e0d7b2ec, type: 2}
+  - DescriptiveName: Darkness Fall
+    ID:
+      Name: 
+      ID: 17
+      Ability: {fileID: 11400000, guid: ea9af99c57633554693a8ce5e887d00a, type: 2}
+    Ability: {fileID: 11400000, guid: ea9af99c57633554693a8ce5e887d00a, type: 2}
+  - DescriptiveName: Grapple Hook
+    ID:
+      Name: 
+      ID: 18
+      Ability: {fileID: 11400000, guid: 854e0f0d8e042ab41bda95a173977825, type: 2}
+    Ability: {fileID: 11400000, guid: 854e0f0d8e042ab41bda95a173977825, type: 2}
+  - DescriptiveName: Fireball
+    ID:
+      Name: 
+      ID: 19
+      Ability: {fileID: 11400000, guid: 9ba0582b0ce61e14ebea4b6657bfc620, type: 2}
+    Ability: {fileID: 11400000, guid: 9ba0582b0ce61e14ebea4b6657bfc620, type: 2}
+  - DescriptiveName: Quick Arrow
+    ID:
+      Name: 
+      ID: 20
+      Ability: {fileID: 11400000, guid: 08416d112a2d7e74aadebf82b7117e5c, type: 2}
+    Ability: {fileID: 11400000, guid: 08416d112a2d7e74aadebf82b7117e5c, type: 2}
+  - DescriptiveName: FlameThrower HChu
+    ID:
+      Name: BasicFlameThrower HChu
+      ID: 21
+      Ability: {fileID: 11400000, guid: 1e6a5771174436346bebe45f0c13845c, type: 2}
+    Ability: {fileID: 11400000, guid: 1e6a5771174436346bebe45f0c13845c, type: 2}
+  - DescriptiveName: Charged Fireball
+    ID:
+      Name: Blast_Charged_Fireball
+      ID: 22
+      Ability: {fileID: 11400000, guid: 566c1f78d723eb045b3f7c5bec281623, type: 2}
+    Ability: {fileID: 11400000, guid: 566c1f78d723eb045b3f7c5bec281623, type: 2}
+  - DescriptiveName: Charged Fireball
+    ID:
+      Name: Charging_Charged Blast
+      ID: 23
+      Ability: {fileID: 11400000, guid: 0cebf8470ca4dbe48aad2d3e1806b8d8, type: 2}
+    Ability: {fileID: 11400000, guid: 0cebf8470ca4dbe48aad2d3e1806b8d8, type: 2}
+  - DescriptiveName: Leap Smash
+    ID:
+      Name: Leap Smash 2D
+      ID: 24
+      Ability: {fileID: 11400000, guid: af7dc36b27baf664fac2bebf79f86284, type: 2}
+    Ability: {fileID: 11400000, guid: af7dc36b27baf664fac2bebf79f86284, type: 2}
+  - DescriptiveName: Magic Orb
+    ID:
+      Name: MagicOrb
+      ID: 25
+      Ability: {fileID: 11400000, guid: 514c7a8960f803448a88e920f067837e, type: 2}
+    Ability: {fileID: 11400000, guid: 514c7a8960f803448a88e920f067837e, type: 2}
+  - DescriptiveName: Quick Shot
+    ID:
+      Name: Fire Ball with AOE
+      ID: 26
+      Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}
+    Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}

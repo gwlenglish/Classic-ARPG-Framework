@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb532a4466e3054e9063adb0744ca5b, type: 3}
+  m_Name: InstantAOE_Front
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: d7cd528cc698ec04584084aa00627def, type: 3}
+  Vars:
+    Radius: 5
+    Angle: 20
+    PercentOfWpnDmg: 0.3
+    Element: 2
+    FXPrefab: {fileID: 0}
+    PhysicsType: 0
+  VFX: {fileID: 0}
+  LocalOffset: {x: 0, y: 0, z: 0}
+  ShowDebug: 1

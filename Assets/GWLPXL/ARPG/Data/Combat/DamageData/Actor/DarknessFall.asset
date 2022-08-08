@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb36e512ce617014690405eb6efa23f2, type: 3}
+  m_Name: DarknessFall
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 96a65a3236b925f43b65de12d9abbd5c, type: 3}
+  id:
+    Name: Flamethrower
+    ID: 5
+    Instance: {fileID: 11400000}
+  DamageVar:
+    combatHandler: {fileID: 11400000, guid: 394c5050f14d7ae44991ad1eae7cec6f, type: 2}
+    descriptiveName: Darkness Fall
+    damageOptions:
+      physdmg: 0
+      elemdg: 1
+      sotmod: 1
+    damageMultipliers:
+      physicalMultipler:
+        minD: 0
+        maxD: 0
+        percentOfCasterAttack: 0
+      elementMultipliers:
+      - editorDescription: Fire
+        damageType: 2
+        minD: 15
+        maxD: 22
+        percentOfCasterElement: 0.1
+    statusOverTimeOptions:
+      applySOTAtEnter: 1
+      applySOTAtExit: 0
+      additionalSOTs:
+      - Type: 0
+        ElementDamage: 2
+        StatusEffects: []
+        AmountPerTick: -1
+        Duration: 3
+        ClampStatusEffectToDuration: 0
+        TickRate: 1
+        StackAmount: 3
+      damageRate: 1
+      friendlyFire: 0
+    statusOverTimeMultiplers:
+      elementalMultipliers: []

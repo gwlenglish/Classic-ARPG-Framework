@@ -1,0 +1,55 @@
+{
+    "config": {
+        "instanceID": 24766
+    },
+    "id": {
+        "Name": "",
+        "ID": 18,
+        "Ability": {
+            "instanceID": 24470
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Grapple Hook",
+        "Description": "Casts a chain that pulls the caster towards the target and hits them with an explosion.",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [
+            {
+                "instanceID": 24768
+            },
+            {
+                "instanceID": 24770
+            },
+            {
+                "instanceID": 24732
+            }
+        ],
+        "UniqueID": 7,
+        "Sprite": {
+            "instanceID": 24772
+        },
+        "AnimationTrigger": "BasicMelee",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.13600000739097596,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

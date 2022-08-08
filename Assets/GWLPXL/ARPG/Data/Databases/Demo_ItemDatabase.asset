@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c2ba6aa3842b647bcb23d9d14b8d33, type: 3}
+  m_Name: Demo_ItemDatabase
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Mana Potion
+    ID:
+      Name: 
+      ID: 1
+      Item: {fileID: 11400000, guid: c0e0b6705299c2a4a987870bea30884d, type: 2}
+    Item: {fileID: 11400000, guid: c0e0b6705299c2a4a987870bea30884d, type: 2}
+  - DescriptiveName: Health Potion
+    ID:
+      Name: 
+      ID: 2
+      Item: {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+    Item: {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - DescriptiveName: Vitality Increase
+    ID:
+      Name: 
+      ID: 3
+      Item: {fileID: 11400000, guid: 080cd3e07bf4a0c478c98a89f282ca15, type: 2}
+    Item: {fileID: 11400000, guid: 080cd3e07bf4a0c478c98a89f282ca15, type: 2}
+  - DescriptiveName: Strength Increase
+    ID:
+      Name: 
+      ID: 4
+      Item: {fileID: 11400000, guid: 94d683b9a385b3c4a855e843e78ec359, type: 2}
+    Item: {fileID: 11400000, guid: 94d683b9a385b3c4a855e843e78ec359, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 5
+      Item: {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+    Item: {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+  - DescriptiveName: Legendary Righty
+    ID:
+      Name: 
+      ID: 6
+      Item: {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}
+    Item: {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}
+  - DescriptiveName: Legendary Righty Prime
+    ID:
+      Name: 
+      ID: 7
+      Item: {fileID: 11400000, guid: d4336dd9101a41b45a2d9a9734660e75, type: 2}
+    Item: {fileID: 11400000, guid: d4336dd9101a41b45a2d9a9734660e75, type: 2}
+  - DescriptiveName: Legendary Lefty
+    ID:
+      Name: 
+      ID: 8
+      Item: {fileID: 11400000, guid: 5cd931fb8c634864891d3c4407c6aef4, type: 2}
+    Item: {fileID: 11400000, guid: 5cd931fb8c634864891d3c4407c6aef4, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 9
+      Item: {fileID: 11400000, guid: 013463d1bdfe4d04097a00c220175c93, type: 2}
+    Item: {fileID: 11400000, guid: 013463d1bdfe4d04097a00c220175c93, type: 2}
+  - DescriptiveName: Cutlass
+    ID:
+      Name: 
+      ID: 10
+      Item: {fileID: 11400000, guid: 4a6fe573a8b195a49bb8b780a63231f0, type: 2}
+    Item: {fileID: 11400000, guid: 4a6fe573a8b195a49bb8b780a63231f0, type: 2}
+  - DescriptiveName: Cutlass
+    ID:
+      Name: 
+      ID: 11
+      Item: {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}
+    Item: {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}
+  - DescriptiveName: Cutlass
+    ID:
+      Name: 
+      ID: 12
+      Item: {fileID: 11400000, guid: 7a3c489c0e63cb74c8b77e1c32d95fd5, type: 2}
+    Item: {fileID: 11400000, guid: 7a3c489c0e63cb74c8b77e1c32d95fd5, type: 2}
+  - DescriptiveName: Battle Axe
+    ID:
+      Name: 
+      ID: 13
+      Item: {fileID: 11400000, guid: ff38dbb7df6898b44bb55977f1a841b6, type: 2}
+    Item: {fileID: 11400000, guid: ff38dbb7df6898b44bb55977f1a841b6, type: 2}
+  - DescriptiveName: Worn Chest
+    ID:
+      Name: 
+      ID: 14
+      Item: {fileID: 11400000, guid: 8c361d60aad3de74ea9151383d0c5d59, type: 2}
+    Item: {fileID: 11400000, guid: 8c361d60aad3de74ea9151383d0c5d59, type: 2}
+  - DescriptiveName: Waist
+    ID:
+      Name: 
+      ID: 15
+      Item: {fileID: 11400000, guid: a92dea09cb633454da775936da0bb446, type: 2}
+    Item: {fileID: 11400000, guid: a92dea09cb633454da775936da0bb446, type: 2}
+  - DescriptiveName: Shoulder
+    ID:
+      Name: 
+      ID: 16
+      Item: {fileID: 11400000, guid: 23511b40351d7234a95cfec765ab35bc, type: 2}
+    Item: {fileID: 11400000, guid: 23511b40351d7234a95cfec765ab35bc, type: 2}
+  - DescriptiveName: Shoulder
+    ID:
+      Name: 
+      ID: 17
+      Item: {fileID: 11400000, guid: 3f9fbb46f3dd10841b7ddfcc1798f392, type: 2}
+    Item: {fileID: 11400000, guid: 3f9fbb46f3dd10841b7ddfcc1798f392, type: 2}
+  - DescriptiveName: Shield
+    ID:
+      Name: 
+      ID: 18
+      Item: {fileID: 11400000, guid: 8bbe94f80f5a91a499cd238c6a59b988, type: 2}
+    Item: {fileID: 11400000, guid: 8bbe94f80f5a91a499cd238c6a59b988, type: 2}
+  - DescriptiveName: Pants
+    ID:
+      Name: 
+      ID: 19
+      Item: {fileID: 11400000, guid: 5f29c0ea24ac2fb44adfde37e80b12ac, type: 2}
+    Item: {fileID: 11400000, guid: 5f29c0ea24ac2fb44adfde37e80b12ac, type: 2}
+  - DescriptiveName: Legendary Shield
+    ID:
+      Name: 
+      ID: 20
+      Item: {fileID: 11400000, guid: 4b6ecbc03eedf764d91a9854bb892d54, type: 2}
+    Item: {fileID: 11400000, guid: 4b6ecbc03eedf764d91a9854bb892d54, type: 2}
+  - DescriptiveName: Epic Chest
+    ID:
+      Name: 
+      ID: 21
+      Item: {fileID: 11400000, guid: 515db32e7b6559b44a989f447a0746a8, type: 2}
+    Item: {fileID: 11400000, guid: 515db32e7b6559b44a989f447a0746a8, type: 2}
+  - DescriptiveName: Chest
+    ID:
+      Name: 
+      ID: 22
+      Item: {fileID: 11400000, guid: cd8eff8ecc90d3a469b1c30ee46fc730, type: 2}
+    Item: {fileID: 11400000, guid: cd8eff8ecc90d3a469b1c30ee46fc730, type: 2}
+  - DescriptiveName: Boots
+    ID:
+      Name: 
+      ID: 23
+      Item: {fileID: 11400000, guid: 43f1e340974921345921db9358c33e1c, type: 2}
+    Item: {fileID: 11400000, guid: 43f1e340974921345921db9358c33e1c, type: 2}
+  - DescriptiveName: Oil Quest Item
+    ID:
+      Name: 
+      ID: 24
+      Item: {fileID: 11400000, guid: ffad525065fe5b840b923cf52d018f77, type: 2}
+    Item: {fileID: 11400000, guid: ffad525065fe5b840b923cf52d018f77, type: 2}
+  - DescriptiveName: Skeleton Key
+    ID:
+      Name: 
+      ID: 25
+      Item: {fileID: 11400000, guid: 434bd48cb47a52847b8be01ea2985f2a, type: 2}
+    Item: {fileID: 11400000, guid: 434bd48cb47a52847b8be01ea2985f2a, type: 2}
+  - DescriptiveName: Shotgun
+    ID:
+      Name: 
+      ID: 26
+      Item: {fileID: 11400000, guid: bc7de8eb0639d4047850d2694433582c, type: 2}
+    Item: {fileID: 11400000, guid: bc7de8eb0639d4047850d2694433582c, type: 2}
+  - DescriptiveName: Necklace
+    ID:
+      Name: 
+      ID: 27
+      Item: {fileID: 11400000, guid: cc1324b32985dfe449ade3cf67374888, type: 2}
+    Item: {fileID: 11400000, guid: cc1324b32985dfe449ade3cf67374888, type: 2}
+  - DescriptiveName: Flamethrower
+    ID:
+      Name: 
+      ID: 28
+      Item: {fileID: 11400000, guid: d302f9f2bd7c4824d9f71318e67b5d45, type: 2}
+    Item: {fileID: 11400000, guid: d302f9f2bd7c4824d9f71318e67b5d45, type: 2}
+  - DescriptiveName: Longbow
+    ID:
+      Name: 
+      ID: 29
+      Item: {fileID: 11400000, guid: 2917df2b5f92b8b48bc8f4231615887e, type: 2}
+    Item: {fileID: 11400000, guid: 2917df2b5f92b8b48bc8f4231615887e, type: 2}
+  - DescriptiveName: Pistol
+    ID:
+      Name: 
+      ID: 30
+      Item: {fileID: 11400000, guid: 4745f817dd08d6f468cf1cb5b45ec457, type: 2}
+    Item: {fileID: 11400000, guid: 4745f817dd08d6f468cf1cb5b45ec457, type: 2}
+  - DescriptiveName: Gold
+    ID:
+      Name: 100 Gold_Worn
+      ID: 31
+      Item: {fileID: 11400000, guid: 785309e2160eab14dbd4fd2cf31215db, type: 2}
+    Item: {fileID: 11400000, guid: 785309e2160eab14dbd4fd2cf31215db, type: 2}
+  - DescriptiveName: 'Large Dexterity '
+    ID:
+      Name: Large Gem Dexterity
+      ID: 32
+      Item: {fileID: 11400000, guid: 516654ffecb8b224bb613054a6f182da, type: 2}
+    Item: {fileID: 11400000, guid: 516654ffecb8b224bb613054a6f182da, type: 2}
+  - DescriptiveName: 'Small Dexterity '
+    ID:
+      Name: Small Gem Dexterity
+      ID: 33
+      Item: {fileID: 11400000, guid: da00f54431d9ec5469b244cd404d52ae, type: 2}
+    Item: {fileID: 11400000, guid: da00f54431d9ec5469b244cd404d52ae, type: 2}

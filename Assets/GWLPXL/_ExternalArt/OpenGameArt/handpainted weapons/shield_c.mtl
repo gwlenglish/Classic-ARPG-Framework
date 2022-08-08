@@ -1,0 +1,13 @@
+# Blender MTL File: 'handpainted weapons.blend'
+# Material Count: 1
+
+newmtl shield_c
+Ns 382.593542
+Ka 0.776000 0.776000 0.776000
+Kd 0.800000 0.800000 0.800000
+Ks 0.464000 0.464000 0.464000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures/shield_c.png

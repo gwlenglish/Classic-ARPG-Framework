@@ -1,0 +1,848 @@
+{
+    "config": {
+        "instanceID": 20684
+    },
+    "LayerAssign": {
+        "GroundLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 8388608
+        },
+        "AttackableLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 33554432
+        },
+        "InteractableLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 16777216
+        }
+    },
+    "Templates": {
+        "UnityDefaults": {
+            "PhysicsType": 0
+        },
+        "CanvasPaths": {
+            "CanvasPrefabspath": "Assets/GWLPXL/ARPG/Prefabs/UI"
+        },
+        "AnimatorPaths": {
+            "PlayerAnimatorPath": "Assets/GWLPXL/ARPG/Data/Animations/Animators/Base/ARPG_Player_Base.controller",
+            "EnemyAnimatorPath": "Assets/GWLPXL/ARPG/Data/Animations/Animators/Base/ARPG_Enemy_Base.controller"
+        },
+        "PrefabPaths": {
+            "EnemyHPInfoPrefabPath": "Assets/GWLPXL/ARPG/Prefabs/Enemy/EnemyInfo.prefab",
+            "LootPrefabPath": "Assets/GWLPXL/ARPG/Prefabs/Looting/LootPrefab.prefab"
+        },
+        "BasePlayerAnimatorC": {
+            "instanceID": 20686
+        },
+        "BaseEnemyAnimatorC": {
+            "instanceID": 20688
+        }
+    },
+    "GizmoIconPaths": {
+        "BreakableBase": "Assets/GWLPXL/ARPG/Gizmos/TestAttackable.png",
+        "BreakableDropLocation": "Assets/GWLPXL/ARPG/Gizmos/TestDropLocation.png",
+        "SearchableBase": "Assets/GWLPXL/ARPG/Gizmos/SearchableIcon.png"
+    },
+    "PingObjects": {
+        "TypesPing": {
+            "instanceID": 20690
+        }
+    },
+    "InspectObjects": {
+        "Equipment": {
+            "Equipment": {
+                "instanceID": 17446
+            },
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 17.0
+            }
+        },
+        "Player": {
+            "PlayerViewOptions": [
+                "Attributes",
+                "Inventory",
+                "Class",
+                "Abilities",
+                "Auras"
+            ],
+            "ToolBarSelector": 0,
+            "Attributes": {
+                "instanceID": 20594
+            },
+            "Inventory": {
+                "instanceID": 0
+            },
+            "ActorClass": {
+                "instanceID": 0
+            },
+            "Abilities": {
+                "instanceID": 0
+            },
+            "Auras": {
+                "instanceID": 0
+            }
+        },
+        "Enemy": {
+            "EnemyViewOptions": [
+                "Attributes",
+                "Inventory",
+                "Class",
+                "Abilities",
+                "Auras",
+                "Loot Drops"
+            ],
+            "ToolBarSelector": 0,
+            "Attributes": {
+                "instanceID": 0
+            },
+            "Inventory": {
+                "instanceID": 0
+            },
+            "ActorClass": {
+                "instanceID": 0
+            },
+            "Abilities": {
+                "instanceID": 0
+            },
+            "Auras": {
+                "instanceID": 0
+            }
+        }
+    },
+    "GeneratedTemp": {
+        "Equipment": {
+            "MinILevelCurve": 1,
+            "MaxILevelCurve": 100,
+            "ILevel": 1,
+            "Equipment": {
+                "instanceID": 0
+            },
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "PowerCurves": [],
+            "DamageValues": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "CurvedEq": [
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                }
+            ]
+        },
+        "Attributes": {
+            "Generated": false,
+            "Attributes": {
+                "instanceID": -22650
+            },
+            "MinILevelCurve": 1,
+            "MaxILevelCurve": 100,
+            "Level": 1,
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "PowerCurves": [],
+            "CurvedAttributes": [
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                }
+            ]
+        }
+    }
+}

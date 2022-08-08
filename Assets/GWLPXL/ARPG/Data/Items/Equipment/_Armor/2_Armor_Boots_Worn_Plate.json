@@ -1,0 +1,64 @@
+{
+    "config": {
+        "instanceID": 16672
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 23,
+        "Item": {
+            "instanceID": 16596
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16674
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 16676
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        25
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        },
+        {
+            "ILevelMulti": 0.800000011920929,
+            "MaxNumberOfTraitsPerTier": 2,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        },
+        {
+            "ILevelMulti": 0.6000000238418579,
+            "MaxNumberOfTraitsPerTier": 1,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Boots",
+        "baseType": 2,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 1.0,
+        "nativeTraits": [],
+        "sockets": []
+    },
+    "wearablePefab": {
+        "instanceID": 0
+    },
+    "enchantable": true,
+    "armorMat": 4
+}

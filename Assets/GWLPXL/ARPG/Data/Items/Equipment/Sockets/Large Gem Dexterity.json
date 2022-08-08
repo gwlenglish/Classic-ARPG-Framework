@@ -1,0 +1,36 @@
+{
+    "config": {
+        "instanceID": 16800
+    },
+    "itemID": {
+        "Name": "Large Gem Dexterity",
+        "ID": 32,
+        "Item": {
+            "instanceID": 16590
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 16796
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "SocketableVariables": {
+        "BaseName": "Large Dexterity ",
+        "StackingAmount": 1,
+        "GeneratedName": "",
+        "Type": 102,
+        "Description": "Large Dexterity Gem"
+    },
+    "EquipmentTraitSocketable": [
+        {
+            "instanceID": 16916
+        }
+    ]
+}

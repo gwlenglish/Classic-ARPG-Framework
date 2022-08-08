@@ -1,0 +1,304 @@
+{
+    "config": {
+        "instanceID": 25502
+    },
+    "databaseID": {
+        "Name": "Player Default",
+        "ID": 1,
+        "ActorStats": {
+            "instanceID": 24902
+        }
+    },
+    "LevelUpEvent": {
+        "instanceID": 23636
+    },
+    "myLevel": 1,
+    "restoreOnLevel": true,
+    "ActorName": "Player Default",
+    "maxLevel": 101,
+    "baseStat": 0,
+    "Resources": [
+        {
+            "BaseValue": 0,
+            "Level1Value": 50,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 100,
+            "NowValue": 50,
+            "Type": 0
+        },
+        {
+            "BaseValue": 0,
+            "Level1Value": 50,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 100,
+            "NowValue": 50,
+            "Type": 1
+        }
+    ],
+    "Stats": [
+        {
+            "BaseValue": 0,
+            "Level1Value": 10,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 100,
+            "NowValue": 11,
+            "Type": 0
+        },
+        {
+            "BaseValue": 0,
+            "Level1Value": 10,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 100,
+            "NowValue": 11,
+            "Type": 1
+        },
+        {
+            "BaseValue": 0,
+            "Level1Value": 10,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.21190966665744782,
+                        "value": 0.37640056014060976,
+                        "inSlope": 0.12298359721899033,
+                        "outSlope": 0.12298359721899033,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.13258321583271027
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.5339012145996094,
+                        "value": 0.6174831390380859,
+                        "inSlope": 1.7572640180587769,
+                        "outSlope": 1.7572640180587769,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.3333333432674408,
+                        "outWeight": 0.11307443678379059
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 450,
+            "NowValue": 18,
+            "Type": 2
+        },
+        {
+            "BaseValue": 0,
+            "Level1Value": 10,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 2.0,
+                        "outSlope": 2.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 0.0,
+                        "outSlope": 0.0,
+                        "tangentMode": 0,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+            },
+            "Level99Max": 100,
+            "NowValue": 11,
+            "Type": 3
+        }
+    ],
+    "resourceLinks": [
+        {
+            "StatName": "Intelligence",
+            "Stat": 1,
+            "ResourceName": "Mana",
+            "Resource": 1,
+            "ResourcePerStatValue": 1
+        },
+        {
+            "StatName": "Vitality",
+            "Stat": 3,
+            "ResourceName": "Health",
+            "Resource": 0,
+            "ResourcePerStatValue": 1
+        }
+    ],
+    "combatLinks": [
+        {
+            "StatName": "Dexterity",
+            "Stat": 2,
+            "CombatName": "Armor",
+            "Combat": 2,
+            "ValuePerStat": 1
+        },
+        {
+            "StatName": "Strength",
+            "Stat": 0,
+            "CombatName": "Armor",
+            "Combat": 2,
+            "ValuePerStat": 1
+        }
+    ],
+    "ElementAttacks": [],
+    "ElementResists": [],
+    "abilityMods": [],
+    "others": []
+}

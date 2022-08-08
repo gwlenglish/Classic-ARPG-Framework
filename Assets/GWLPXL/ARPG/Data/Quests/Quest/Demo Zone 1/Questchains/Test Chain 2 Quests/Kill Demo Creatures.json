@@ -1,0 +1,76 @@
+{
+    "config": {
+        "instanceID": 19674
+    },
+    "ID": {
+        "Name": "Demo Creature",
+        "ID": 1,
+        "Quest": {
+            "instanceID": 19666
+        }
+    },
+    "questName": "Kill Demo Creatures",
+    "startType": 0,
+    "questStartTemplates": [],
+    "questStates": [
+        {
+            "StateName": "InProgress",
+            "QuestTemplate": {
+                "instanceID": 19666
+            },
+            "State": 1,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16104
+                    },
+                    "QuestGiverText": "Is that 3? You think so? Where'd you learn to count?"
+                }
+            ],
+            "QuestLogEntry": "Objective: Kill 3 enemies"
+        },
+        {
+            "StateName": "Completed",
+            "QuestTemplate": {
+                "instanceID": 19666
+            },
+            "State": 10,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16104
+                    },
+                    "QuestGiverText": "1...2...3. Nailed it. "
+                }
+            ],
+            "QuestLogEntry": "Objective: Killed 3 enemies."
+        },
+        {
+            "StateName": "Rewards Collected",
+            "QuestTemplate": {
+                "instanceID": 19666
+            },
+            "State": 20,
+            "Lines": [],
+            "QuestLogEntry": "Objective Completed: Killed 3 enemies."
+        }
+    ],
+    "QuestRewards": [
+        {
+            "instanceID": 16982
+        },
+        {
+            "instanceID": 16984
+        },
+        {
+            "instanceID": 19676
+        }
+    ],
+    "rewardType": 1,
+    "rewardGiverTemplate": [],
+    "logic": {
+        "instanceID": 19678
+    }
+}

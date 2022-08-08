@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8920437794193857714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6186713853107038457}
+  - component: {fileID: 2348537285399279579}
+  - component: {fileID: 4959185857543766016}
+  - component: {fileID: 3166724193406753130}
+  - component: {fileID: 7614970779848821537}
+  - component: {fileID: 3108463187534301323}
+  m_Layer: 24
+  m_Name: Shop Keeper 2D_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6186713853107038457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3164555233473086668}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2348537285399279579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &4959185857543766016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7404d0a83989af44b93f98e3f219b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopEvents:
+    SceneEvents:
+      OnShopOpen:
+        m_PersistentCalls:
+          m_Calls: []
+      OnShopClosed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnPurchaseSuccess:
+        m_PersistentCalls:
+          m_Calls: []
+      OnPurchaseFail:
+        m_PersistentCalls:
+          m_Calls: []
+  shopLevel: 1
+  itemsRollsForShop: 10
+  typesToSell: 0100000000000000
+  storeTable: {fileID: 11400000, guid: 486f3eb623b25b34a8f4acbfeb3b7520, type: 2}
+  shopKeeperCanvasPrefab: {fileID: 4527567512985815365, guid: fa1b6ab5c2b7e544185e535baa4b7a0f,
+    type: 3}
+  interactRange: 1
+--- !u!114 &3166724193406753130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcf8b2d4260ec54a9cb79970b5a378f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 11400000, guid: 1893ef3cdb30bff4b979f6388ca68033, type: 2}
+--- !u!114 &7614970779848821537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7324229c4a083bf44947b9d94aac6db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  template: {fileID: 11400000, guid: e9336b6a4e2407a43a7bdfbf9b40ea15, type: 2}
+--- !u!114 &3108463187534301323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8920437794193857714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b53260a3b72efef4fa12f2d0b8d1fc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7515641099631858596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6186713853107038457}
+    m_Modifications:
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874629780288722793, guid: fa07e764696b9f2449f8a7036a7a9221,
+        type: 3}
+      propertyPath: m_Name
+      value: ShopNPCInfo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fa07e764696b9f2449f8a7036a7a9221, type: 3}
+--- !u!4 &3164555233473086668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4874629780288722792, guid: fa07e764696b9f2449f8a7036a7a9221,
+    type: 3}
+  m_PrefabInstance: {fileID: 7515641099631858596}
+  m_PrefabAsset: {fileID: 0}

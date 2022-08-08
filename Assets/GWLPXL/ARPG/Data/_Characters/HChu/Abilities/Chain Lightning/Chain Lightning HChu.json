@@ -1,0 +1,49 @@
+{
+    "config": {
+        "instanceID": 24750
+    },
+    "id": {
+        "Name": "",
+        "ID": 12,
+        "Ability": {
+            "instanceID": 24476
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Chain Lightning",
+        "Description": "Casts a lightning bolt that bounces up to 3 times",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 5.0,
+        "ResourceType": 1,
+        "Logics": [
+            {
+                "instanceID": 24752
+            }
+        ],
+        "UniqueID": 7,
+        "Sprite": {
+            "instanceID": 24754
+        },
+        "AnimationTrigger": "ChainLightning",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.5,
+    "Duration": 1.5,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.5,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

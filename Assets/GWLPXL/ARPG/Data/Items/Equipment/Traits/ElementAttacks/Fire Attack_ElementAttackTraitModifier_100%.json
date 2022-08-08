@@ -1,0 +1,33 @@
+{
+    "config": {
+        "instanceID": 15092
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Fire Attack_ElementAttackTraitModifier_100%",
+        "ID": 2,
+        "Trait": {
+            "instanceID": 15078
+        }
+    },
+    "traitName": "Fire Attack",
+    "TraitPrefixes": [
+        "Fiery",
+        "Blazing"
+    ],
+    "TraitSuffixes": [],
+    "TraitNouns": [
+        "Hellfire"
+    ],
+    "myValue": 1,
+    "myLevelMulti": 100,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 300,
+        "Order": 300
+    },
+    "Type": 1
+}

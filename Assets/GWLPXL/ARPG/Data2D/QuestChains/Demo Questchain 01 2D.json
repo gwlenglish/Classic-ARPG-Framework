@@ -1,0 +1,91 @@
+{
+    "config": {
+        "instanceID": 32388
+    },
+    "ID": {
+        "Name": "Demo Questchain 01 2D",
+        "ID": 1,
+        "Questchain": {
+            "instanceID": 32300
+        }
+    },
+    "questChainName": "Demo Questchain 01",
+    "isRepeatable": false,
+    "StartType": 1,
+    "questStartTemplates": [
+        {
+            "instanceID": 32228
+        }
+    ],
+    "requirements": [],
+    "states": [
+        {
+            "StateName": "UnAvailable",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 30,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 2D",
+                    "Actor": {
+                        "instanceID": 32228
+                    },
+                    "QuestGiverText": "Will you kill those two enemies over there for me?"
+                }
+            ],
+            "QuestLogEntry": "Objective: Kill 2 enemies"
+        },
+        {
+            "StateName": "Available",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 0,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 2D",
+                    "Actor": {
+                        "instanceID": 32228
+                    },
+                    "QuestGiverText": "Will you kill those two enemies over there for me?"
+                }
+            ],
+            "QuestLogEntry": "Objective: Kill 2 Enemies"
+        },
+        {
+            "StateName": "Completed",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 10,
+            "Lines": [],
+            "QuestLogEntry": "Objective: Find a Unicorn."
+        },
+        {
+            "StateName": "RewardsCollected",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 20,
+            "Lines": [],
+            "QuestLogEntry": "Objective: Find a Unicorn."
+        }
+    ],
+    "quests": [
+        {
+            "instanceID": 32302
+        }
+    ],
+    "rewardType": 0,
+    "questGiverTemplates": [
+        {
+            "instanceID": 32228
+        }
+    ],
+    "chainRewards": [
+        {
+            "instanceID": 16986
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a110defa25362743bb791f86ed3e4c4, type: 3}
+  m_Name: 1_Damage_Cutlass_Epic_Sword
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: d8f11a7233d4411439a00d080321d17d, type: 3}
+  itemID:
+    Name: 
+    ID: 11
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: dd7d998b8e3cd174d8008419732fd2d9, type: 2}
+  meshPrefab: {fileID: 3749121962048444936, guid: 5355d48de75a7304f88c7a96d8917858,
+    type: 3}
+  sprite: {fileID: 21300000, guid: 1b2a02f65751c824ab0cc29d11b997dc, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  classRestriction: 0
+  slots: 23000000
+  traitTiers:
+  - ILevelMulti: 1
+    MaxNumberOfTraitsPerTier: 4
+    PossibleTierDrops: {fileID: 11400000, guid: 561977db253f2fd44bc7100c58bab747,
+      type: 2}
+  - ILevelMulti: 0.8
+    MaxNumberOfTraitsPerTier: 2
+    PossibleTierDrops: {fileID: 11400000, guid: 561977db253f2fd44bc7100c58bab747,
+      type: 2}
+  - ILevelMulti: 0.6
+    MaxNumberOfTraitsPerTier: 1
+    PossibleTierDrops: {fileID: 11400000, guid: 561977db253f2fd44bc7100c58bab747,
+      type: 2}
+  stats:
+    baseName: Cutlass
+    baseType: 1
+    baseStatMinValue: 1
+    baseStateILevelMulti: 0.7
+    nativeTraits: []
+    sockets: []
+  wearablePefab: {fileID: 5428619173928522795, guid: 5355d48de75a7304f88c7a96d8917858,
+    type: 3}
+  enchantable: 1
+  weaponType: 1

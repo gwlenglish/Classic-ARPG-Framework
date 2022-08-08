@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 15e225aa0a1981346867c166d1f6199e
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 5805627732627814831
+    second: flare|CDA:ObIpo
+  - first:
+      74: -3034503864765152742
+    second: flare|CDA:ObIpo.001
+  - first:
+      74: 3914668309792519886
+    second: flare|CDA:ObIpo.002
+  - first:
+      74: -870244362337994800
+    second: flare|CDA:ObIpo.011
+  - first:
+      74: 733991233634889506
+    second: flare|CDA:ObIpo.012
+  - first:
+      74: 8846888706204763605
+    second: pistol_cartridge|CDA:ObIpo
+  - first:
+      74: -1515385297751433656
+    second: pistol_cartridge|CDA:ObIpo.001
+  - first:
+      74: -7473472227943562056
+    second: pistol_cartridge|CDA:ObIpo.002
+  - first:
+      74: 5165672659659932661
+    second: pistol_cartridge|CDA:ObIpo.011
+  - first:
+      74: 7577166715353714939
+    second: pistol_cartridge|CDA:ObIpo.012
+  - first:
+      74: 9219087266464364358
+    second: Lamp|CDA:ObIpo
+  - first:
+      74: 1020771253446078653
+    second: Lamp|CDA:ObIpo.001
+  - first:
+      74: 7625549261489163324
+    second: Lamp|CDA:ObIpo.002
+  - first:
+      74: -1237694836829415925
+    second: Lamp|CDA:ObIpo.011
+  - first:
+      74: 1699775988929540593
+    second: Lamp|CDA:ObIpo.012
+  - first:
+      74: -2813366952513628554
+    second: Camera|CDA:ObIpo
+  - first:
+      74: -2946210512500050572
+    second: Camera|CDA:ObIpo.001
+  - first:
+      74: -3305972537217531869
+    second: Camera|CDA:ObIpo.002
+  - first:
+      74: 2394612807725481600
+    second: Camera|CDA:ObIpo.011
+  - first:
+      74: -5763206569393189541
+    second: Camera|CDA:ObIpo.012
+  - first:
+      74: -1056365650681560134
+    second: cylinder|CDA:ObIpo
+  - first:
+      74: -8685948297138323992
+    second: cylinder|CDA:ObIpo.001
+  - first:
+      74: 5629225526698278116
+    second: cylinder|CDA:ObIpo.002
+  - first:
+      74: -543449541633134102
+    second: cylinder|CDA:ObIpo.011
+  - first:
+      74: 1736140687880340314
+    second: cylinder|CDA:ObIpo.012
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.003
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.00003
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

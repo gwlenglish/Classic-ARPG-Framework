@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7641ee5c7abcd9542843783f262424f7, type: 3}
+  m_Name: Database_AbilityControllers
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Enemy Fodder
+    ID:
+      Name: EnemyFodder
+      ID: 1
+      AbilityController: {fileID: 11400000, guid: 751092ca1b752e54e86757e5f1de47c5,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: 751092ca1b752e54e86757e5f1de47c5,
+      type: 2}
+  - DescriptiveName: Demo_Sam
+    ID:
+      Name: Sam
+      ID: 2
+      AbilityController: {fileID: 11400000, guid: 524f39ac185ba1b4d87ffa492480ebe3,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: 524f39ac185ba1b4d87ffa492480ebe3,
+      type: 2}
+  - DescriptiveName: Demo_HChu 2D
+    ID:
+      Name: Hchu
+      ID: 3
+      AbilityController: {fileID: 11400000, guid: c90205f50e94af94080eb5438dd1a454,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: c90205f50e94af94080eb5438dd1a454,
+      type: 2}

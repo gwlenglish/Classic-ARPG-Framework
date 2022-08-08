@@ -1,0 +1,43 @@
+{
+    "config": {
+        "instanceID": 19856
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "King Loot",
+        "ID": 6,
+        "LootDrops": {
+            "instanceID": 19724
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 19858
+        },
+        {
+            "instanceID": 19860
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_50",
+            "RelativePercent": 50.0,
+            "RangeFrom": 0,
+            "RangeTo": 5,
+            "Item": {
+                "instanceID": 19858
+            }
+        },
+        {
+            "Description": "_50",
+            "RelativePercent": 50.0,
+            "RangeFrom": 5,
+            "RangeTo": 10,
+            "Item": {
+                "instanceID": 19860
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80a50b0614690124dba40c6353b6cc00, type: 3}
+  m_Name: 2_Armor_Legendary Shield_Legendary_Plate
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 709807c20e4e40249bfb8ebb5835f0df, type: 3}
+  itemID:
+    Name: 
+    ID: 20
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: 8c18892eff594a64198ef20ea28136d4, type: 2}
+  meshPrefab: {fileID: 5601773208674085907, guid: d0037fee19d32944cb2c8c7f87893813,
+    type: 3}
+  sprite: {fileID: 21300000, guid: 280f90d069c7b954abd5bac77b41d543, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  classRestriction: 0
+  slots: 1e000000
+  traitTiers:
+  - ILevelMulti: 0.424
+    MaxNumberOfTraitsPerTier: 4
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  - ILevelMulti: 0.8
+    MaxNumberOfTraitsPerTier: 2
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  - ILevelMulti: 0.6
+    MaxNumberOfTraitsPerTier: 1
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  stats:
+    baseName: Legendary Shield
+    baseType: 2
+    baseStatMinValue: 1
+    baseStateILevelMulti: 1
+    nativeTraits: []
+    sockets: []
+  wearablePefab: {fileID: 4511641574797939093, guid: d0037fee19d32944cb2c8c7f87893813,
+    type: 3}
+  enchantable: 1
+  armorMat: 4

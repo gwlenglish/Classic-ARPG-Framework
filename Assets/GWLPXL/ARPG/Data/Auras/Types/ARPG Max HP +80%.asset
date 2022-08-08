@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4872ef51d33efb4f9c140d9a7c705dd, type: 3}
+  m_Name: ARPG Max HP +80%
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 6589654a513691244abe04f81db7b5ac, type: 3}
+  auraID:
+    Name: ARPG Max HP +80%
+    ID: 9
+    Aura: {fileID: 11400000}
+  AuraData:
+    AutoName: 1
+    AutoAssignID: 1
+    AuraName: ARPG Max HP +80%
+    AuraDescription: 
+    AuraPrefab: {fileID: 2800619502281628294, guid: 1e55d55ab2f3c6148b1d8b1a843ef197,
+      type: 3}
+    auraCategory: 0
+    uniqueID: 16628
+    AuraLogics:
+    - {fileID: 11400000, guid: 2b53d621dbe758241adfbb9c2d1a1866, type: 2}
+    AuraGroups: 01000000
+    Pulses: 0
+    PulseRate: 0
+    AOE: 1
+    LayersToCheck:
+    - serializedVersion: 2
+      m_Bits: 1
+    - serializedVersion: 2
+      m_Bits: 33554432
+    ColliderType: 0
+    AreaRadius: 5
+    CheckAreaRate: 0.25

@@ -1,0 +1,43 @@
+{
+    "config": {
+        "instanceID": 25552
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "Loot from Demo",
+        "ID": 8,
+        "LootDrops": {
+            "instanceID": 24962
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 16594
+        },
+        {
+            "instanceID": 16570
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_50",
+            "RelativePercent": 50.0,
+            "RangeFrom": 0,
+            "RangeTo": 50,
+            "Item": {
+                "instanceID": 16594
+            }
+        },
+        {
+            "Description": "_50",
+            "RelativePercent": 50.0,
+            "RangeFrom": 50,
+            "RangeTo": 100,
+            "Item": {
+                "instanceID": 16570
+            }
+        }
+    ]
+}

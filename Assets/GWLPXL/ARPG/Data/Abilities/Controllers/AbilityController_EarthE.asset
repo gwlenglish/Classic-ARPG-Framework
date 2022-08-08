@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72184cf486ccf843a4fca13c31b93cf, type: 3}
+  m_Name: AbilityController_EarthE
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: ff6628c7c9a1e154d83e3635f7152ed2, type: 3}
+  id:
+    Name: 
+    ID: 1
+    AbilityController: {fileID: 11400000}
+  Data:
+    AutoName: 1
+    AutoAssignUniqueID: 0
+    Name: Demo
+    Description: For the Demo Scene
+    UniqueID: 1
+  BasicAttacks: []
+  StartingAbilities:
+  - {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
+  EquippedCap: 1
+  LearnedCap: 1

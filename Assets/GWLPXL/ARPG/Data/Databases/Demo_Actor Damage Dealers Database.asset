@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97b4dfa1d890cf4ca9229debd0708ea, type: 3}
+  m_Name: Demo_Actor Damage Dealers Database
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Axe
+    ID:
+      Name: Axe
+      ID: 1
+      Instance: {fileID: 11400000, guid: 3ac28202d930d5a49a55f9c6ed74ff48, type: 2}
+    Instance: {fileID: 11400000, guid: 3ac28202d930d5a49a55f9c6ed74ff48, type: 2}
+  - DescriptiveName: Cutlass
+    ID:
+      Name: Cutlass
+      ID: 2
+      Instance: {fileID: 11400000, guid: 3dfc5acae7e6c924da8199989c0c43b1, type: 2}
+    Instance: {fileID: 11400000, guid: 3dfc5acae7e6c924da8199989c0c43b1, type: 2}
+  - DescriptiveName: Explosion
+    ID:
+      Name: Fireball
+      ID: 3
+      Instance: {fileID: 11400000, guid: e83299772652382458d9acc53091552f, type: 2}
+    Instance: {fileID: 11400000, guid: e83299772652382458d9acc53091552f, type: 2}
+  - DescriptiveName: Fist
+    ID:
+      Name: Fist
+      ID: 4
+      Instance: {fileID: 11400000, guid: 89836a5cf96df5f479820a64ad456c2f, type: 2}
+    Instance: {fileID: 11400000, guid: 89836a5cf96df5f479820a64ad456c2f, type: 2}
+  - DescriptiveName: DarknessFall
+    ID:
+      Name: Flamethrower
+      ID: 5
+      Instance: {fileID: 11400000, guid: 67a29a8933df78040b3dd8eb55eca378, type: 2}
+    Instance: {fileID: 11400000, guid: 67a29a8933df78040b3dd8eb55eca378, type: 2}
+  - DescriptiveName: Iceball
+    ID:
+      Name: Iceball
+      ID: 6
+      Instance: {fileID: 11400000, guid: ca73166b377f3144bafc51c637150daf, type: 2}
+    Instance: {fileID: 11400000, guid: ca73166b377f3144bafc51c637150daf, type: 2}
+  - DescriptiveName: Pistol
+    ID:
+      Name: Pistol
+      ID: 7
+      Instance: {fileID: 11400000, guid: a5c17abb33d4d2347aaeb8dc437a4f8f, type: 2}
+    Instance: {fileID: 11400000, guid: a5c17abb33d4d2347aaeb8dc437a4f8f, type: 2}
+  - DescriptiveName: Shotgun
+    ID:
+      Name: Shotgun
+      ID: 8
+      Instance: {fileID: 11400000, guid: 8f515f149ae84ce4d90f0b2ba5c00766, type: 2}
+    Instance: {fileID: 11400000, guid: 8f515f149ae84ce4d90f0b2ba5c00766, type: 2}
+  - DescriptiveName: Chain Lightning
+    ID:
+      Name: 
+      ID: 9
+      Instance: {fileID: 11400000, guid: 81820954ff57ee949b0d3f06b1a45700, type: 2}
+    Instance: {fileID: 11400000, guid: 81820954ff57ee949b0d3f06b1a45700, type: 2}
+  - DescriptiveName: Fireball
+    ID:
+      Name: Fireball
+      ID: 10
+      Instance: {fileID: 11400000, guid: a22822cedc4819d47892cef10a944b92, type: 2}
+    Instance: {fileID: 11400000, guid: a22822cedc4819d47892cef10a944b92, type: 2}
+  - DescriptiveName: MagicOrb
+    ID:
+      Name: Fireball
+      ID: 11
+      Instance: {fileID: 11400000, guid: 0dde946a212dc324c941523ffeabe944, type: 2}
+    Instance: {fileID: 11400000, guid: 0dde946a212dc324c941523ffeabe944, type: 2}
+  - DescriptiveName: Flamethrower
+    ID:
+      Name: Flamethrower
+      ID: 12
+      Instance: {fileID: 11400000, guid: 83783770a0a51b84eaa5863b3bbdfbf4, type: 2}
+    Instance: {fileID: 11400000, guid: 83783770a0a51b84eaa5863b3bbdfbf4, type: 2}
+  - DescriptiveName: Arrow
+    ID:
+      Name: Arrow
+      ID: 13
+      Instance: {fileID: 11400000, guid: 11700495b68d06d40a0ba58cfba8f186, type: 2}
+    Instance: {fileID: 11400000, guid: 11700495b68d06d40a0ba58cfba8f186, type: 2}

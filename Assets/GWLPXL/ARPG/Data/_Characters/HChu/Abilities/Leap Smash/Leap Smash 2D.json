@@ -1,0 +1,55 @@
+{
+    "config": {
+        "instanceID": 24790
+    },
+    "id": {
+        "Name": "Leap Smash 2D",
+        "ID": 24,
+        "Ability": {
+            "instanceID": 25650
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Leap Smash",
+        "Description": "Leaps then smashes",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [
+            {
+                "instanceID": 24792
+            },
+            {
+                "instanceID": 24748
+            },
+            {
+                "instanceID": 24794
+            }
+        ],
+        "UniqueID": 7,
+        "Sprite": {
+            "instanceID": 26190
+        },
+        "AnimationTrigger": "BasicMelee",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.0,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

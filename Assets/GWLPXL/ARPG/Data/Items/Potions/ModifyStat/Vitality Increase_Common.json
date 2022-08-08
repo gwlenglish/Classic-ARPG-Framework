@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 22738
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 3,
+        "Item": {
+            "instanceID": 22616
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 0
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "potionName": "Vitality Increase",
+    "stackingAmount": 5,
+    "ModStatType": {
+        "Type": 3,
+        "ModAmount": 5,
+        "Duration": 5.0
+    }
+}

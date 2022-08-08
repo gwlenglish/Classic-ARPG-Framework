@@ -1,0 +1,49 @@
+{
+    "config": {
+        "instanceID": 24762
+    },
+    "id": {
+        "Name": "MagicOrb",
+        "ID": 25,
+        "Ability": {
+            "instanceID": 24480
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Magic Orb",
+        "Description": "Casts a spinning magic orb that shoots other magic orbs as it spins.",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 5.0,
+        "ResourceType": 1,
+        "Logics": [
+            {
+                "instanceID": 24764
+            }
+        ],
+        "UniqueID": 7,
+        "Sprite": {
+            "instanceID": 24766
+        },
+        "AnimationTrigger": "Ability",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.7409999966621399,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

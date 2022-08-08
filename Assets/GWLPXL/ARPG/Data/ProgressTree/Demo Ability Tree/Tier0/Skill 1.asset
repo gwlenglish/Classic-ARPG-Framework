@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84d3b3d0b1f8af4ea8354137c68bb66, type: 3}
+  m_Name: Skill 1
+  m_EditorClassIdentifier: 
+  JsonConfig: {fileID: 4900000, guid: 435165dc721e3204596fdd42200062c9, type: 3}
+  id:
+    Name: Skill 1
+    Description: 
+    UniqueID: 4670
+  autoName: 0
+  autoAssignUniqueID: 0
+  MaxInvestAmount: 5
+  Requirements: []
+  Description: Skill 1 replace

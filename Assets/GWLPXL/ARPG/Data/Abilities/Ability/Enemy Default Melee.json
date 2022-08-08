@@ -1,0 +1,49 @@
+{
+    "config": {
+        "instanceID": 16714
+    },
+    "id": {
+        "Name": "",
+        "ID": 9,
+        "Ability": {
+            "instanceID": 16688
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Enemy Melee",
+        "Description": "Default Melee",
+        "DamageMultiplier": 1.0,
+        "Range": 1.5,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [
+            {
+                "instanceID": 16716
+            }
+        ],
+        "UniqueID": 5,
+        "Sprite": {
+            "instanceID": 0
+        },
+        "AnimationTrigger": "DefaultAttack",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.25,
+    "ForwardSightAngle": 45.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

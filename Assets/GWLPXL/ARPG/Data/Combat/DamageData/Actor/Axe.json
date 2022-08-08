@@ -1,0 +1,52 @@
+{
+    "config": {
+        "instanceID": 17312
+    },
+    "id": {
+        "Name": "Axe",
+        "ID": 1,
+        "Instance": {
+            "instanceID": 17106
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Axe",
+        "damageOptions": {
+            "physdmg": true,
+            "elemdg": true,
+            "sotmod": false
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 18,
+                "maxD": 22,
+                "percentOfCasterAttack": 0.0
+            },
+            "elementMultipliers": []
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [
+                {
+                    "Type": 0,
+                    "ElementDamage": 0,
+                    "StatusEffects": [],
+                    "AmountPerTick": 0,
+                    "Duration": 0.0,
+                    "ClampStatusEffectToDuration": false,
+                    "TickRate": 0.0,
+                    "StackAmount": 0
+                }
+            ],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": []
+        }
+    }
+}

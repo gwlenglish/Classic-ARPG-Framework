@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed5952f7cd65934fa7400d76b21a1ab, type: 3}
+  m_Name: Chain Lightning
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 1ed5a7b567772da4a83b1c2239746cbf, type: 3}
+  abilityStartProjectile:
+    Rotation: 0
+    ProjectilePrefab: {fileID: 3027551796687633239, guid: 1275dfcdddff1ea40a0e345f3b5256d1,
+      type: 3}
+    Offsets:
+      StartOffset: {x: 0, y: 1, z: 0}
+      XTiltAngle: 0
+      YTiltAngle: 0
+      ZTiltAngle: 0
+  abilityEndProjectile:
+    Rotation: 0
+    ProjectilePrefab: {fileID: 0}
+    Offsets:
+      StartOffset: {x: 0, y: 0, z: 0}
+      XTiltAngle: 0
+      YTiltAngle: 0
+      ZTiltAngle: 0
+  additionalProjectiles: []

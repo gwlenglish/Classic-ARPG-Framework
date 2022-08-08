@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7218042794662503724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7218042794662503715}
+  - component: {fileID: 7218042794662503725}
+  - component: {fileID: 8690269598841260643}
+  - component: {fileID: 2589693281123791076}
+  m_Layer: 0
+  m_Name: Explosion_Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7218042794662503715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218042794662503724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4295197, y: 0.12519026, z: -2.2410831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 868460715851572044}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7218042794662503725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218042794662503724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36cbefb15a18054898d63b703f5c6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnExplodeStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1937699380826903067}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnExplodeStop:
+    m_PersistentCalls:
+      m_Calls: []
+  DamageEvents:
+    SceneEvents:
+      OnDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnPhysicalDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnElementalDamageOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentEnabled:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentDisabled:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentStart:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  Vars:
+    ActorDamage: {fileID: 0}
+    StickToTarget: 1
+    EndRadius: 3
+    ExplosionCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Delay: 1
+    Duration: 0.25
+--- !u!54 &8690269598841260643
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218042794662503724}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2589693281123791076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218042794662503724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17456e84c0b073d429694d5ff43e1866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageEvents:
+    SceneEvents:
+      OnDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnPhysicalDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnElementalDamageOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentEnabled:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentDisabled:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentStart:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  sotEvents:
+    SceneEvents:
+      OnSoTApply:
+        m_PersistentCalls:
+          m_Calls: []
+  damage: {fileID: 0}
+  meleeOptions: {fileID: 0}
+--- !u!1001 &2521089526712005200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7218042794662503715}
+    m_Modifications:
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042159624991727691, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_Name
+      value: ExplosionParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4042159624991727691, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e437c136ab848c4ca58270eb7fe0aff, type: 3}
+--- !u!1 &1937699380826903067 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4042159624991727691, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2521089526712005200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &868460715851572044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3382715667929534748, guid: 0e437c136ab848c4ca58270eb7fe0aff,
+    type: 3}
+  m_PrefabInstance: {fileID: 2521089526712005200}
+  m_PrefabAsset: {fileID: 0}

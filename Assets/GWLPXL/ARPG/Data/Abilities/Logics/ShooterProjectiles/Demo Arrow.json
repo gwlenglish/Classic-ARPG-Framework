@@ -1,0 +1,57 @@
+{
+    "config": {
+        "instanceID": 25636
+    },
+    "abilityStartProjectile": {
+        "ProjectileVars": {
+            "Rotation": 1,
+            "ProjectilePrefab": {
+                "instanceID": 18998
+            },
+            "Offsets": {
+                "StartOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "XTiltAngle": 0.0,
+                "YTiltAngle": 0.0,
+                "ZTiltAngle": 0.0
+            }
+        },
+        "OverrideShooterAmmo": true,
+        "ShooterIndices": [
+            0
+        ],
+        "weaponBuffs": []
+    },
+    "abilityEndProjectile": {
+        "ProjectileVars": {
+            "Rotation": 0,
+            "ProjectilePrefab": {
+                "instanceID": 0
+            },
+            "Offsets": {
+                "StartOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "XTiltAngle": 0.0,
+                "YTiltAngle": 0.0,
+                "ZTiltAngle": 0.0
+            }
+        },
+        "OverrideShooterAmmo": false,
+        "ShooterIndices": [
+            0
+        ],
+        "weaponBuffs": []
+    },
+    "additionalProjectiles": [],
+    "requirements": [
+        {
+            "instanceID": 23880
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "config": {
+        "instanceID": 17698
+    },
+    "id": {
+        "Name": "Flamethrower",
+        "ID": 12,
+        "Instance": {
+            "instanceID": 17502
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Flamethrower",
+        "damageOptions": {
+            "physdmg": false,
+            "elemdg": true,
+            "sotmod": true
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 0,
+                "maxD": 0,
+                "percentOfCasterAttack": 0.0
+            },
+            "elementMultipliers": [
+                {
+                    "editorDescription": "Fire",
+                    "damageType": 1,
+                    "minD": 3,
+                    "maxD": 6,
+                    "percentOfCasterElement": 0.0
+                }
+            ]
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [
+                {
+                    "Type": 0,
+                    "ElementDamage": 1,
+                    "StatusEffects": [],
+                    "AmountPerTick": -1,
+                    "Duration": 3.0,
+                    "ClampStatusEffectToDuration": false,
+                    "TickRate": 1.0,
+                    "StackAmount": 3
+                }
+            ],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": []
+        }
+    }
+}

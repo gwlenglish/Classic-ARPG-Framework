@@ -1,0 +1,64 @@
+{
+    "config": {
+        "instanceID": 22742
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 7,
+        "Item": {
+            "instanceID": 22620
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16736
+    },
+    "meshPrefab": {
+        "instanceID": 16712
+    },
+    "sprite": {
+        "instanceID": 16714
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        35
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        },
+        {
+            "ILevelMulti": 0.6000000238418579,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        },
+        {
+            "ILevelMulti": 0.4000000059604645,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Legendary Righty Prime",
+        "baseType": 1,
+        "baseStatMinValue": 25,
+        "baseStateILevelMulti": 0.10000000149011612,
+        "nativeTraits": [],
+        "sockets": []
+    },
+    "wearablePefab": {
+        "instanceID": 16716
+    },
+    "enchantable": true,
+    "weaponType": 2
+}

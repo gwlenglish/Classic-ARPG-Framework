@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Chain Lightning HChu
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: a14561459feb94646bab42bbb10eec72, type: 3}
+  id:
+    Name: 
+    ID: 12
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Chain Lightning
+    Description: Casts a lightning bolt that bounces up to 3 times
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 5
+    ResourceType: 1
+    Logics:
+    - {fileID: 11400000, guid: f4a79277c18ce164ba556f019960787e, type: 2}
+    UniqueID: 7
+    Sprite: {fileID: 949155980521528692, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
+    AnimationTrigger: ChainLightning
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1.5
+  Duration: 1.5
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.5
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

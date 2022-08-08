@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1540e87e0f163478db3ddcc85ad47e, type: 3}
+  m_Name: PlayerWarriorInventory
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 7f59f5566c1c741408326c270596efbb, type: 3}
+  EquipEvent: {fileID: 11400000, guid: 728143b852e189442ad8ee741118be1c, type: 2}
+  UnEquipEvent: {fileID: 11400000, guid: 1e01f730773b4024cbfe78bb7511c7ba, type: 2}
+  ID:
+    Name: PlayerWarriorInventory
+    ID: 1
+    SOReference: {fileID: 11400000}
+  inventoryName: Inventory
+  ItemInventorySize: 25
+  currentCurrency: 100
+  startingEquipment:
+  - {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+  startingItems:
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  startingGold: 0

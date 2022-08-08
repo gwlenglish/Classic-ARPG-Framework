@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587726c2088a6d14f9cc80163a13863b, type: 3}
+  m_Name: TestingLoot_NoQuest
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 6a81ed9545ccf0e40a40d52e27476901, type: 3}
+  lootPrefabOverride: {fileID: 0}
+  ID:
+    Name: TestingLoot_NoQuest
+    ID: 16
+    LootDrops: {fileID: 11400000}
+  AllPossibleItems:
+  - {fileID: 11400000, guid: cc1324b32985dfe449ade3cf67374888, type: 2}
+  - {fileID: 11400000, guid: 43f1e340974921345921db9358c33e1c, type: 2}
+  - {fileID: 11400000, guid: cd8eff8ecc90d3a469b1c30ee46fc730, type: 2}
+  - {fileID: 11400000, guid: 515db32e7b6559b44a989f447a0746a8, type: 2}
+  - {fileID: 11400000, guid: 5f29c0ea24ac2fb44adfde37e80b12ac, type: 2}
+  - {fileID: 11400000, guid: 8bbe94f80f5a91a499cd238c6a59b988, type: 2}
+  - {fileID: 11400000, guid: 3f9fbb46f3dd10841b7ddfcc1798f392, type: 2}
+  - {fileID: 11400000, guid: 23511b40351d7234a95cfec765ab35bc, type: 2}
+  - {fileID: 11400000, guid: 8c361d60aad3de74ea9151383d0c5d59, type: 2}
+  - {fileID: 11400000, guid: ff38dbb7df6898b44bb55977f1a841b6, type: 2}
+  - {fileID: 11400000, guid: 7a3c489c0e63cb74c8b77e1c32d95fd5, type: 2}
+  - {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}
+  - {fileID: 11400000, guid: 4a6fe573a8b195a49bb8b780a63231f0, type: 2}
+  - {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: c0e0b6705299c2a4a987870bea30884d, type: 2}
+  LootTable:
+  - Description: _0.7042254
+    RelativePercent: 0.70422536
+    RangeFrom: 555
+    RangeTo: 560
+    Item: {fileID: 11400000, guid: 4a6fe573a8b195a49bb8b780a63231f0, type: 2}
+  - Description: _2.112676
+    RelativePercent: 2.112676
+    RangeFrom: 175
+    RangeTo: 190
+    Item: {fileID: 11400000, guid: 515db32e7b6559b44a989f447a0746a8, type: 2}
+  - Description: _2.112676
+    RelativePercent: 2.112676
+    RangeFrom: 540
+    RangeTo: 555
+    Item: {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 0
+    RangeTo: 50
+    Item: {fileID: 11400000, guid: cc1324b32985dfe449ade3cf67374888, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 125
+    RangeTo: 175
+    Item: {fileID: 11400000, guid: cd8eff8ecc90d3a469b1c30ee46fc730, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 190
+    RangeTo: 240
+    Item: {fileID: 11400000, guid: 5f29c0ea24ac2fb44adfde37e80b12ac, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 240
+    RangeTo: 290
+    Item: {fileID: 11400000, guid: 8bbe94f80f5a91a499cd238c6a59b988, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 290
+    RangeTo: 340
+    Item: {fileID: 11400000, guid: 3f9fbb46f3dd10841b7ddfcc1798f392, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 340
+    RangeTo: 390
+    Item: {fileID: 11400000, guid: 23511b40351d7234a95cfec765ab35bc, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 390
+    RangeTo: 440
+    Item: {fileID: 11400000, guid: 8c361d60aad3de74ea9151383d0c5d59, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 440
+    RangeTo: 490
+    Item: {fileID: 11400000, guid: ff38dbb7df6898b44bb55977f1a841b6, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 490
+    RangeTo: 540
+    Item: {fileID: 11400000, guid: 7a3c489c0e63cb74c8b77e1c32d95fd5, type: 2}
+  - Description: _7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 560
+    RangeTo: 610
+    Item: {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+  - Description: Health Potion_7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 610
+    RangeTo: 660
+    Item: {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - Description: Mana Potion_7.042254
+    RelativePercent: 7.042254
+    RangeFrom: 660
+    RangeTo: 710
+    Item: {fileID: 11400000, guid: c0e0b6705299c2a4a987870bea30884d, type: 2}
+  - Description: _10.56338
+    RelativePercent: 10.56338
+    RangeFrom: 50
+    RangeTo: 125
+    Item: {fileID: 11400000, guid: 43f1e340974921345921db9358c33e1c, type: 2}

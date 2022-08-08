@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c793d0c72bf1ba4ca9690429b3a6fe9, type: 3}
+  m_Name: Affix Reader SO
+  m_EditorClassIdentifier: 
+  Affixreader:
+    AffixOrders:
+    - Label: Opinion
+      EditorDescription: 
+      Words:
+      - Unusual
+      - Lovely
+      - Odd
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Size
+      EditorDescription: 
+      Words:
+      - Small
+      - Medium
+      - Large
+      - Massive
+      - Enormous
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Physical Quality
+      EditorDescription: 
+      Words:
+      - Icey
+      - Frozen
+      - Chilling
+      - Fiery
+      - Blazing
+      - Magical
+      - Mystical
+      - Refreshing
+      - Healthy
+      - Vital
+      - Invigorating
+      - Electric
+      - Zapping
+      - Brilliant
+      - Clever
+      - Strong
+      - Powerful
+      - Solid
+      - Agile
+      - Nimble
+      - Sharpened
+      - Edged
+      - Sharp
+      - Keen
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Shape
+      EditorDescription: 
+      Words:
+      - Round
+      - Square
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Age
+      EditorDescription: 
+      Words:
+      - Young
+      - Old
+      - Ancient
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Color
+      EditorDescription: 
+      Words:
+      - Red
+      - Green
+      - Blue
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Origin
+      EditorDescription: 
+      Words:
+      - Yggdrasil
+      - Niflheim
+      - Asgard
+      - Midgard
+      - Jotunheim
+      AdverbModifiers: []
+    - Label: Material
+      EditorDescription: 
+      Words:
+      - Wood
+      - Metal
+      - Steel
+      - Diamond
+      - Cloth
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Type
+      EditorDescription: 
+      Words:
+      - Bread-like
+      - General-purpose
+      - U-shaped
+      - Four-sided
+      - Gem-Studded
+      AdverbModifiers:
+      - Unusually
+      - Very
+    - Label: Purpose
+      EditorDescription: 
+      Words:
+      - Cleaning
+      - Hammering
+      - Cutting
+      - Slicing
+      - Murdering
+      AdverbModifiers:
+      - Extremely
+      - Just
+    PostNounModifiers:
+    - Hellfire
+    - Dexterity
+    - Ice
+    - Iciness
+    - Tundra
+    - Nimbleness
+    - Flame
+    - Fire
+    - Intellect
+    - Brilliance
+    - Fox
+    - Lightning
+    - Spark
+    - Vitality
+    - Invigoration
+    - Nourishment
+    - Mysticism
+    - Mana
+    - Magic
+    - Strength
+    - Power
+    - Ox
+    - Health

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f3662bbe6ecb54c987eb3cff7bda63, type: 3}
+  m_Name: Generic Breakable 2D
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: c686e09ea04b08a4d8bd72b59659d829, type: 3}
+  databaseID:
+    Name: Generic Breakable 2D
+    ID: 6
+    ActorStats: {fileID: 11400000}
+  LevelUpEvent: {fileID: 0}
+  myLevel: 15
+  restoreOnLevel: 1
+  ActorName: Generic Breakable 2D
+  maxLevel: 99
+  baseStat: 0
+  Resources:
+  - NowValue: 0
+    Level1Value: 10
+    LevelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Level99Max: 10
+    Type: 0
+  Stats: []
+  resourceLinks: []
+  combatLinks: []
+  ElementAttacks: []
+  ElementResists: []
+  abilityMods: []
+  others: []

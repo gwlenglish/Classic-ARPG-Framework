@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5adb8ce687d0d4094b5b6d27148cfb, type: 3}
+  m_Name: Walker 2D
+  m_EditorClassIdentifier: 
+  StateKey: Move
+  Vars:
+    WalkerStates:
+    - AnimatorStateName: Walk_Down
+      MovementDirection: 0
+      FacingDirection: 0
+    - AnimatorStateName: Walk_DownLeft
+      MovementDirection: 1
+      FacingDirection: 1
+    - AnimatorStateName: Walk_Left
+      MovementDirection: 2
+      FacingDirection: 2
+    - AnimatorStateName: Walk_UpLeft
+      MovementDirection: 3
+      FacingDirection: 3
+    - AnimatorStateName: Walk_Up
+      MovementDirection: 4
+      FacingDirection: 4
+    - AnimatorStateName: Walk_UpRight
+      MovementDirection: 5
+      FacingDirection: 5
+    - AnimatorStateName: Walk_Right
+      MovementDirection: 6
+      FacingDirection: 6
+    - AnimatorStateName: Walk_DownRight
+      MovementDirection: 7
+      FacingDirection: 7
+    IdleStates:
+    - AnimatorStateName: Idle_Down
+      MovementDirection: 0
+      FacingDirection: 0
+    - AnimatorStateName: Idle_DownLeft
+      MovementDirection: 1
+      FacingDirection: 1
+    - AnimatorStateName: Idle_Left
+      MovementDirection: 2
+      FacingDirection: 2
+    - AnimatorStateName: Idle_UpLeft
+      MovementDirection: 3
+      FacingDirection: 3
+    - AnimatorStateName: Idle_Up
+      MovementDirection: 4
+      FacingDirection: 4
+    - AnimatorStateName: Idle_UpRight
+      MovementDirection: 5
+      FacingDirection: 5
+    - AnimatorStateName: Idle_Right
+      MovementDirection: 6
+      FacingDirection: 6
+    - AnimatorStateName: Idle_DownRight
+      MovementDirection: 7
+      FacingDirection: 7
+    Speed: 5
+    AccelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AccelTime: 1
+    StoppingDistance: 2

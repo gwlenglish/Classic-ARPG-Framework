@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4bb4b17a4d73b44ace65d43c62c645, type: 3}
+  m_Name: Demo Projectile Data Database
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Bullet
+    ID:
+      Name: 
+      ID: 1
+      Instance: {fileID: 11400000, guid: abc821a0dcba97040819c8b16973e60a, type: 2}
+    Instance: {fileID: 11400000, guid: abc821a0dcba97040819c8b16973e60a, type: 2}
+  - DescriptiveName: Flame
+    ID:
+      Name: 
+      ID: 2
+      Instance: {fileID: 11400000, guid: f826e0f04d50ed145bcc4ef232bc8897, type: 2}
+    Instance: {fileID: 11400000, guid: f826e0f04d50ed145bcc4ef232bc8897, type: 2}
+  - DescriptiveName: AoE_InPlace
+    ID:
+      Name: 
+      ID: 3
+      Instance: {fileID: 11400000, guid: 19b779a7171ec51438171d5b6ed0afac, type: 2}
+    Instance: {fileID: 11400000, guid: 19b779a7171ec51438171d5b6ed0afac, type: 2}
+  - DescriptiveName: Chain Lightning
+    ID:
+      Name: Chain Lightning
+      ID: 4
+      Instance: {fileID: 11400000, guid: 3e29e2a975c4a184fab4556384fc52ae, type: 2}
+    Instance: {fileID: 11400000, guid: 3e29e2a975c4a184fab4556384fc52ae, type: 2}
+  - DescriptiveName: Arrow
+    ID:
+      Name: Arrow
+      ID: 5
+      Instance: {fileID: 11400000, guid: 1e1df08075b96484b9f00a8be318b6d5, type: 2}
+    Instance: {fileID: 11400000, guid: 1e1df08075b96484b9f00a8be318b6d5, type: 2}
+  - DescriptiveName: Magic Ball
+    ID:
+      Name: Magic Ball
+      ID: 6
+      Instance: {fileID: 11400000, guid: 56156a76ec49f874c81335e8a5412043, type: 2}
+    Instance: {fileID: 11400000, guid: 56156a76ec49f874c81335e8a5412043, type: 2}
+  - DescriptiveName: Magic Orb
+    ID:
+      Name: Magic Orb
+      ID: 7
+      Instance: {fileID: 11400000, guid: c2d5c7a7ecd0470419168a104d5d9700, type: 2}
+    Instance: {fileID: 11400000, guid: c2d5c7a7ecd0470419168a104d5d9700, type: 2}

@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 19066
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "DualWield",
+        "ID": 3,
+        "LootDrops": {
+            "instanceID": 19052
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 16580
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_100",
+            "RelativePercent": 100.0,
+            "RangeFrom": 0,
+            "RangeTo": 50,
+            "Item": {
+                "instanceID": 16580
+            }
+        }
+    ]
+}

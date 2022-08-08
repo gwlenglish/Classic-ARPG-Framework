@@ -1,0 +1,49 @@
+{
+    "config": {
+        "instanceID": 24726
+    },
+    "id": {
+        "Name": "BasicFlameThrower HChu",
+        "ID": 21,
+        "Ability": {
+            "instanceID": 24456
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "FlameThrower HChu",
+        "Description": "Uses the Flamethrower to do fire damage.",
+        "DamageMultiplier": 1.0,
+        "Range": 5.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [
+            {
+                "instanceID": 24728
+            }
+        ],
+        "UniqueID": 0,
+        "Sprite": {
+            "instanceID": 0
+        },
+        "AnimationTrigger": "BasicFlame",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 0,
+    "AddCooldown": true,
+    "CoolDownRate": 0.0,
+    "Duration": 0.10000000149011612,
+    "CanLoop": true,
+    "AddDelay": true,
+    "Delay": 0.019999999552965165,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

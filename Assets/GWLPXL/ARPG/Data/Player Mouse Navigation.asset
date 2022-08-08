@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5666ce020b6a14e8d927f89854954f, type: 3}
+  m_Name: Player Mouse Navigation
+  m_EditorClassIdentifier: 
+  Moving:
+  - {fileID: 11400000, guid: 6dfa1f5b8fbed6a41a905fe2c354e65a, type: 2}
+  - {fileID: 11400000, guid: 85260fd1e14c22146898a9ca49710b49, type: 2}
+  Idle:
+  - {fileID: 11400000, guid: 78dcfb873d2d4b3459682035b0f1a7c2, type: 2}

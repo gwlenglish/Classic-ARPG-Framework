@@ -1,0 +1,183 @@
+{
+    "AffixOrders": [
+        {
+            "Label": "Opinion",
+            "EditorDescription": "",
+            "Words": [
+                "Unusual",
+                "Lovely",
+                "Odd"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Size",
+            "EditorDescription": "",
+            "Words": [
+                "Small",
+                "Medium",
+                "Large",
+                "Massive",
+                "Enormous"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Physical Quality",
+            "EditorDescription": "",
+            "Words": [
+                "Icey",
+                "Frozen",
+                "Chilling",
+                "Fiery",
+                "Blazing",
+                "Magical",
+                "Mystical",
+                "Refreshing",
+                "Healthy",
+                "Vital",
+                "Invigorating",
+                "Electric",
+                "Zapping",
+                "Brilliant",
+                "Clever",
+                "Strong",
+                "Powerful",
+                "Solid",
+                "Agile",
+                "Nimble",
+                "Sharpened",
+                "Edged",
+                "Sharp",
+                "Keen"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Shape",
+            "EditorDescription": "",
+            "Words": [
+                "Round",
+                "Square"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Age",
+            "EditorDescription": "",
+            "Words": [
+                "Young",
+                "Old",
+                "Ancient"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Color",
+            "EditorDescription": "",
+            "Words": [
+                "Red",
+                "Green",
+                "Blue"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Origin",
+            "EditorDescription": "",
+            "Words": [
+                "Yggdrasil",
+                "Niflheim",
+                "Asgard",
+                "Midgard",
+                "Jotunheim"
+            ],
+            "AdverbModifiers": []
+        },
+        {
+            "Label": "Material",
+            "EditorDescription": "",
+            "Words": [
+                "Wood",
+                "Metal",
+                "Steel"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Type",
+            "EditorDescription": "",
+            "Words": [
+                "Bread-like",
+                "General-purpose",
+                "U-shaped",
+                "Four-sided"
+            ],
+            "AdverbModifiers": [
+                "Unusually",
+                "Very"
+            ]
+        },
+        {
+            "Label": "Purpose",
+            "EditorDescription": "",
+            "Words": [
+                "Cleaning",
+                "Hammering",
+                "Cutting",
+                "Slicing",
+                "Murdering"
+            ],
+            "AdverbModifiers": [
+                "Extremely",
+                "Just"
+            ]
+        }
+    ],
+    "PostNounModifiers": [
+        "Hellfire",
+        "Dexterity",
+        "Ice",
+        "Iciness",
+        "Tundra",
+        "Nimbleness",
+        "Flame",
+        "Fire",
+        "Intellect",
+        "Brilliance",
+        "Fox",
+        "Lightning",
+        "Spark",
+        "Vitality",
+        "Invigoration",
+        "Nourishment",
+        "Mysticism",
+        "Mana",
+        "Magic",
+        "Strength",
+        "Power",
+        "Ox",
+        "Health"
+    ]
+}

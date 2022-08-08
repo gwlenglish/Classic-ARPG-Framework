@@ -1,0 +1,211 @@
+{
+    "config": {
+        "instanceID": 16592
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "TestingLoot_NoQuest",
+        "ID": 16,
+        "LootDrops": {
+            "instanceID": 19160
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 16594
+        },
+        {
+            "instanceID": 16596
+        },
+        {
+            "instanceID": 16598
+        },
+        {
+            "instanceID": 16600
+        },
+        {
+            "instanceID": 16602
+        },
+        {
+            "instanceID": 16576
+        },
+        {
+            "instanceID": 16604
+        },
+        {
+            "instanceID": 16606
+        },
+        {
+            "instanceID": 16608
+        },
+        {
+            "instanceID": 16570
+        },
+        {
+            "instanceID": 16578
+        },
+        {
+            "instanceID": 16610
+        },
+        {
+            "instanceID": 16612
+        },
+        {
+            "instanceID": 16614
+        },
+        {
+            "instanceID": 16572
+        },
+        {
+            "instanceID": 16616
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_0.7042254",
+            "RelativePercent": 0.7042253613471985,
+            "RangeFrom": 555,
+            "RangeTo": 560,
+            "Item": {
+                "instanceID": 16612
+            }
+        },
+        {
+            "Description": "_2.112676",
+            "RelativePercent": 2.112675905227661,
+            "RangeFrom": 175,
+            "RangeTo": 190,
+            "Item": {
+                "instanceID": 16600
+            }
+        },
+        {
+            "Description": "_2.112676",
+            "RelativePercent": 2.112675905227661,
+            "RangeFrom": 540,
+            "RangeTo": 555,
+            "Item": {
+                "instanceID": 16610
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 0,
+            "RangeTo": 50,
+            "Item": {
+                "instanceID": 16594
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 125,
+            "RangeTo": 175,
+            "Item": {
+                "instanceID": 16598
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 190,
+            "RangeTo": 240,
+            "Item": {
+                "instanceID": 16602
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 240,
+            "RangeTo": 290,
+            "Item": {
+                "instanceID": 16576
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 290,
+            "RangeTo": 340,
+            "Item": {
+                "instanceID": 16604
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 340,
+            "RangeTo": 390,
+            "Item": {
+                "instanceID": 16606
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 390,
+            "RangeTo": 440,
+            "Item": {
+                "instanceID": 16608
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 440,
+            "RangeTo": 490,
+            "Item": {
+                "instanceID": 16570
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 490,
+            "RangeTo": 540,
+            "Item": {
+                "instanceID": 16578
+            }
+        },
+        {
+            "Description": "_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 560,
+            "RangeTo": 610,
+            "Item": {
+                "instanceID": 16614
+            }
+        },
+        {
+            "Description": "Health Potion_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 610,
+            "RangeTo": 660,
+            "Item": {
+                "instanceID": 16572
+            }
+        },
+        {
+            "Description": "Mana Potion_7.042254",
+            "RelativePercent": 7.0422539710998539,
+            "RangeFrom": 660,
+            "RangeTo": 710,
+            "Item": {
+                "instanceID": 16616
+            }
+        },
+        {
+            "Description": "_10.56338",
+            "RelativePercent": 10.563380241394043,
+            "RangeFrom": 50,
+            "RangeTo": 125,
+            "Item": {
+                "instanceID": 16596
+            }
+        }
+    ]
+}

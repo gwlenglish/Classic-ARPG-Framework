@@ -1,0 +1,43 @@
+{
+    "config": {
+        "instanceID": 25536
+    },
+    "auraID": {
+        "Name": "",
+        "ID": 6,
+        "Aura": {
+            "instanceID": 24934
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": false,
+        "AuraName": "ARPG Reduce HP 2D",
+        "AuraDescription": "Reduce health per second, 2D version",
+        "AuraPrefab": {
+            "instanceID": 25528
+        },
+        "auraCategory": 0,
+        "uniqueID": 0,
+        "AuraLogics": [
+            {
+                "instanceID": 37206
+            }
+        ],
+        "AuraGroups": [
+            5
+        ],
+        "Pulses": true,
+        "PulseRate": 1.0,
+        "AOE": true,
+        "LayersToCheck": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 33554433
+            }
+        ],
+        "ColliderType": 1,
+        "AreaRadius": 5.0,
+        "CheckAreaRate": 0.25
+    }
+}

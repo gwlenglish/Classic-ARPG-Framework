@@ -1,0 +1,28 @@
+{
+    "config": {
+        "instanceID": 14876
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Strength_StatTraitModifier_100%",
+        "ID": 14,
+        "Trait": {
+            "instanceID": 14996
+        }
+    },
+    "traitName": "Strength",
+    "TraitPrefixes": [],
+    "TraitSuffixes": [],
+    "TraitNouns": [],
+    "myValue": 1,
+    "myLevelMulti": 50,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 300,
+        "Order": 300
+    },
+    "Type": 0
+}

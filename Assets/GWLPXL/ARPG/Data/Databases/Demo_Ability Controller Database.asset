@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7641ee5c7abcd9542843783f262424f7, type: 3}
+  m_Name: Demo_Ability Controller Database
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Demo
+    ID:
+      Name: 
+      ID: 1
+      AbilityController: {fileID: 11400000, guid: 032b5902833e910499b4e21384e307db,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: 032b5902833e910499b4e21384e307db,
+      type: 2}
+  - DescriptiveName: Demo
+    ID:
+      Name: 
+      ID: 2
+      AbilityController: {fileID: 11400000, guid: 35a30f77eb623c04e8c0da2da36abf3e,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: 35a30f77eb623c04e8c0da2da36abf3e,
+      type: 2}
+  - DescriptiveName: Demo_HChu
+    ID:
+      Name: Hchu
+      ID: 3
+      AbilityController: {fileID: 11400000, guid: dd5f9c9871faef74299534707432d0bc,
+        type: 2}
+    AbilityController: {fileID: 11400000, guid: dd5f9c9871faef74299534707432d0bc,
+      type: 2}

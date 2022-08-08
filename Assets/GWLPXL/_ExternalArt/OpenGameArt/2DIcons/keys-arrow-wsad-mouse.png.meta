@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 6aa6568da70a4d049973d68eabc5152c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5407824624737535578
+    second: keys-arrow-wsad-mouse_0
+  - first:
+      213: 7665967264669854777
+    second: keys-arrow-wsad-mouse_1
+  - first:
+      213: -979774845316725124
+    second: keys-arrow-wsad-mouse_2
+  - first:
+      213: 6090352448118372655
+    second: keys-arrow-wsad-mouse_3
+  - first:
+      213: 930621664895822151
+    second: keys-arrow-wsad-mouse_4
+  - first:
+      213: -6521867352032407749
+    second: keys-arrow-wsad-mouse_5
+  - first:
+      213: 6451330033280605547
+    second: keys-arrow-wsad-mouse_6
+  - first:
+      213: 6794787427285770700
+    second: keys-arrow-wsad-mouse_7
+  - first:
+      213: -3778865465171261196
+    second: keys-arrow-wsad-mouse_8
+  - first:
+      213: 8390964497503268018
+    second: keys-arrow-wsad-mouse_9
+  - first:
+      213: 5848408784076336029
+    second: keys-arrow-wsad-mouse_10
+  - first:
+      213: 1113550501872131816
+    second: keys-arrow-wsad-mouse_11
+  - first:
+      213: -4108594928600737266
+    second: keys-arrow-wsad-mouse_12
+  - first:
+      213: -9174586885332412867
+    second: keys-arrow-wsad-mouse_13
+  - first:
+      213: -3910117878694940631
+    second: keys-arrow-wsad-mouse_14
+  - first:
+      213: 6127914459661365470
+    second: keys-arrow-wsad-mouse_15
+  - first:
+      213: 1733100092135506963
+    second: keys-arrow-wsad-mouse_16
+  - first:
+      213: -7890490130115021478
+    second: keys-arrow-wsad-mouse_17
+  - first:
+      213: 603705320092064684
+    second: keys-arrow-wsad-mouse_18
+  - first:
+      213: 1419312536326148169
+    second: keys-arrow-wsad-mouse_19
+  - first:
+      213: -4997851532695136218
+    second: keys-arrow-wsad-mouse_20
+  - first:
+      213: -3149251523366965475
+    second: keys-arrow-wsad-mouse_21
+  - first:
+      213: -3904370561448383295
+    second: keys-arrow-wsad-mouse_22
+  - first:
+      213: 376229562513849428
+    second: keys-arrow-wsad-mouse_23
+  - first:
+      213: -4200286421839234312
+    second: keys-arrow-wsad-mouse_24
+  - first:
+      213: 2127206351299294769
+    second: keys-arrow-wsad-mouse_25
+  - first:
+      213: -3971176067284647107
+    second: keys-arrow-wsad-mouse_26
+  - first:
+      213: -2102402030428939862
+    second: keys-arrow-wsad-mouse_27
+  - first:
+      213: 7859011370115986750
+    second: keys-arrow-wsad-mouse_28
+  - first:
+      213: 6470859047109377937
+    second: keys-arrow-wsad-mouse_29
+  - first:
+      213: -3307082155019926047
+    second: keys-arrow-wsad-mouse_30
+  - first:
+      213: -6796223456679418751
+    second: keys-arrow-wsad-mouse_31
+  - first:
+      213: 446423828841689303
+    second: keys-arrow-wsad-mouse_32
+  - first:
+      213: -6678366584639123634
+    second: keys-arrow-wsad-mouse_33
+  - first:
+      213: 1466327164657674650
+    second: keys-arrow-wsad-mouse_34
+  - first:
+      213: 9103837543940771883
+    second: keys-arrow-wsad-mouse_35
+  - first:
+      213: -6155632100418058164
+    second: keys-arrow-wsad-mouse_36
+  - first:
+      213: -6197700834299700350
+    second: keys-arrow-wsad-mouse_37
+  - first:
+      213: 2920763449879669937
+    second: keys-arrow-wsad-mouse_38
+  - first:
+      213: 6831424657092881763
+    second: keys-arrow-wsad-mouse_39
+  - first:
+      213: 5176672707154556195
+    second: keys-arrow-wsad-mouse_40
+  - first:
+      213: 7641361613480066261
+    second: keys-arrow-wsad-mouse_41
+  - first:
+      213: 2431835559828230370
+    second: keys-arrow-wsad-mouse_42
+  - first:
+      213: 2430013973003279733
+    second: keys-arrow-wsad-mouse_43
+  - first:
+      213: 4157015371344120774
+    second: keys-arrow-wsad-mouse_44
+  - first:
+      213: -2138817769423677205
+    second: keys-arrow-wsad-mouse_45
+  - first:
+      213: -3995634910189672704
+    second: keys-arrow-wsad-mouse_46
+  - first:
+      213: 4463822271573551996
+    second: keys-arrow-wsad-mouse_47
+  - first:
+      213: 6011393822029405882
+    second: keys-arrow-wsad-mouse_0
+  - first:
+      213: 6153738611801889493
+    second: keys-arrow-wsad-mouse_1
+  - first:
+      213: -4430537672350206862
+    second: keys-arrow-wsad-mouse_2
+  - first:
+      213: -8712655393987835772
+    second: keys-arrow-wsad-mouse_3
+  - first:
+      213: 4491092895733952821
+    second: keys-arrow-wsad-mouse_4
+  - first:
+      213: 59943648958347183
+    second: keys-arrow-wsad-mouse_5
+  - first:
+      213: -1314215137953633232
+    second: keys-arrow-wsad-mouse_6
+  - first:
+      213: 2051227019106377190
+    second: keys-arrow-wsad-mouse_7
+  - first:
+      213: -5246477217463803879
+    second: keys-arrow-wsad-mouse_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe5a07d4d2cc6350800000000000000
+      internalID: 6011393822029405882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9e0dd9a8766550800000000000000
+      internalID: 6153738611801889493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274749306719382c0800000000000000
+      internalID: -4430537672350206862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488c6fea41e661780800000000000000
+      internalID: -8712655393987835772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531b08f9131935e30800000000000000
+      internalID: 4491092895733952821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7f3be5e66f4d000800000000000000
+      internalID: 59943648958347183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c25d78b48f2cde0800000000000000
+      internalID: -1314215137953633232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edd4832b1c677c10800000000000000
+      internalID: 2051227019106377190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910e3ea84c4c037b0800000000000000
+      internalID: -5246477217463803879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bca894d0c1b27470800000000000000
+      internalID: 8390964497503268018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9be42c8dc8b92150800000000000000
+      internalID: 5848408784076336029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keys-arrow-wsad-mouse_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eedb871840247f00800000000000000
+      internalID: 1113550501872131816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b755f433ce86b424786dc9bf2f81729d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

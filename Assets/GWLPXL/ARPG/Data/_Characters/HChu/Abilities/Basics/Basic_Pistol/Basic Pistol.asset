@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8a8b88041a044c9566dfc3f864a87, type: 3}
+  m_Name: Basic Pistol
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 173c5d18b9fd9244a9802a8f4baa39e0, type: 3}
+  abilityStartProjectile:
+    ProjectileVars:
+      Rotation: 0
+      ProjectilePrefab: {fileID: 3027551796687633239, guid: ac9a8bcc759ac3b4386a30232025008d,
+        type: 3}
+      Offsets:
+        StartOffset: {x: 0, y: 0, z: 0}
+        XTiltAngle: 0
+        YTiltAngle: 0
+        ZTiltAngle: 0
+    OverrideShooterAmmo: 0
+    ShooterIndices: 00000000
+    weaponBuffs: []
+  abilityEndProjectile:
+    ProjectileVars:
+      Rotation: 0
+      ProjectilePrefab: {fileID: 0}
+      Offsets:
+        StartOffset: {x: 0, y: 0, z: 0}
+        XTiltAngle: 0
+        YTiltAngle: 0
+        ZTiltAngle: 0
+    OverrideShooterAmmo: 0
+    ShooterIndices: 
+    weaponBuffs: []
+  additionalProjectiles: []
+  requirements:
+  - {fileID: 11400000, guid: 6c38c8d00a652b24fbb8814ea10ada4c, type: 2}

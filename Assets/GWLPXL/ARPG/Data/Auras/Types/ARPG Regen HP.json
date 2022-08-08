@@ -1,0 +1,43 @@
+{
+    "config": {
+        "instanceID": 16808
+    },
+    "auraID": {
+        "Name": "",
+        "ID": 2,
+        "Aura": {
+            "instanceID": 16630
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": false,
+        "AuraName": "ARPG Regen HP",
+        "AuraDescription": "Regen MP ",
+        "AuraPrefab": {
+            "instanceID": 16658
+        },
+        "auraCategory": 0,
+        "uniqueID": 0,
+        "AuraLogics": [
+            {
+                "instanceID": 16810
+            }
+        ],
+        "AuraGroups": [
+            1
+        ],
+        "Pulses": true,
+        "PulseRate": 1.0,
+        "AOE": true,
+        "LayersToCheck": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 2048
+            }
+        ],
+        "ColliderType": 0,
+        "AreaRadius": 1.0,
+        "CheckAreaRate": 0.5
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "config": {
+        "instanceID": 25434
+    },
+    "auraID": {
+        "Name": "",
+        "ID": 5,
+        "Aura": {
+            "instanceID": 24928
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": false,
+        "AuraName": "ARPG Max MP Increase",
+        "AuraDescription": "Increases Max MP by 25",
+        "AuraPrefab": {
+            "instanceID": 25436
+        },
+        "auraCategory": 0,
+        "uniqueID": 0,
+        "AuraLogics": [
+            {
+                "instanceID": 37108
+            }
+        ],
+        "AuraGroups": [
+            1
+        ],
+        "Pulses": false,
+        "PulseRate": 0.0,
+        "AOE": true,
+        "LayersToCheck": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 1
+            },
+            {
+                "serializedVersion": "2",
+                "m_Bits": 2048
+            }
+        ],
+        "ColliderType": 0,
+        "AreaRadius": 5.0,
+        "CheckAreaRate": 0.25
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "config": {
+        "instanceID": 25530
+    },
+    "auraID": {
+        "Name": "",
+        "ID": 4,
+        "Aura": {
+            "instanceID": 24930
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": false,
+        "AuraName": "Haste",
+        "AuraDescription": "Increase ability speed multi",
+        "AuraPrefab": {
+            "instanceID": 25532
+        },
+        "auraCategory": 0,
+        "uniqueID": 0,
+        "AuraLogics": [
+            {
+                "instanceID": -9848
+            }
+        ],
+        "AuraGroups": [
+            1
+        ],
+        "Pulses": false,
+        "PulseRate": 0.0,
+        "AOE": false,
+        "LayersToCheck": [],
+        "ColliderType": 0,
+        "AreaRadius": 0.0,
+        "CheckAreaRate": 0.25
+    }
+}

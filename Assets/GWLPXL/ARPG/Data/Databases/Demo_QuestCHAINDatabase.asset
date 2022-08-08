@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74848d6eec1690c4bb82ec7af7e6e2c5, type: 3}
+  m_Name: Demo_QuestCHAINDatabase
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Test Chain 2
+    ID:
+      Name: Test Chain 2
+      ID: 3
+      Questchain: {fileID: 11400000, guid: 4c6efb66f716230439cf594e7fe4076f, type: 2}
+    Questchain: {fileID: 11400000, guid: 4c6efb66f716230439cf594e7fe4076f, type: 2}
+  - DescriptiveName: Test Repeatable
+    ID:
+      Name: Test Repeatable
+      ID: 4
+      Questchain: {fileID: 11400000, guid: 720a30a427aba9248afbc95a9c3d010e, type: 2}
+    Questchain: {fileID: 11400000, guid: 720a30a427aba9248afbc95a9c3d010e, type: 2}
+  - DescriptiveName: Test Chain 1
+    ID:
+      Name: Test Chain 1
+      ID: 5
+      Questchain: {fileID: 11400000, guid: 4aabe6c9dac2724418af2191df3e33bb, type: 2}
+    Questchain: {fileID: 11400000, guid: 4aabe6c9dac2724418af2191df3e33bb, type: 2}

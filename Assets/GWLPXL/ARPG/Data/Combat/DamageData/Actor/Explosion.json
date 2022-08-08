@@ -1,0 +1,66 @@
+{
+    "config": {
+        "instanceID": 25782
+    },
+    "id": {
+        "Name": "Fireball",
+        "ID": 3,
+        "Instance": {
+            "instanceID": 25266
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Explosion Demo",
+        "damageOptions": {
+            "physdmg": true,
+            "elemdg": true,
+            "sotmod": true
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 1,
+                "maxD": 1,
+                "percentOfCasterAttack": 0.10000000149011612
+            },
+            "elementMultipliers": [
+                {
+                    "editorDescription": "Fire",
+                    "damageType": 1,
+                    "minD": 0,
+                    "maxD": 0,
+                    "percentOfCasterElement": 0.10000000149011612
+                }
+            ]
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [
+                {
+                    "Type": 0,
+                    "ElementDamage": 1,
+                    "StatusEffects": [],
+                    "AmountPerTick": -3,
+                    "Duration": 3.0,
+                    "ClampStatusEffectToDuration": false,
+                    "TickRate": 1.0,
+                    "StackAmount": 2
+                }
+            ],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": [
+                {
+                    "editorDescription": "",
+                    "damageType": 0,
+                    "baseElementDamageAmount": 0
+                }
+            ]
+        }
+    }
+}

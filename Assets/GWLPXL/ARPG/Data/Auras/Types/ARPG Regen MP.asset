@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4872ef51d33efb4f9c140d9a7c705dd, type: 3}
+  m_Name: ARPG Regen MP
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 1b371186d338d0a4494c89a25eb11302, type: 3}
+  auraID:
+    Name: 
+    ID: 3
+    Aura: {fileID: 11400000}
+  AuraData:
+    AutoName: 1
+    AutoAssignID: 0
+    AuraName: ARPG Regen MP
+    AuraDescription: 'Regen MP '
+    AuraPrefab: {fileID: 2800619502281628294, guid: c6c2ce6f1565051468978ddb829c51ac,
+      type: 3}
+    auraCategory: 0
+    uniqueID: 0
+    AuraLogics:
+    - {fileID: 11400000, guid: 9f356ff7b2693b4489319f36b9c14569, type: 2}
+    AuraGroups: 01000000
+    Pulses: 1
+    PulseRate: 1
+    AOE: 1
+    LayersToCheck:
+    - serializedVersion: 2
+      m_Bits: 1
+    - serializedVersion: 2
+      m_Bits: 2048
+    ColliderType: 0
+    AreaRadius: 1
+    CheckAreaRate: 0.5

@@ -1,0 +1,37 @@
+{
+    "config": {
+        "instanceID": 15100
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Minor Mana_MaxResourceTraitModifier_100%",
+        "ID": 9,
+        "Trait": {
+            "instanceID": 15086
+        }
+    },
+    "traitName": "Minor Mana",
+    "TraitPrefixes": [
+        "Mystical",
+        "Refreshing"
+    ],
+    "TraitSuffixes": [
+        "Magical"
+    ],
+    "TraitNouns": [
+        "Magic",
+        "Mana",
+        "Mysticism"
+    ],
+    "myValue": 1,
+    "myLevelMulti": 100,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 300,
+        "Order": 300
+    },
+    "Type": 1
+}

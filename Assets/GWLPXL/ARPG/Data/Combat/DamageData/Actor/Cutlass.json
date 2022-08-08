@@ -1,0 +1,41 @@
+{
+    "config": {
+        "instanceID": 26238
+    },
+    "id": {
+        "Name": "Cutlass",
+        "ID": 2,
+        "Instance": {
+            "instanceID": 25690
+        }
+    },
+    "DamageVar": {
+        "combatHandler": {
+            "instanceID": 17314
+        },
+        "descriptiveName": "Cutlass",
+        "damageOptions": {
+            "physdmg": true,
+            "elemdg": false,
+            "sotmod": false
+        },
+        "damageMultipliers": {
+            "physicalMultipler": {
+                "minD": 12,
+                "maxD": 24,
+                "percentOfCasterAttack": 0.10000000149011612
+            },
+            "elementMultipliers": []
+        },
+        "statusOverTimeOptions": {
+            "applySOTAtEnter": true,
+            "applySOTAtExit": false,
+            "additionalSOTs": [],
+            "damageRate": 1.0,
+            "friendlyFire": false
+        },
+        "statusOverTimeMultiplers": {
+            "elementalMultipliers": []
+        }
+    }
+}

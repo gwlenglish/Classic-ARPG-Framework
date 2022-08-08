@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 19064
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "Loot Legendary",
+        "ID": 10,
+        "LootDrops": {
+            "instanceID": 18982
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 16612
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_100",
+            "RelativePercent": 100.0,
+            "RangeFrom": 0,
+            "RangeTo": 5,
+            "Item": {
+                "instanceID": 16612
+            }
+        }
+    ]
+}

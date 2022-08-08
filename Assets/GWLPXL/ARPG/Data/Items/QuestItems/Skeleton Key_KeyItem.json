@@ -1,0 +1,34 @@
+{
+    "config": {
+        "instanceID": 16648
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 25,
+        "Item": {
+            "instanceID": 16620
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16650
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 16652
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "forQuests": [
+        {
+            "instanceID": 16654
+        },
+        {
+            "instanceID": 16656
+        }
+    ],
+    "itemName": "Skeleton Key",
+    "UserDescription": "This is a key item, never duplicated"
+}

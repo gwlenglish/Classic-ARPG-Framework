@@ -1,0 +1,48 @@
+{
+    "config": {
+        "instanceID": 16614
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 13,
+        "Item": {
+            "instanceID": 58808
+        }
+    },
+    "autoName": false,
+    "rarity": {
+        "instanceID": 18492
+    },
+    "meshPrefab": {
+        "instanceID": 16480
+    },
+    "sprite": {
+        "instanceID": 16618
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        35
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16620
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Battle Axe 2D",
+        "baseType": 1,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 0.5,
+        "nativeTraits": []
+    },
+    "wearablePefab": {
+        "instanceID": 16622
+    },
+    "weaponType": 2
+}

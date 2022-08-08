@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ad6f03a918b784e9dbe52172a016fa, type: 3}
+  m_Name: Walk
+  m_EditorClassIdentifier: Assembly-CSharp:GWLPXL.ARPGCore.States.com:GenericAnimate2DSO
+  States:
+  - AnimatorStateName: Walk_Down
+    MovementDirection: 0
+  - AnimatorStateName: Walk_DownLeft
+    MovementDirection: 1
+  - AnimatorStateName: Walk_Left
+    MovementDirection: 2
+  - AnimatorStateName: Walk_UpLeft
+    MovementDirection: 3
+  - AnimatorStateName: Walk_Up
+    MovementDirection: 4
+  - AnimatorStateName: Walk_UpRight
+    MovementDirection: 5
+  - AnimatorStateName: Walk_Right
+    MovementDirection: 6
+  - AnimatorStateName: Walk_DownRight
+    MovementDirection: 7

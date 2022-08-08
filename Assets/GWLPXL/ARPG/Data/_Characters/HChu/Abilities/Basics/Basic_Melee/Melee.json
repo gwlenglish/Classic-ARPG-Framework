@@ -1,0 +1,11 @@
+{
+    "config": {
+        "instanceID": 34724
+    },
+    "ParentToMelee": true,
+    "VFXPrefab": {
+        "instanceID": 0
+    },
+    "wpnbuffs": [],
+    "requirements": []
+}

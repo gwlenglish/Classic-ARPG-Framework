@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587726c2088a6d14f9cc80163a13863b, type: 3}
+  m_Name: King Loot
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: f8658e545d1ba9d42bc6017f05cf77d9, type: 3}
+  lootPrefabOverride: {fileID: 0}
+  ID:
+    Name: King Loot
+    ID: 6
+    LootDrops: {fileID: 11400000}
+  AllPossibleItems:
+  - {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}
+  - {fileID: 11400000, guid: 5cd931fb8c634864891d3c4407c6aef4, type: 2}
+  LootTable:
+  - Description: _50
+    RelativePercent: 50
+    RangeFrom: 0
+    RangeTo: 5
+    Item: {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}
+  - Description: _50
+    RelativePercent: 50
+    RangeFrom: 5
+    RangeTo: 10
+    Item: {fileID: 11400000, guid: 5cd931fb8c634864891d3c4407c6aef4, type: 2}

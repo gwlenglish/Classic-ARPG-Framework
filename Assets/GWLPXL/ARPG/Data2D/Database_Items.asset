@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c2ba6aa3842b647bcb23d9d14b8d33, type: 3}
+  m_Name: Database_Items
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Sword
+    ID:
+      Name: 
+      ID: 2
+      Item: {fileID: 11400000, guid: d71c8f86f719c6648a07830b37962865, type: 2}
+    Item: {fileID: 11400000, guid: d71c8f86f719c6648a07830b37962865, type: 2}
+  - DescriptiveName: Sword
+    ID:
+      Name: 
+      ID: 3
+      Item: {fileID: 11400000, guid: 7f68a6aa175f52546a0dba2f710f8ce8, type: 2}
+    Item: {fileID: 11400000, guid: 7f68a6aa175f52546a0dba2f710f8ce8, type: 2}
+  - DescriptiveName: Sword
+    ID:
+      Name: 
+      ID: 4
+      Item: {fileID: 11400000, guid: acfaf24d764478346b785c51c5a5fb6f, type: 2}
+    Item: {fileID: 11400000, guid: acfaf24d764478346b785c51c5a5fb6f, type: 2}
+  - DescriptiveName: Sword
+    ID:
+      Name: 
+      ID: 5
+      Item: {fileID: 11400000, guid: 47b4e8f7ca5bb8440bf031a20b00ff71, type: 2}
+    Item: {fileID: 11400000, guid: 47b4e8f7ca5bb8440bf031a20b00ff71, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 6
+      Item: {fileID: 11400000, guid: b2c69e58fb1f8814b9ee24ec4d66ede5, type: 2}
+    Item: {fileID: 11400000, guid: b2c69e58fb1f8814b9ee24ec4d66ede5, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 7
+      Item: {fileID: 11400000, guid: e7946d12e998add4ca005463cb329dde, type: 2}
+    Item: {fileID: 11400000, guid: e7946d12e998add4ca005463cb329dde, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 8
+      Item: {fileID: 11400000, guid: e510b35fdcb8a634cadad11e36bfbbd3, type: 2}
+    Item: {fileID: 11400000, guid: e510b35fdcb8a634cadad11e36bfbbd3, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 9
+      Item: {fileID: 11400000, guid: b0123bd7d93516847ada320fb394dc47, type: 2}
+    Item: {fileID: 11400000, guid: b0123bd7d93516847ada320fb394dc47, type: 2}
+  - DescriptiveName: Axe
+    ID:
+      Name: 
+      ID: 13
+      Item: {fileID: 11400000, guid: f3be29cd5fc4326498e8cd415b2a3ad0, type: 2}
+    Item: {fileID: 11400000, guid: f3be29cd5fc4326498e8cd415b2a3ad0, type: 2}
+  - DescriptiveName: Sword
+    ID:
+      Name: 2_Damage_Necro Sword 2D_Common_Sword
+      ID: 14
+      Item: {fileID: 11400000, guid: a0604c043727fbb43b81dd8eb5a367e0, type: 2}
+    Item: {fileID: 11400000, guid: a0604c043727fbb43b81dd8eb5a367e0, type: 2}

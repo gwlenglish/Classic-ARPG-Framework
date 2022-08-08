@@ -1,0 +1,27 @@
+{
+    "config": {
+        "instanceID": 232474
+    },
+    "variables": {
+        "Rotation": 0,
+        "ProjectilePrefab": {
+            "instanceID": 0
+        },
+        "StartOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "XTiltAngle": 0.0
+    },
+    "overrideShooterAmmo": false,
+    "shooterIndices": [
+        0
+    ],
+    "weaponBuffs": [],
+    "requirements": [
+        {
+            "instanceID": 232470
+        }
+    ]
+}

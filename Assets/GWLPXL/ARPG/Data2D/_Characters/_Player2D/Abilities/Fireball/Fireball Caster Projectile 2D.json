@@ -1,0 +1,21 @@
+{
+    "config": {
+        "instanceID": 19030
+    },
+    "variables": {
+        "Rotation": 2,
+        "ProjectilePrefab": {
+            "instanceID": 19032
+        },
+        "Offsets": {
+            "StartOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "XTiltAngle": 0.0,
+            "YTiltAngle": 0.0,
+            "ZTiltAngle": 0.0
+        }
+    }
+}

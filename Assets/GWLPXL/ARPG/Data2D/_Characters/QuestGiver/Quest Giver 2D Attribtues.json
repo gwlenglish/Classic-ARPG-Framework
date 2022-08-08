@@ -1,0 +1,65 @@
+{
+    "config": {
+        "instanceID": 32318
+    },
+    "databaseID": {
+        "Name": "",
+        "ID": 3,
+        "ActorStats": {
+            "instanceID": 0
+        }
+    },
+    "LevelUpEvent": {
+        "instanceID": 0
+    },
+    "myLevel": 0,
+    "restoreOnLevel": true,
+    "ActorName": "Quest Giver 2D",
+    "maxLevel": 99,
+    "baseStat": 0,
+    "Resources": [
+        {
+            "NowValue": 0,
+            "Level1Value": 100,
+            "LevelCurve": {
+                "serializedVersion": "2",
+                "m_Curve": [
+                    {
+                        "serializedVersion": "3",
+                        "time": 0.0,
+                        "value": 0.0,
+                        "inSlope": 1.0,
+                        "outSlope": 1.0,
+                        "tangentMode": 34,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    },
+                    {
+                        "serializedVersion": "3",
+                        "time": 1.0,
+                        "value": 1.0,
+                        "inSlope": 1.0,
+                        "outSlope": 1.0,
+                        "tangentMode": 34,
+                        "weightedMode": 0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0
+                    }
+                ],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 0
+            },
+            "Level99Max": 100,
+            "Type": 0
+        }
+    ],
+    "Stats": [],
+    "resourceLinks": [],
+    "combatLinks": [],
+    "ElementAttacks": [],
+    "ElementResists": [],
+    "abilityMods": [],
+    "others": []
+}

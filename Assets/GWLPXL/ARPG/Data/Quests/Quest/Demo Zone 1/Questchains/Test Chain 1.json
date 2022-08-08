@@ -1,0 +1,103 @@
+{
+    "config": {
+        "instanceID": 21130
+    },
+    "ID": {
+        "Name": "Test Chain 1",
+        "ID": 5,
+        "Questchain": {
+            "instanceID": 21110
+        }
+    },
+    "questChainName": "Test Chain 1",
+    "isRepeatable": false,
+    "StartType": 1,
+    "questStartTemplates": [
+        {
+            "instanceID": 16132
+        }
+    ],
+    "requirements": [
+        {
+            "instanceID": 21132
+        },
+        {
+            "instanceID": 21134
+        }
+    ],
+    "states": [
+        {
+            "StateName": "Available",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 0,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16132
+                    },
+                    "QuestGiverText": "Test Chain 1 available. This is an example of a quest chain with only 1 quest."
+                }
+            ],
+            "QuestLogEntry": ""
+        },
+        {
+            "StateName": "Completed",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 10,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16132
+                    },
+                    "QuestGiverText": "Chain 1 Complete."
+                }
+            ],
+            "QuestLogEntry": ""
+        },
+        {
+            "StateName": "RewardsCollected",
+            "QuestTemplate": {
+                "instanceID": 0
+            },
+            "State": 20,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16132
+                    },
+                    "QuestGiverText": "Chain 1 Rewards Given"
+                }
+            ],
+            "QuestLogEntry": ""
+        }
+    ],
+    "quests": [
+        {
+            "instanceID": 21136
+        }
+    ],
+    "rewardType": 0,
+    "questGiverTemplates": [
+        {
+            "instanceID": 16132
+        }
+    ],
+    "chainRewards": [
+        {
+            "instanceID": 17046
+        },
+        {
+            "instanceID": 17048
+        },
+        {
+            "instanceID": 19870
+        }
+    ]
+}

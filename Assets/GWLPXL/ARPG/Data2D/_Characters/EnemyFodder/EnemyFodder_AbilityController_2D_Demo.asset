@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72184cf486ccf843a4fca13c31b93cf, type: 3}
+  m_Name: EnemyFodder_AbilityController_2D_Demo
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 65a227d4265dfeb44964508605629020, type: 3}
+  id:
+    Name: EnemyFodder
+    ID: 1
+    AbilityController: {fileID: 11400000}
+  Data:
+    AutoName: 0
+    AutoAssignUniqueID: 0
+    Name: Enemy Fodder
+    Description: For the Demo Scene
+    UniqueID: 1
+  BasicAttacks:
+  - {fileID: 11400000, guid: 9f8d8ce755a624d4bbfcb35de51ba4d4, type: 2}
+  StartingAbilities:
+  - {fileID: 11400000, guid: fe3d06911b6ad3d4ca8fa410a01e6057, type: 2}
+  EquippedCap: 1
+  LearnedCap: 1

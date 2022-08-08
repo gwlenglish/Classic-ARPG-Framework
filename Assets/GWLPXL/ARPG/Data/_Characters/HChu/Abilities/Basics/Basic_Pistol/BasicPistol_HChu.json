@@ -1,0 +1,49 @@
+{
+    "config": {
+        "instanceID": 24734
+    },
+    "id": {
+        "Name": "",
+        "ID": 7,
+        "Ability": {
+            "instanceID": 24468
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Quick Shot",
+        "Description": "Quick shot with your pistol. ",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [
+            {
+                "instanceID": 24736
+            }
+        ],
+        "UniqueID": 8,
+        "Sprite": {
+            "instanceID": 0
+        },
+        "AnimationTrigger": "BasicPistol",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 0,
+    "AddCooldown": true,
+    "CoolDownRate": 0.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.33000001311302187,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

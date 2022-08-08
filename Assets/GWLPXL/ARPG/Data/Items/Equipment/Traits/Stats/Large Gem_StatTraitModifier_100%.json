@@ -1,0 +1,34 @@
+{
+    "config": {
+        "instanceID": 15158
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Large Gem_StatTraitModifier_100%",
+        "ID": 12,
+        "Trait": {
+            "instanceID": 15154
+        }
+    },
+    "traitName": "Large Gem",
+    "TraitPrefixes": [
+        "Sharpened"
+    ],
+    "TraitSuffixes": [
+        "Sharpened"
+    ],
+    "TraitNouns": [
+        "Dexterity"
+    ],
+    "myValue": 20,
+    "myLevelMulti": 100,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 100,
+        "Order": 100
+    },
+    "Type": 2
+}

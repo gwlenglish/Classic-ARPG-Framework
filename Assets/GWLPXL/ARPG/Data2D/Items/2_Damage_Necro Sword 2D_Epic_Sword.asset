@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a110defa25362743bb791f86ed3e4c4, type: 3}
+  m_Name: 2_Damage_Necro Sword 2D_Epic_Sword
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: c94f327fdc5e8a74e8d9863c9637adcf, type: 3}
+  itemID:
+    Name: 
+    ID: 2
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: dd7d998b8e3cd174d8008419732fd2d9, type: 2}
+  meshPrefab: {fileID: 2519678595636909282, guid: d8d1f8cb69b49484b86f0284f05ec0f4,
+    type: 3}
+  sprite: {fileID: -7491104400742117215, guid: 21474727175b41e4cb58317e16b1e5bd, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  classRestriction: 0
+  slots: 23000000
+  traitTiers:
+  - ILevelMulti: 1
+    MaxNumberOfTraitsPerTier: 4
+    PossibleTierDrops: {fileID: 11400000, guid: 561977db253f2fd44bc7100c58bab747,
+      type: 2}
+  stats:
+    baseName: Sword
+    baseType: 1
+    baseStatMinValue: 1
+    baseStateILevelMulti: 1
+    nativeTraits: []
+    sockets:
+    - SocketedThing: {fileID: 0}
+      SocketType: 102
+    - SocketedThing: {fileID: 0}
+      SocketType: 100
+    - SocketedThing: {fileID: 0}
+      SocketType: 100
+  wearablePefab: {fileID: 1679260081053658311, guid: 7a77a9a57bfb515469033f7b1022518e,
+    type: 3}
+  enchantable: 1
+  weaponType: 1

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587726c2088a6d14f9cc80163a13863b, type: 3}
+  m_Name: LootEpic
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 548ae0e5ca7aebf4cbc37729e1236417, type: 3}
+  lootPrefabOverride: {fileID: 0}
+  ID:
+    Name: Loot Epic
+    ID: 9
+    LootDrops: {fileID: 11400000}
+  AllPossibleItems:
+  - {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}
+  LootTable:
+  - Description: _100
+    RelativePercent: 100
+    RangeFrom: 0
+    RangeTo: 15
+    Item: {fileID: 11400000, guid: e9eaa5f0456d6654d90ffb4bfbb9a38a, type: 2}

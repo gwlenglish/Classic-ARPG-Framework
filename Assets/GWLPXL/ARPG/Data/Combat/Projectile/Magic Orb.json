@@ -1,0 +1,25 @@
+{
+    "config": {
+        "instanceID": 25338
+    },
+    "id": {
+        "Name": "Magic Orb",
+        "ID": 7,
+        "Instance": {
+            "instanceID": 24972
+        }
+    },
+    "ProjectileVars": {
+        "descriptiveName": "Orb",
+        "description": "Magic ball shoots forward",
+        "speed": 5.0,
+        "disableOnTouch": false,
+        "friendlyFire": false,
+        "lifetime": 10.0,
+        "blockingLayers": {
+            "serializedVersion": "2",
+            "m_Bits": 0
+        },
+        "block": 1
+    }
+}

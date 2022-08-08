@@ -1,0 +1,17 @@
+{
+    "config": {
+        "instanceID": 17178
+    },
+    "id": {
+        "Name": "Default",
+        "ID": 1,
+        "Instance": {
+            "instanceID": 17010
+        }
+    },
+    "MeleeVars": {
+        "descriptiveName": "Default",
+        "description": "Default",
+        "friendlyFire": false
+    }
+}

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2451ab82b6a8a3b43a4b72504e2d41c3, type: 3}
+  m_Name: Demo_ActorAttributesDatabase
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Player Default
+    ID:
+      Name: Player Default
+      ID: 1
+      ActorStats: {fileID: 11400000, guid: 82659c73bd196494e8741adc6f4ed4c7, type: 2}
+    ActorStats: {fileID: 11400000, guid: 82659c73bd196494e8741adc6f4ed4c7, type: 2}
+  - DescriptiveName: Player Hchu
+    ID:
+      Name: Player Warrior
+      ID: 2
+      ActorStats: {fileID: 11400000, guid: ce798347600945c4cbeca81ff57405e1, type: 2}
+    ActorStats: {fileID: 11400000, guid: ce798347600945c4cbeca81ff57405e1, type: 2}
+  - DescriptiveName: Target Dummy
+    ID:
+      Name: Target Dummy
+      ID: 3
+      ActorStats: {fileID: 11400000, guid: 7138ec78038ac7244bf1cc0948a9a54f, type: 2}
+    ActorStats: {fileID: 11400000, guid: 7138ec78038ac7244bf1cc0948a9a54f, type: 2}
+  - DescriptiveName: Table breakable
+    ID:
+      Name: Table breakable
+      ID: 4
+      ActorStats: {fileID: 11400000, guid: 83f428873e5d6af44a54bc7be6e5a355, type: 2}
+    ActorStats: {fileID: 11400000, guid: 83f428873e5d6af44a54bc7be6e5a355, type: 2}
+  - DescriptiveName: Player Warrior
+    ID:
+      Name: Player Warrior
+      ID: 5
+      ActorStats: {fileID: 11400000, guid: 64eec336585efa34595d91b14d442ffb, type: 2}
+    ActorStats: {fileID: 11400000, guid: 64eec336585efa34595d91b14d442ffb, type: 2}
+  - DescriptiveName: Quest Giver 1
+    ID:
+      Name: Quest Giver 1
+      ID: 6
+      ActorStats: {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+    ActorStats: {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+  - DescriptiveName: Quest Giver 2
+    ID:
+      Name: Quest Giver 2
+      ID: 7
+      ActorStats: {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+    ActorStats: {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+  - DescriptiveName: Shop Keeper 1
+    ID:
+      Name: Quest Giver 1
+      ID: 8
+      ActorStats: {fileID: 11400000, guid: e2ef23c104db4b34b9ea6b0a9a876023, type: 2}
+    ActorStats: {fileID: 11400000, guid: e2ef23c104db4b34b9ea6b0a9a876023, type: 2}
+  - DescriptiveName: Player Warrior
+    ID:
+      Name: Player Warrior
+      ID: 10
+      ActorStats: {fileID: 11400000, guid: 842774d28be82d2448bf423110109a02, type: 2}
+    ActorStats: {fileID: 11400000, guid: 842774d28be82d2448bf423110109a02, type: 2}
+  - DescriptiveName: Test Actor 2
+    ID:
+      Name: 
+      ID: 11
+      ActorStats: {fileID: 11400000, guid: 38c1b9e89909ea24695be9dd55ce5393, type: 2}
+    ActorStats: {fileID: 11400000, guid: 38c1b9e89909ea24695be9dd55ce5393, type: 2}
+  - DescriptiveName: Player Hchu
+    ID:
+      Name: Player_HChu
+      ID: 12
+      ActorStats: {fileID: 11400000, guid: 6adca9c1b6d8783468ab141edc7f345b, type: 2}
+    ActorStats: {fileID: 11400000, guid: 6adca9c1b6d8783468ab141edc7f345b, type: 2}
+  - DescriptiveName: Rockie
+    ID:
+      Name: Enemy_Fodder
+      ID: 13
+      ActorStats: {fileID: 11400000, guid: 14b8f3ee866e9a5449900f4d0b8a2222, type: 2}
+    ActorStats: {fileID: 11400000, guid: 14b8f3ee866e9a5449900f4d0b8a2222, type: 2}

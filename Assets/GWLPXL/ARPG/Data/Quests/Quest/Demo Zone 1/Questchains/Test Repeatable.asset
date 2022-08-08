@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449b227acaa54e04682e4c08ece72ba5, type: 3}
+  m_Name: Test Repeatable
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: d7f5d5a8295dee447ba6842ab933f5b8, type: 3}
+  ID:
+    Name: Test Repeatable
+    ID: 4
+    Questchain: {fileID: 11400000}
+  questChainName: Test Repeatable
+  isRepeatable: 1
+  StartType: 1
+  questStartTemplates:
+  - {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+  requirements:
+  - {fileID: 11400000, guid: 2883e222559ba2d4ba64fc8ff5fac8bb, type: 2}
+  - {fileID: 11400000, guid: c614cd2d2055a104c87290ffa704aee4, type: 2}
+  states:
+  - StateName: Available
+    QuestTemplate: {fileID: 0}
+    State: 0
+    Lines:
+    - DescriptiveName: Quest Giver 2
+      Actor: {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+      QuestGiverText: 'Test Repeatable: State Available. This is an example of a
+        quest chain that is repeatable. '
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  - StateName: Completed
+    QuestTemplate: {fileID: 0}
+    State: 10
+    Lines:
+    - DescriptiveName: Quest Giver 2
+      Actor: {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+      QuestGiverText: 'Test Repeatable: State Complete. '
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  - StateName: RewardsCollected
+    QuestTemplate: {fileID: 0}
+    State: 20
+    Lines:
+    - DescriptiveName: Quest Giver 2
+      Actor: {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+      QuestGiverText: 'Test Repeatable: State Rewards Collected. '
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  quests:
+  - {fileID: 11400000, guid: 31c0dc1a87d57f14a8963f6f1aa77824, type: 2}
+  rewardType: 0
+  questGiverTemplates:
+  - {fileID: 11400000, guid: 4d84d927294287849b00f4ae1e94fb2c, type: 2}
+  chainRewards:
+  - {fileID: 11400000, guid: 7cf716542e58d84469641d68d39d70d8, type: 2}
+  - {fileID: 11400000, guid: b4ce8325e6ea1204b9cb4250f82efb01, type: 2}
+  - {fileID: 11400000, guid: 70bd65d9dc8e9d741bbd6a0f12ff0bca, type: 2}

@@ -1,0 +1,25 @@
+{
+    "config": {
+        "instanceID": 17524
+    },
+    "id": {
+        "Name": "Arrow",
+        "ID": 5,
+        "Instance": {
+            "instanceID": 17366
+        }
+    },
+    "ProjectileVars": {
+        "descriptiveName": "Arrow",
+        "description": "Normal arrow. ",
+        "speed": 35.0,
+        "disableOnTouch": true,
+        "friendlyFire": false,
+        "lifetime": 10.0,
+        "blockingLayers": {
+            "serializedVersion": "2",
+            "m_Bits": 0
+        },
+        "block": 1
+    }
+}

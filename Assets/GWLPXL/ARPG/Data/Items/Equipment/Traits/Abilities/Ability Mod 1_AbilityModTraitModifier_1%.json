@@ -1,0 +1,30 @@
+{
+    "config": {
+        "instanceID": 22750
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Ability Mod 1_AbilityModTraitModifier_1%",
+        "ID": 1,
+        "Trait": {
+            "instanceID": 22628
+        }
+    },
+    "traitName": "Ability Mod 1",
+    "TraitPrefixes": [],
+    "TraitSuffixes": [],
+    "TraitNouns": [],
+    "myValue": 1,
+    "myLevelMulti": 1,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 300,
+        "Order": 300
+    },
+    "AbilityToMod": {
+        "instanceID": 0
+    }
+}

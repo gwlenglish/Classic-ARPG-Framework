@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: AoE Spin HChu
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 56317c53074439e4db3c84e1bbfabc71, type: 3}
+  id:
+    Name: 
+    ID: 4
+    Ability: {fileID: 11400000}
+  autoName: 1
+  Data:
+    Name: AoE Spin HChu
+    Description: Spins around a causes fire damage within close proximity. Leaves
+      a DoT that does 3 damage a second for 5 secodns, stacking up to 5 times.
+    DamageMultiplier: 1
+    Range: 3
+    ResourceCost: 5
+    ResourceType: 1
+    Logics: []
+    UniqueID: 4
+    Sprite: {fileID: -5041531480436496497, guid: d274d7b6131b1094fb3cf06d40b14134,
+      type: 3}
+    AnimationTrigger: Spin
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.25
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

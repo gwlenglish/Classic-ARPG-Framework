@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05343cb03a4559c46b47fb9b8808b95d, type: 3}
+  m_Name: 100 Gold_Worn
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: e68abb8438e3c40429d461afc59f52fa, type: 3}
+  itemID:
+    Name: 100 Gold_Worn
+    ID: 31
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: 19cbb9125e3278b4e873d3d27392b9e8, type: 2}
+  meshPrefab: {fileID: 0}
+  sprite: {fileID: 0}
+  purchaseCost: 10
+  sellCost: 5
+  Amount: 100
+  CurrencyName: Gold

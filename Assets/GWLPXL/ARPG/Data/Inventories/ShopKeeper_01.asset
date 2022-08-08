@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1540e87e0f163478db3ddcc85ad47e, type: 3}
+  m_Name: ShopKeeper_01
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: e886f33729733e943a79b707cd81ede3, type: 3}
+  EquipEvent: {fileID: 0}
+  UnEquipEvent: {fileID: 0}
+  ID:
+    Name: 
+    ID: 2
+    SOReference: {fileID: 0}
+  inventoryName: ShopKeeper 01
+  ItemInventorySize: 25
+  currentCurrency: 100
+  startingEquipment:
+  - {fileID: 11400000, guid: 013463d1bdfe4d04097a00c220175c93, type: 2}
+  - {fileID: 11400000, guid: d37028510b43fa648a87b5fede24987a, type: 2}
+  startingItems:
+  - {fileID: 11400000, guid: 5bfec0c6b0b9e7247b3b7419934821fb, type: 2}
+  - {fileID: 11400000, guid: c0e0b6705299c2a4a987870bea30884d, type: 2}
+  startingGold: 5000

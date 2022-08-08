@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67e68529a7b4a48a05b37eaff60e0a8, type: 3}
+  m_Name: Fire Resist_ElementResistTraitModifier_100%
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 8d07f833c92f0b64eada8233924e3b22, type: 3}
+  AutoName: 1
+  traitID:
+    Name: Fire Resist_ElementResistTraitModifier_100%
+    ID: 6
+    Trait: {fileID: 11400000}
+  traitName: Fire Resist
+  TraitPrefixes:
+  - Fiery
+  - Blazing
+  TraitSuffixes:
+  - Blazing
+  TraitNouns:
+  - Flame
+  myValue: 1
+  myLevelMulti: 100
+  weight: 1
+  sprite: {fileID: 0}
+  attributeModifier:
+    Type: 300
+    Order: 300
+  Type: 1

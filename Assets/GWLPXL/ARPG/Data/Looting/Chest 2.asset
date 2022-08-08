@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587726c2088a6d14f9cc80163a13863b, type: 3}
+  m_Name: Chest 2
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 7b809d27c5d455341876553b2c0d4297, type: 3}
+  lootPrefabOverride: {fileID: 0}
+  ID:
+    Name: Chest 2
+    ID: 1
+    LootDrops: {fileID: 11400000}
+  AllPossibleItems:
+  - {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}
+  LootTable:
+  - Description: _100
+    RelativePercent: 100
+    RangeFrom: 0
+    RangeTo: 5
+    Item: {fileID: 11400000, guid: 587079bc0b57a2747a3ed9d1739e3418, type: 2}

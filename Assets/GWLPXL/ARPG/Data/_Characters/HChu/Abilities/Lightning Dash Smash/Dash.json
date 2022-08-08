@@ -1,0 +1,53 @@
+{
+    "config": {
+        "instanceID": 23464
+    },
+    "id": {
+        "Name": "",
+        "ID": 12,
+        "Ability": {
+            "instanceID": 23068
+        }
+    },
+    "autoGenerateID": false,
+    "autoName": false,
+    "Data": {
+        "Name": "Dash Forward",
+        "Description": "Dash",
+        "DamageMultiplier": 1.0,
+        "Range": 10.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "AnimationTrigger": "BasicMelee",
+        "AnimationIndex": 1,
+        "Logics": [
+            {
+                "instanceID": 23466
+            },
+            {
+                "instanceID": 23128
+            },
+            {
+                "instanceID": 23132
+            }
+        ],
+        "UniqueID": 7,
+        "Sprite": {
+            "instanceID": 0
+        }
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CooldownRate": 1.0,
+    "CanLoop": false,
+    "AddDelay": true,
+    "Delay": 0.0,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "Abilities": []
+    }
+}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74848d6eec1690c4bb82ec7af7e6e2c5, type: 3}
+  m_Name: Database_Questchains
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Demo Questchain 01
+    ID:
+      Name: Demo Questchain 01 2D
+      ID: 1
+      Questchain: {fileID: 11400000, guid: 753cf1d69e1c8f74a92c5bd40ca13893, type: 2}
+    Questchain: {fileID: 11400000, guid: 753cf1d69e1c8f74a92c5bd40ca13893, type: 2}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449b227acaa54e04682e4c08ece72ba5, type: 3}
+  m_Name: Test Chain 2
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 9fd81f83da05d6845b79126828c5d78a, type: 3}
+  ID:
+    Name: Test Chain 2
+    ID: 3
+    Questchain: {fileID: 11400000}
+  questChainName: Test Chain 2
+  isRepeatable: 0
+  StartType: 1
+  questStartTemplates:
+  - {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+  requirements:
+  - {fileID: 11400000, guid: 2883e222559ba2d4ba64fc8ff5fac8bb, type: 2}
+  - {fileID: 11400000, guid: c614cd2d2055a104c87290ffa704aee4, type: 2}
+  states:
+  - StateName: Available
+    QuestTemplate: {fileID: 0}
+    State: 0
+    Lines:
+    - DescriptiveName: Quest Giver 1
+      Actor: {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+      QuestGiverText: Test Chain 2 Status Available. This is an example chain with
+        two quests to complete and you return the quests in to a different quest
+        giver.
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  - StateName: Completed
+    QuestTemplate: {fileID: 0}
+    State: 10
+    Lines:
+    - DescriptiveName: Quest Giver 1
+      Actor: {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+      QuestGiverText: 'Test Chain 2 Status Complete. '
+    QuestLogEntry: 'Objective: Return the key and oil to quest giver 2.'
+  - StateName: RewardsCollected
+    QuestTemplate: {fileID: 0}
+    State: 20
+    Lines:
+    - DescriptiveName: Quest Giver 1
+      Actor: {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+      QuestGiverText: Test Chain 2 Status Rewards Collected.
+    QuestLogEntry: 
+  quests:
+  - {fileID: 11400000, guid: 32ea739676fb9084594edc4b4413072b, type: 2}
+  - {fileID: 11400000, guid: 82024c2f18d2d8f449d66008fbec7dff, type: 2}
+  rewardType: 0
+  questGiverTemplates:
+  - {fileID: 11400000, guid: 0eca06fff6aa7794791d67a115d96dcc, type: 2}
+  chainRewards:
+  - {fileID: 11400000, guid: 7cf716542e58d84469641d68d39d70d8, type: 2}
+  - {fileID: 11400000, guid: b4ce8325e6ea1204b9cb4250f82efb01, type: 2}
+  - {fileID: 11400000, guid: 70bd65d9dc8e9d741bbd6a0f12ff0bca, type: 2}

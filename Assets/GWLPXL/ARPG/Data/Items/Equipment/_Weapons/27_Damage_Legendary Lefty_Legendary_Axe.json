@@ -1,0 +1,50 @@
+{
+    "config": {
+        "instanceID": 19882
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 8,
+        "Item": {
+            "instanceID": 19860
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16736
+    },
+    "meshPrefab": {
+        "instanceID": 19884
+    },
+    "sprite": {
+        "instanceID": 16714
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        30
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Legendary Lefty",
+        "baseType": 1,
+        "baseStatMinValue": 25,
+        "baseStateILevelMulti": 0.10000000149011612,
+        "nativeTraits": [],
+        "sockets": []
+    },
+    "wearablePefab": {
+        "instanceID": 19886
+    },
+    "enchantable": true,
+    "weaponType": 2
+}

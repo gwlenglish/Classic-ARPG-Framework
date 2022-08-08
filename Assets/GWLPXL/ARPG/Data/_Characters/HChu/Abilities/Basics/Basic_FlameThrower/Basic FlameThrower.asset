@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8a8b88041a044c9566dfc3f864a87, type: 3}
+  m_Name: Basic FlameThrower
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: ae6a346ec014d594d96cddac35f71f53, type: 3}
+  abilityStartProjectile:
+    ProjectileVars:
+      Rotation: 1
+      ProjectilePrefab: {fileID: 3027551796687633239, guid: 7193485260fdf91438a090d8d37914bb,
+        type: 3}
+      Offsets:
+        StartOffset: {x: 0, y: 0, z: 0}
+        XTiltAngle: 0
+        YTiltAngle: 0
+        ZTiltAngle: 0
+    OverrideShooterAmmo: 0
+    ShooterIndices: 00000000
+    weaponBuffs: []
+  abilityEndProjectile:
+    ProjectileVars:
+      Rotation: 0
+      ProjectilePrefab: {fileID: 0}
+      Offsets:
+        StartOffset: {x: 0, y: 0, z: 0}
+        XTiltAngle: 0
+        YTiltAngle: 0
+        ZTiltAngle: 0
+    OverrideShooterAmmo: 0
+    ShooterIndices: 
+    weaponBuffs: []
+  additionalProjectiles: []
+  requirements:
+  - {fileID: 11400000, guid: 4b1c5e4029f003f499f2d0e5c3d4fdb3, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb36e512ce617014690405eb6efa23f2, type: 3}
+  m_Name: Fist
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 4b416e2db18717a42a73d5ea9e3f25a8, type: 3}
+  id:
+    Name: Fist
+    ID: 4
+    Instance: {fileID: 11400000}
+  DamageVar:
+    combatHandler: {fileID: 11400000, guid: 394c5050f14d7ae44991ad1eae7cec6f, type: 2}
+    descriptiveName: Fist
+    damageOptions:
+      physdmg: 1
+      elemdg: 0
+      sotmod: 0
+    damageMultipliers:
+      physicalMultipler:
+        minD: 3
+        maxD: 5
+        percentOfCasterAttack: 0.2
+      elementMultipliers: []
+    statusOverTimeOptions:
+      applySOTAtEnter: 1
+      applySOTAtExit: 0
+      additionalSOTs: []
+      damageRate: 1
+      friendlyFire: 0
+    statusOverTimeMultiplers:
+      elementalMultipliers: []

@@ -1,0 +1,59 @@
+{
+    "Config": {
+        "instanceID": 32326
+    },
+    "classID": {
+        "Name": "NONE_class",
+        "ID": 5,
+        "SOReference": {
+            "instanceID": 32258
+        }
+    },
+    "classAttributes": {
+        "ClassName": "NONE",
+        "ClassType": 0,
+        "AllowedSlots": [
+            0,
+            5,
+            10,
+            15,
+            20,
+            25,
+            26,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            40,
+            45,
+            50
+        ],
+        "AllowedWeapons": [
+            0,
+            1,
+            2,
+            3,
+            100,
+            101,
+            102,
+            103
+        ],
+        "AllowedArmors": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "AllowedAccessories": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "autoName": true
+}

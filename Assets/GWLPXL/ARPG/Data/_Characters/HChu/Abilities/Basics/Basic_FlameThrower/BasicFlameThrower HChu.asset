@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: BasicFlameThrower HChu
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 000e460d872dc18468a9fa6f65ef7676, type: 3}
+  id:
+    Name: BasicFlameThrower HChu
+    ID: 21
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: FlameThrower HChu
+    Description: Uses the Flamethrower to do fire damage.
+    DamageMultiplier: 1
+    Range: 5
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 8c3b6db90e027614d8296434a63391c6, type: 2}
+    UniqueID: 0
+    Sprite: {fileID: 0}
+    AnimationTrigger: BasicFlame
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 0
+  AddCooldown: 1
+  CoolDownRate: 0
+  Duration: 0.1
+  CanLoop: 1
+  AddDelay: 1
+  Delay: 0.02
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

@@ -1,0 +1,35 @@
+{
+    "config": {
+        "instanceID": 17128
+    },
+    "AutoName": true,
+    "traitID": {
+        "Name": "Lightning Attack_ElementAttackTraitModifier_100%",
+        "ID": 4,
+        "Trait": {
+            "instanceID": 16954
+        }
+    },
+    "traitName": "Lightning Attack",
+    "TraitPrefixes": [
+        "Zapping",
+        "Brilliant"
+    ],
+    "TraitSuffixes": [
+        "Electric"
+    ],
+    "TraitNouns": [
+        "Lightning"
+    ],
+    "myValue": 1,
+    "myLevelMulti": 100,
+    "weight": 1,
+    "sprite": {
+        "instanceID": 0
+    },
+    "attributeModifier": {
+        "Type": 300,
+        "Order": 300
+    },
+    "Type": 3
+}

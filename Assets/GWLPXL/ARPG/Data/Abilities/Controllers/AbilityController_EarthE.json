@@ -1,0 +1,27 @@
+{
+    "config": {
+        "instanceID": 16620
+    },
+    "id": {
+        "Name": "",
+        "ID": 1,
+        "AbilityController": {
+            "instanceID": 16554
+        }
+    },
+    "Data": {
+        "AutoName": true,
+        "AutoAssignUniqueID": false,
+        "Name": "Demo",
+        "Description": "For the Demo Scene",
+        "UniqueID": 1
+    },
+    "BasicAttacks": [],
+    "StartingAbilities": [
+        {
+            "instanceID": 16622
+        }
+    ],
+    "EquippedCap": 1,
+    "LearnedCap": 1
+}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80a50b0614690124dba40c6353b6cc00, type: 3}
+  m_Name: 2_Armor_Waist_Common_Plate
+  m_EditorClassIdentifier: 
+  UIPattern: {fileID: 11400000, guid: fd0a0366af27daa42960a7eeb2321345, type: 2}
+  config: {fileID: 4900000, guid: 5796e803f930ba544a0ad0d2ff492504, type: 3}
+  itemID:
+    Name: 
+    ID: 15
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: 4df0bc156be553c4c9f8f3217ab8189b, type: 2}
+  meshPrefab: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 0a83471cfcb629445a3e7073994be5fd, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  classRestriction: 0
+  slots: 0f000000
+  traitTiers:
+  - ILevelMulti: 1
+    MaxNumberOfTraitsPerTier: 4
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  - ILevelMulti: 0.8
+    MaxNumberOfTraitsPerTier: 2
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  - ILevelMulti: 0.6
+    MaxNumberOfTraitsPerTier: 1
+    PossibleTierDrops: {fileID: 11400000, guid: 8f58240074035ee4f8c6c0b57a9dfc43,
+      type: 2}
+  stats:
+    baseName: Waist
+    baseType: 2
+    baseStatMinValue: 1
+    baseStateILevelMulti: 1
+    nativeTraits: []
+    sockets: []
+  wearablePefab: {fileID: 0}
+  enchantable: 1
+  armorMat: 4

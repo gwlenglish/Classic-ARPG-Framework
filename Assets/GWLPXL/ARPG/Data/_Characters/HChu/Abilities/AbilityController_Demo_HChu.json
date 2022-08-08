@@ -1,0 +1,64 @@
+{
+    "config": {
+        "instanceID": 23650
+    },
+    "id": {
+        "Name": "Hchu",
+        "ID": 3,
+        "AbilityController": {
+            "instanceID": 23600
+        }
+    },
+    "Data": {
+        "AutoName": true,
+        "AutoAssignUniqueID": false,
+        "Name": "Demo_HChu",
+        "Description": "For the Demo Scene",
+        "UniqueID": 3
+    },
+    "BasicAttacks": [
+        {
+            "instanceID": 23652
+        },
+        {
+            "instanceID": 23654
+        },
+        {
+            "instanceID": 23656
+        },
+        {
+            "instanceID": 23658
+        },
+        {
+            "instanceID": 23660
+        }
+    ],
+    "StartingAbilities": [
+        {
+            "instanceID": 23662
+        },
+        {
+            "instanceID": 23664
+        },
+        {
+            "instanceID": 23666
+        },
+        {
+            "instanceID": 23668
+        },
+        {
+            "instanceID": 23670
+        },
+        {
+            "instanceID": 23672
+        },
+        {
+            "instanceID": 23674
+        },
+        {
+            "instanceID": 23676
+        }
+    ],
+    "EquippedCap": 2,
+    "LearnedCap": 100
+}

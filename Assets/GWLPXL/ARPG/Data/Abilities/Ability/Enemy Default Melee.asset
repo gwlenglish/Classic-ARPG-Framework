@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Enemy Default Melee
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 095f0917a1cad274995420200aa5832f, type: 3}
+  id:
+    Name: 
+    ID: 9
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Enemy Melee
+    Description: Default Melee
+    DamageMultiplier: 1
+    Range: 1.5
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 95d0be8c688a43b49819e8b39f146d34, type: 2}
+    UniqueID: 5
+    Sprite: {fileID: 0}
+    AnimationTrigger: DefaultAttack
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0.25
+  ForwardSightAngle: 45
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

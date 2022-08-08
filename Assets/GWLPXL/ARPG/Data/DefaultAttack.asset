@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a01e6fd10bc18146a65bbc5fecb665c, type: 3}
+  m_Name: DefaultAttack
+  m_EditorClassIdentifier: 
+  StateKey: Aggro
+  Vars:
+    AbilityStateName: DefaultAttack
+    AbilityBlendDuration: 0.02
+    AbilityAnimLayer: 0
+    Ability: {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
+    ChaseStateName: Locomotion
+    ChaseBlendDuration: 0.02
+    ChaseLayer: 0

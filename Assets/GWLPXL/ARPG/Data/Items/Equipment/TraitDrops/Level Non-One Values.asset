@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b82e44ddd29ef4f96d6cd9368362d4, type: 3}
+  m_Name: Level Non-One Values
+  m_EditorClassIdentifier: 
+  PossibleTraits:
+  - {fileID: 11400000, guid: 3d887db43c9426d4fa41f556c33826fb, type: 2}
+  - {fileID: 11400000, guid: da55f038dc9fc4a44869e68769ee8c12, type: 2}
+  - {fileID: 11400000, guid: 4406eb2816f912748a324c4d5960fe5d, type: 2}
+  - {fileID: 11400000, guid: 30613a4aa9ed73246a08e1d10085336a, type: 2}
+  - {fileID: 11400000, guid: 08f1646a35db93a4fa00f20789497692, type: 2}
+  - {fileID: 11400000, guid: 5863c39db13aa4c4a8ef28165e9eecfe, type: 2}
+  - {fileID: 11400000, guid: 3659cc3de806d78439dc409bd4a932fd, type: 2}
+  - {fileID: 11400000, guid: 7fb9d87b04f45d74f93c83497e5f7271, type: 2}
+  - {fileID: 11400000, guid: 6ed7c687ea88f634bb9c187512f7e546, type: 2}
+  - {fileID: 11400000, guid: 63998ee0ed7fe6d43a6a5280f129a0dc, type: 2}
+  - {fileID: 11400000, guid: 0725caa6157bf8b4f9b2b6437874da00, type: 2}
+  - {fileID: 11400000, guid: 1bcdbb19dfe6ba044a774e73d104544b, type: 2}
+  TraitTable:
+  - Description: Ice Attack_6.666667
+    RelativePercent: 6.666667
+    RangeFrom: 55
+    RangeTo: 60
+    Trait: {fileID: 0}
+  - Description: Lightning Attack_6.666667
+    RelativePercent: 6.666667
+    RangeFrom: 60
+    RangeTo: 65
+    Trait: {fileID: 0}
+  - Description: Cold Resist_6.666667
+    RelativePercent: 6.666667
+    RangeFrom: 65
+    RangeTo: 70
+    Trait: {fileID: 0}
+  - Description: Fire Resist_6.666667
+    RelativePercent: 6.666667
+    RangeFrom: 70
+    RangeTo: 75
+    Trait: {fileID: 0}
+  - Description: Strength_9.333333
+    RelativePercent: 9.333333
+    RangeFrom: 0
+    RangeTo: 7
+    Trait: {fileID: 0}
+  - Description: Dexterity_9.333333
+    RelativePercent: 9.333333
+    RangeFrom: 27
+    RangeTo: 34
+    Trait: {fileID: 0}
+  - Description: Intelligence_9.333333
+    RelativePercent: 9.333333
+    RangeFrom: 34
+    RangeTo: 41
+    Trait: {fileID: 0}
+  - Description: Strength_9.333333
+    RelativePercent: 9.333333
+    RangeFrom: 41
+    RangeTo: 48
+    Trait: {fileID: 0}
+  - Description: Vitality_9.333333
+    RelativePercent: 9.333333
+    RangeFrom: 48
+    RangeTo: 55
+    Trait: {fileID: 0}
+  - Description: Minor Mana_13.33333
+    RelativePercent: 13.333334
+    RangeFrom: 7
+    RangeTo: 17
+    Trait: {fileID: 0}
+  - Description: Minor Health_13.33333
+    RelativePercent: 13.333334
+    RangeFrom: 17
+    RangeTo: 27
+    Trait: {fileID: 0}

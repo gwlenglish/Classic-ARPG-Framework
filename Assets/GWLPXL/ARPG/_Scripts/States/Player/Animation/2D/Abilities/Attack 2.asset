@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca09b22dbfef714595e905f03024bd2, type: 3}
+  m_Name: Attack 2
+  m_EditorClassIdentifier: 
+  Vars:
+    AnimatorStates:
+    - AnimatorStateName: Slash_UpLeft
+      FacingDirection: 3
+    - AnimatorStateName: Slash_DownLeft
+      FacingDirection: 2
+    - AnimatorStateName: Slash_UpRight
+      FacingDirection: 5
+    - AnimatorStateName: Slash_DownRight
+      FacingDirection: 6
+    - AnimatorStateName: Slash_DownLeft
+      FacingDirection: 1
+    - AnimatorStateName: Slash_DownLeft
+      FacingDirection: 0
+    - AnimatorStateName: Slash_UpRight
+      FacingDirection: 4
+    - AnimatorStateName: Slash_DownRight
+      FacingDirection: 7
+    Ability: {fileID: 11400000, guid: c4b0ff4aef2602a46b9100fc73c7eb63, type: 2}
+    MatchDurationToCooldown: 1
+    Duration: 1
+    Direction: 0
+    DashBehavior: {fileID: 11400000, guid: 0718abdbf856b26418a552005023b626, type: 2}

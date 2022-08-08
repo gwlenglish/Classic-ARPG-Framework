@@ -1,0 +1,24 @@
+{
+    "config": {
+        "instanceID": 32328
+    },
+    "EquipEvent": {
+        "instanceID": 0
+    },
+    "UnEquipEvent": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "PlayerInvDefault",
+        "ID": 1,
+        "SOReference": {
+            "instanceID": 32264
+        }
+    },
+    "inventoryName": "Inventory",
+    "ItemInventorySize": 0,
+    "currentCurrency": 100,
+    "startingEquipment": [],
+    "startingItems": [],
+    "startingGold": 0
+}

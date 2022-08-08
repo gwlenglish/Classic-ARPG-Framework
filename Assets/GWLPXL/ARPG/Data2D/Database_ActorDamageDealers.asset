@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97b4dfa1d890cf4ca9229debd0708ea, type: 3}
+  m_Name: Database_ActorDamageDealers
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Axe 2D
+    ID:
+      Name: Axe
+      ID: 1
+      Instance: {fileID: 11400000, guid: a3327b16ce7124046a0d9afa1ff40295, type: 2}
+    Instance: {fileID: 11400000, guid: a3327b16ce7124046a0d9afa1ff40295, type: 2}
+  - DescriptiveName: Cutlass 2D
+    ID:
+      Name: Cutlass
+      ID: 2
+      Instance: {fileID: 11400000, guid: c7c3b08813f15fe45a505fced1e31562, type: 2}
+    Instance: {fileID: 11400000, guid: c7c3b08813f15fe45a505fced1e31562, type: 2}
+  - DescriptiveName: Fireball 2D
+    ID:
+      Name: Fireball
+      ID: 3
+      Instance: {fileID: 11400000, guid: 939c41ef188d6754ead655efe5c9afc7, type: 2}
+    Instance: {fileID: 11400000, guid: 939c41ef188d6754ead655efe5c9afc7, type: 2}
+  - DescriptiveName: Fist 2D
+    ID:
+      Name: Fist
+      ID: 4
+      Instance: {fileID: 11400000, guid: 2103895e47ec88947a673103b768b23e, type: 2}
+    Instance: {fileID: 11400000, guid: 2103895e47ec88947a673103b768b23e, type: 2}
+  - DescriptiveName: Flamethrower 2D
+    ID:
+      Name: Flamethrower
+      ID: 5
+      Instance: {fileID: 11400000, guid: 64a3ed713093bb9468819d444f037f36, type: 2}
+    Instance: {fileID: 11400000, guid: 64a3ed713093bb9468819d444f037f36, type: 2}
+  - DescriptiveName: Iceball 2D
+    ID:
+      Name: Iceball
+      ID: 6
+      Instance: {fileID: 11400000, guid: 1f5785131c8688b47a8725d85a8d42d5, type: 2}
+    Instance: {fileID: 11400000, guid: 1f5785131c8688b47a8725d85a8d42d5, type: 2}
+  - DescriptiveName: Pistol 2D
+    ID:
+      Name: Pistol
+      ID: 7
+      Instance: {fileID: 11400000, guid: b57b554e1c0e8304489c8d296e4cf028, type: 2}
+    Instance: {fileID: 11400000, guid: b57b554e1c0e8304489c8d296e4cf028, type: 2}
+  - DescriptiveName: Shotgun 2D
+    ID:
+      Name: Shotgun
+      ID: 8
+      Instance: {fileID: 11400000, guid: 096e2f91d15ffdd4c8d5472f3af3d427, type: 2}
+    Instance: {fileID: 11400000, guid: 096e2f91d15ffdd4c8d5472f3af3d427, type: 2}
+  - DescriptiveName: Arrow 2D
+    ID:
+      Name: Arrow 2D
+      ID: 9
+      Instance: {fileID: 11400000, guid: 001aba796fc27334e8991e2ef26b1ccf, type: 2}
+    Instance: {fileID: 11400000, guid: 001aba796fc27334e8991e2ef26b1ccf, type: 2}

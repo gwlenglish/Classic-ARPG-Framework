@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 25558
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "Chest 1",
+        "ID": 15,
+        "LootDrops": {
+            "instanceID": 24968
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 19860
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "_100",
+            "RelativePercent": 100.0,
+            "RangeFrom": 0,
+            "RangeTo": 5,
+            "Item": {
+                "instanceID": 19860
+            }
+        }
+    ]
+}

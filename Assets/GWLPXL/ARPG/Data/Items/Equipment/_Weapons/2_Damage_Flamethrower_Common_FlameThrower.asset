@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a110defa25362743bb791f86ed3e4c4, type: 3}
+  m_Name: 2_Damage_Flamethrower_Common_FlameThrower
+  m_EditorClassIdentifier: 
+  UIPattern: {fileID: 11400000, guid: 91e81bb7166a8744f8fe41ab83e4f8bd, type: 2}
+  config: {fileID: 4900000, guid: b3efb1cd1c09f0948b99e6ba05b1431a, type: 3}
+  itemID:
+    Name: 
+    ID: 28
+    Item: {fileID: 11400000}
+  autoName: 1
+  rarity: {fileID: 11400000, guid: 4df0bc156be553c4c9f8f3217ab8189b, type: 2}
+  meshPrefab: {fileID: 1884363590031733555, guid: c9d9525bca6ba054098d51fa122eabbb,
+    type: 3}
+  sprite: {fileID: 21300000, guid: c626f0a29bdeb5442ad937b829c4032c, type: 3}
+  purchaseCost: 10
+  sellCost: 5
+  classRestriction: 0
+  slots: 230000001e000000
+  traitTiers:
+  - ILevelMulti: 1
+    MaxNumberOfTraitsPerTier: 4
+    PossibleTierDrops: {fileID: 11400000, guid: 561977db253f2fd44bc7100c58bab747,
+      type: 2}
+  stats:
+    baseName: Flamethrower
+    baseType: 1
+    baseStatMinValue: 1
+    baseStateILevelMulti: 1
+    nativeTraits: []
+    sockets: []
+  wearablePefab: {fileID: 1884363590031733517, guid: c9d9525bca6ba054098d51fa122eabbb,
+    type: 3}
+  enchantable: 1
+  weaponType: 103

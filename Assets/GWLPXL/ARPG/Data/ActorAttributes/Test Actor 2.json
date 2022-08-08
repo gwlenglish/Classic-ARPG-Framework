@@ -1,0 +1,28 @@
+{
+    "config": {
+        "instanceID": 25522
+    },
+    "databaseID": {
+        "Name": "",
+        "ID": 11,
+        "ActorStats": {
+            "instanceID": 24912
+        }
+    },
+    "LevelUpEvent": {
+        "instanceID": 0
+    },
+    "myLevel": 0,
+    "restoreOnLevel": true,
+    "ActorName": "Test Actor 2",
+    "maxLevel": 99,
+    "baseStat": 0,
+    "Resources": [],
+    "Stats": [],
+    "resourceLinks": [],
+    "combatLinks": [],
+    "ElementAttacks": [],
+    "ElementResists": [],
+    "abilityMods": [],
+    "others": []
+}

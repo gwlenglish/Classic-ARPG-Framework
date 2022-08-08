@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9336944f5b5fbd74c90f54b8387d5fe5, type: 3}
+  m_Name: Demo_Loot Drops Database
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Chest 2
+    ID:
+      Name: Chest 2
+      ID: 1
+      LootDrops: {fileID: 11400000, guid: f2530bf7666f8e94fb84fd8781d7028b, type: 2}
+    LootDrops: {fileID: 11400000, guid: f2530bf7666f8e94fb84fd8781d7028b, type: 2}
+  - DescriptiveName: Chest 3
+    ID:
+      Name: Chest 3
+      ID: 2
+      LootDrops: {fileID: 11400000, guid: 335783dc55a14a04e8a047c0222f1a73, type: 2}
+    LootDrops: {fileID: 11400000, guid: 335783dc55a14a04e8a047c0222f1a73, type: 2}
+  - DescriptiveName: DualWield
+    ID:
+      Name: DualWield
+      ID: 3
+      LootDrops: {fileID: 11400000, guid: 096e32f51c1d9994da3b76c70c2e54b5, type: 2}
+    LootDrops: {fileID: 11400000, guid: 096e32f51c1d9994da3b76c70c2e54b5, type: 2}
+  - DescriptiveName: Hero Loot
+    ID:
+      Name: Hero Loot
+      ID: 4
+      LootDrops: {fileID: 11400000, guid: 1125c00e03e418847b15f89a827d741e, type: 2}
+    LootDrops: {fileID: 11400000, guid: 1125c00e03e418847b15f89a827d741e, type: 2}
+  - DescriptiveName: King Head
+    ID:
+      Name: King Head
+      ID: 5
+      LootDrops: {fileID: 11400000, guid: 8fce9014cc361b5408b9bd5a07bf561f, type: 2}
+    LootDrops: {fileID: 11400000, guid: 8fce9014cc361b5408b9bd5a07bf561f, type: 2}
+  - DescriptiveName: King Loot
+    ID:
+      Name: King Loot
+      ID: 6
+      LootDrops: {fileID: 11400000, guid: 7314f4c7666efae4f9b20965b9d34999, type: 2}
+    LootDrops: {fileID: 11400000, guid: 7314f4c7666efae4f9b20965b9d34999, type: 2}
+  - DescriptiveName: Shop Keeper Demo
+    ID:
+      Name: Shop Keeper Demo
+      ID: 7
+      LootDrops: {fileID: 11400000, guid: 629bb5742c0945843b95b4dcf3282085, type: 2}
+    LootDrops: {fileID: 11400000, guid: 629bb5742c0945843b95b4dcf3282085, type: 2}
+  - DescriptiveName: Loot from Demo
+    ID:
+      Name: Loot from Demo
+      ID: 8
+      LootDrops: {fileID: 11400000, guid: 91ebdeb047a173246a4fe0360e5e6c87, type: 2}
+    LootDrops: {fileID: 11400000, guid: 91ebdeb047a173246a4fe0360e5e6c87, type: 2}
+  - DescriptiveName: Loot Epic
+    ID:
+      Name: Loot Epic
+      ID: 9
+      LootDrops: {fileID: 11400000, guid: 19d360585aaee584cb104bde5c65bae0, type: 2}
+    LootDrops: {fileID: 11400000, guid: 19d360585aaee584cb104bde5c65bae0, type: 2}
+  - DescriptiveName: Loot Legendary
+    ID:
+      Name: Loot Legendary
+      ID: 10
+      LootDrops: {fileID: 11400000, guid: 3c4e07caee2080d409674db63d303a4a, type: 2}
+    LootDrops: {fileID: 11400000, guid: 3c4e07caee2080d409674db63d303a4a, type: 2}
+  - DescriptiveName: New Loot Drops
+    ID:
+      Name: New Loot Drops
+      ID: 11
+      LootDrops: {fileID: 11400000, guid: 18b668ec68f332f4cbd07c94d7a4cae0, type: 2}
+    LootDrops: {fileID: 11400000, guid: 18b668ec68f332f4cbd07c94d7a4cae0, type: 2}
+  - DescriptiveName: Shop Keeper Demo Loot
+    ID:
+      Name: Shop Keeper Demo Loot
+      ID: 12
+      LootDrops: {fileID: 11400000, guid: 01bb368c552ab89409433f4ad5536523, type: 2}
+    LootDrops: {fileID: 11400000, guid: 01bb368c552ab89409433f4ad5536523, type: 2}
+  - DescriptiveName: Skeleton Key
+    ID:
+      Name: Skeleton Key
+      ID: 13
+      LootDrops: {fileID: 11400000, guid: dbca7ade0215c2641a0b0579bb5f43a8, type: 2}
+    LootDrops: {fileID: 11400000, guid: dbca7ade0215c2641a0b0579bb5f43a8, type: 2}
+  - DescriptiveName: Testing Loot
+    ID:
+      Name: Testing Loot
+      ID: 14
+      LootDrops: {fileID: 11400000, guid: 43b95aca3ffffed4298a27d19beaf5cc, type: 2}
+    LootDrops: {fileID: 11400000, guid: 43b95aca3ffffed4298a27d19beaf5cc, type: 2}
+  - DescriptiveName: Chest 1
+    ID:
+      Name: Chest 1
+      ID: 15
+      LootDrops: {fileID: 11400000, guid: 07696762ea131d147b2c846baa7643a8, type: 2}
+    LootDrops: {fileID: 11400000, guid: 07696762ea131d147b2c846baa7643a8, type: 2}
+  - DescriptiveName: TestingLoot_NoQuest
+    ID:
+      Name: TestingLoot_NoQuest
+      ID: 16
+      LootDrops: {fileID: 11400000, guid: efc032183629289488943d1959b6ead6, type: 2}
+    LootDrops: {fileID: 11400000, guid: efc032183629289488943d1959b6ead6, type: 2}

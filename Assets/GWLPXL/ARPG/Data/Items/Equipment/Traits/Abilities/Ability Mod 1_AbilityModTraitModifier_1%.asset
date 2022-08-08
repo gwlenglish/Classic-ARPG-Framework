@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d590c2913469463da90d4e650984114a, type: 3}
+  m_Name: Ability Mod 1_AbilityModTraitModifier_1%
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 9511ddac81f54614c97dad9a786dc45c, type: 3}
+  AutoName: 1
+  traitID:
+    Name: Ability Mod 1_AbilityModTraitModifier_1%
+    ID: 1
+    Trait: {fileID: 11400000}
+  traitName: Ability Mod 1
+  TraitPrefixes: []
+  TraitSuffixes: []
+  TraitNouns: []
+  myValue: 1
+  myLevelMulti: 1
+  weight: 1
+  sprite: {fileID: 0}
+  attributeModifier:
+    Type: 300
+    Order: 300
+  AbilityToMod: {fileID: 0}

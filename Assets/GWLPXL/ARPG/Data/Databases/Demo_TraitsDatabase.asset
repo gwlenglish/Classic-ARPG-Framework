@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9784484b8b61874ba500ae9020fd8d0, type: 3}
+  m_Name: Demo_TraitsDatabase
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data
+  slots:
+  - DescriptiveName: Ability Mod 1
+    ID:
+      Name: Ability Mod 1_AbilityModTraitModifier_1%
+      ID: 1
+      Trait: {fileID: 11400000, guid: d972a0d74d16a6e4681f64cd96795fbb, type: 2}
+    Trait: {fileID: 11400000, guid: d972a0d74d16a6e4681f64cd96795fbb, type: 2}
+  - DescriptiveName: Fire Attack
+    ID:
+      Name: Fire Attack_ElementAttackTraitModifier_100%
+      ID: 2
+      Trait: {fileID: 11400000, guid: 3d887db43c9426d4fa41f556c33826fb, type: 2}
+    Trait: {fileID: 11400000, guid: 3d887db43c9426d4fa41f556c33826fb, type: 2}
+  - DescriptiveName: Ice Attack
+    ID:
+      Name: Ice Attack_ElementAttackTraitModifier_100%
+      ID: 3
+      Trait: {fileID: 11400000, guid: da55f038dc9fc4a44869e68769ee8c12, type: 2}
+    Trait: {fileID: 11400000, guid: da55f038dc9fc4a44869e68769ee8c12, type: 2}
+  - DescriptiveName: Lightning Attack
+    ID:
+      Name: Lightning Attack_ElementAttackTraitModifier_100%
+      ID: 4
+      Trait: {fileID: 11400000, guid: 4406eb2816f912748a324c4d5960fe5d, type: 2}
+    Trait: {fileID: 11400000, guid: 4406eb2816f912748a324c4d5960fe5d, type: 2}
+  - DescriptiveName: Cold Resist
+    ID:
+      Name: Cold Resist_ElementResistTraitModifier_100%
+      ID: 5
+      Trait: {fileID: 11400000, guid: 30613a4aa9ed73246a08e1d10085336a, type: 2}
+    Trait: {fileID: 11400000, guid: 30613a4aa9ed73246a08e1d10085336a, type: 2}
+  - DescriptiveName: Fire Resist
+    ID:
+      Name: Fire Resist_ElementResistTraitModifier_100%
+      ID: 6
+      Trait: {fileID: 11400000, guid: 08f1646a35db93a4fa00f20789497692, type: 2}
+    Trait: {fileID: 11400000, guid: 08f1646a35db93a4fa00f20789497692, type: 2}
+  - DescriptiveName: Lightning Resist
+    ID:
+      Name: Lightning Resist_ElementResistTraitModifier_100%
+      ID: 7
+      Trait: {fileID: 11400000, guid: 5863c39db13aa4c4a8ef28165e9eecfe, type: 2}
+    Trait: {fileID: 11400000, guid: 5863c39db13aa4c4a8ef28165e9eecfe, type: 2}
+  - DescriptiveName: Minor Health
+    ID:
+      Name: Minor Health_MaxResourceTraitModifier_100%
+      ID: 8
+      Trait: {fileID: 11400000, guid: 3659cc3de806d78439dc409bd4a932fd, type: 2}
+    Trait: {fileID: 11400000, guid: 3659cc3de806d78439dc409bd4a932fd, type: 2}
+  - DescriptiveName: Minor Mana
+    ID:
+      Name: Minor Mana_MaxResourceTraitModifier_100%
+      ID: 9
+      Trait: {fileID: 11400000, guid: 7fb9d87b04f45d74f93c83497e5f7271, type: 2}
+    Trait: {fileID: 11400000, guid: 7fb9d87b04f45d74f93c83497e5f7271, type: 2}
+  - DescriptiveName: Dexterity
+    ID:
+      Name: Dexterity_StatTraitModifier_100%
+      ID: 10
+      Trait: {fileID: 11400000, guid: 6ed7c687ea88f634bb9c187512f7e546, type: 2}
+    Trait: {fileID: 11400000, guid: 6ed7c687ea88f634bb9c187512f7e546, type: 2}
+  - DescriptiveName: Intelligence
+    ID:
+      Name: Intelligence_StatTraitModifier_100%
+      ID: 11
+      Trait: {fileID: 11400000, guid: 63998ee0ed7fe6d43a6a5280f129a0dc, type: 2}
+    Trait: {fileID: 11400000, guid: 63998ee0ed7fe6d43a6a5280f129a0dc, type: 2}
+  - DescriptiveName: Large Gem
+    ID:
+      Name: Large Gem_StatTraitModifier_100%
+      ID: 12
+      Trait: {fileID: 11400000, guid: acaf1f37edda33348aa12203150d7f95, type: 2}
+    Trait: {fileID: 11400000, guid: acaf1f37edda33348aa12203150d7f95, type: 2}
+  - DescriptiveName: Small Gem
+    ID:
+      Name: Small Gem_StatTraitModifier_100%
+      ID: 13
+      Trait: {fileID: 11400000, guid: df8bcee85c551cf4ca5f4cd158051090, type: 2}
+    Trait: {fileID: 11400000, guid: df8bcee85c551cf4ca5f4cd158051090, type: 2}
+  - DescriptiveName: Strength
+    ID:
+      Name: Strength_StatTraitModifier_100%
+      ID: 14
+      Trait: {fileID: 11400000, guid: 0725caa6157bf8b4f9b2b6437874da00, type: 2}
+    Trait: {fileID: 11400000, guid: 0725caa6157bf8b4f9b2b6437874da00, type: 2}
+  - DescriptiveName: Vitality
+    ID:
+      Name: Vitality_StatTraitModifier_100%
+      ID: 15
+      Trait: {fileID: 11400000, guid: 1bcdbb19dfe6ba044a774e73d104544b, type: 2}
+    Trait: {fileID: 11400000, guid: 1bcdbb19dfe6ba044a774e73d104544b, type: 2}

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f3662bbe6ecb54c987eb3cff7bda63, type: 3}
+  m_Name: Table
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 8800f0dfed2ca5f4e9f8951c0b130f32, type: 3}
+  databaseID:
+    Name: Table breakable
+    ID: 4
+    ActorStats: {fileID: 11400000}
+  LevelUpEvent: {fileID: 0}
+  myLevel: 1
+  restoreOnLevel: 1
+  ActorName: Table breakable
+  maxLevel: 99
+  baseStat: 0
+  Resources:
+  - BaseValue: 0
+    Level1Value: 1
+    LevelCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Level99Max: 10
+    NowValue: 1
+    Type: 0
+  Stats: []
+  resourceLinks: []
+  combatLinks: []
+  ElementAttacks: []
+  ElementResists: []
+  abilityMods: []
+  others: []

@@ -1,0 +1,69 @@
+{
+    "config": {
+        "instanceID": 32364
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 2,
+        "Item": {
+            "instanceID": 32270
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 32358
+    },
+    "sprite": {
+        "instanceID": 32360
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        35
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16650
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Sword",
+        "baseType": 1,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 1.0,
+        "nativeTraits": [],
+        "sockets": [
+            {
+                "SocketedThing": {
+                    "instanceID": 0
+                },
+                "SocketType": 102
+            },
+            {
+                "SocketedThing": {
+                    "instanceID": 0
+                },
+                "SocketType": 100
+            },
+            {
+                "SocketedThing": {
+                    "instanceID": 0
+                },
+                "SocketType": 100
+            }
+        ]
+    },
+    "wearablePefab": {
+        "instanceID": 32362
+    },
+    "enchantable": true,
+    "weaponType": 1
+}

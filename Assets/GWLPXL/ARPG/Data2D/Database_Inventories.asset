@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638c4aa7f15b9a2418a8770e71a7391c, type: 3}
+  m_Name: Database_Inventories
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: EnemyFodder_Inventory_2D_Demo
+    ID:
+      Name: PlayerInvDefault
+      ID: 1
+      SOReference: {fileID: 11400000, guid: 67e04e6d85ced78489da7a6a983287cd, type: 2}
+    ActorInv: {fileID: 11400000, guid: 67e04e6d85ced78489da7a6a983287cd, type: 2}
+  - DescriptiveName: Player_HChu_Inventory2D
+    ID:
+      Name: PlayerInvDefault
+      ID: 4
+      SOReference: {fileID: 11400000, guid: 36c5b3277290ec14bbdc3c2656c26ccf, type: 2}
+    ActorInv: {fileID: 11400000, guid: 36c5b3277290ec14bbdc3c2656c26ccf, type: 2}
+  - DescriptiveName: Shop Keeper 2D Inventory
+    ID:
+      Name: Shop Keeper 2D Inventory
+      ID: 5
+      SOReference: {fileID: 11400000, guid: e9336b6a4e2407a43a7bdfbf9b40ea15, type: 2}
+    ActorInv: {fileID: 11400000, guid: e9336b6a4e2407a43a7bdfbf9b40ea15, type: 2}

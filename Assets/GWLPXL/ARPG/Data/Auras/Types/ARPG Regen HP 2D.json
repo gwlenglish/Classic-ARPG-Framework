@@ -1,0 +1,47 @@
+{
+    "config": {
+        "instanceID": 25540
+    },
+    "auraID": {
+        "Name": "",
+        "ID": 7,
+        "Aura": {
+            "instanceID": 24936
+        }
+    },
+    "AuraData": {
+        "AutoName": true,
+        "AutoAssignID": false,
+        "AuraName": "ARPG Regen HP 2D",
+        "AuraDescription": "Increases Max MP by 25, 2D version",
+        "AuraPrefab": {
+            "instanceID": 25528
+        },
+        "auraCategory": 0,
+        "uniqueID": 0,
+        "AuraLogics": [
+            {
+                "instanceID": 37182
+            }
+        ],
+        "AuraGroups": [
+            1
+        ],
+        "Pulses": true,
+        "PulseRate": 1.0,
+        "AOE": false,
+        "LayersToCheck": [
+            {
+                "serializedVersion": "2",
+                "m_Bits": 1
+            },
+            {
+                "serializedVersion": "2",
+                "m_Bits": 2048
+            }
+        ],
+        "ColliderType": 1,
+        "AreaRadius": 5.0,
+        "CheckAreaRate": 0.25
+    }
+}

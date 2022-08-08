@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184896f384ed8614d98e4b653a8514bd, type: 3}
+  m_Name: FirePit 2D
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 2b6dbe5e70c0a47489368b173942246e, type: 3}
+  DamageVars:
+    combatHandler: {fileID: 11400000, guid: 394c5050f14d7ae44991ad1eae7cec6f, type: 2}
+    damageMultipliers:
+      elementalMultipliers:
+      - editorDescription: 
+        damageType: 1
+        baseElementDamageAmount: 25
+    damageOverTimeOptions:
+      applySOTAtEnter: 1
+      applySOTAtExit: 0
+      additionalSOTs:
+      - TypeToDrain: 0
+        ElementDamage: 1
+        AmountPerTick: -1
+        Duration: 5
+        TickRate: 1
+        StackAmount: 1
+      damageRate: 1
+      friendlyFire: 0

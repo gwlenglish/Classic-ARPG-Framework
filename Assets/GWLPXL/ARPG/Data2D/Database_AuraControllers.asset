@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d911535430bba7468ebb719d2aad2af, type: 3}
+  m_Name: Database_AuraControllers
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Player HChu_AuraController 2D
+    ID:
+      AutoName: 0
+      AutoAssignUniqueID: 0
+      Name: Player 1
+      Description: Demo player 1
+      ID: 4
+      ControllerRef: {fileID: 11400000, guid: b49a3f5a9a5beb441af1e9b6476aaa00, type: 2}
+    Aura: {fileID: 11400000, guid: b49a3f5a9a5beb441af1e9b6476aaa00, type: 2}
+  - DescriptiveName: EnemyFodder_AuraController_2D_Demo
+    ID:
+      AutoName: 0
+      AutoAssignUniqueID: 0
+      Name: EnemyFodder_AuraController_2D_Demo
+      Description: 
+      ID: 5
+      ControllerRef: {fileID: 11400000, guid: 1c13f1dcd16fff448a6ef0d5144a7968, type: 2}
+    Aura: {fileID: 11400000, guid: 1c13f1dcd16fff448a6ef0d5144a7968, type: 2}

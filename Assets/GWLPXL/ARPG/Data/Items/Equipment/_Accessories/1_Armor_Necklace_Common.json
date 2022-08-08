@@ -1,0 +1,50 @@
+{
+    "config": {
+        "instanceID": 16664
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 27,
+        "Item": {
+            "instanceID": 16594
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 16668
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        40
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16670
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Necklace",
+        "baseType": 2,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 0.5,
+        "nativeTraits": [],
+        "sockets": []
+    },
+    "wearablePefab": {
+        "instanceID": 0
+    },
+    "enchantable": true,
+    "accessoryType": 1
+}

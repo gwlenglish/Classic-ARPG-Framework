@@ -1,0 +1,25 @@
+{
+    "config": {
+        "instanceID": 17510
+    },
+    "id": {
+        "Name": "",
+        "ID": 2,
+        "Instance": {
+            "instanceID": 17336
+        }
+    },
+    "ProjectileVars": {
+        "descriptiveName": "Flame",
+        "description": "Fire burst",
+        "speed": 1.0,
+        "disableOnTouch": true,
+        "friendlyFire": false,
+        "lifetime": 10.0,
+        "blockingLayers": {
+            "serializedVersion": "2",
+            "m_Bits": 0
+        },
+        "block": 1
+    }
+}

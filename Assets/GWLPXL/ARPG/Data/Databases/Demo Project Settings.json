@@ -1,0 +1,2540 @@
+{
+    "config": {
+        "instanceID": 25400
+    },
+    "LayerAssign": {
+        "GroundLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 8388608
+        },
+        "AttackableLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 33554432
+        },
+        "InteractableLayer": {
+            "serializedVersion": "2",
+            "m_Bits": 16777216
+        }
+    },
+    "Templates": {
+        "UnityDefaults": {
+            "PhysicsType": 0
+        },
+        "CanvasPaths": {
+            "CanvasPrefabspath": "Assets/GWLPXL/ARPG/Prefabs/UI"
+        },
+        "AnimatorPaths": {
+            "PlayerAnimatorPath": "Assets/GWLPXL/ARPG/Data/_Characters/HChu/Animations/Hchu_V2.controller",
+            "EnemyAnimatorPath": "Assets/GWLPXL/ARPG/Data/Animations/Animators/Base/ARPG_Enemy_Base.controller"
+        },
+        "PrefabPaths": {
+            "EnemyHPInfoPrefabPath": "Assets/GWLPXL/ARPG/Prefabs/Enemy/EnemyInfo.prefab",
+            "LootPrefabPath": "Assets/GWLPXL/ARPG/Prefabs/Looting/LootPrefab.prefab"
+        },
+        "BasePlayerAnimatorC": {
+            "instanceID": 24116
+        },
+        "BaseEnemyAnimatorC": {
+            "instanceID": 25402
+        },
+        "Player3DDefaults": {
+            "Move3DDefault": {
+                "instanceID": 24000
+            },
+            "AnimController": {
+                "instanceID": 24116
+            }
+        },
+        "ActorDefaults": {
+            "EnemyDefaults3D": [
+                {
+                    "instanceID": 20950
+                },
+                {
+                    "instanceID": 20952
+                },
+                {
+                    "instanceID": 20954
+                },
+                {
+                    "instanceID": 20956
+                }
+            ],
+            "EnemyDefaults2D": [
+                {
+                    "instanceID": 25404
+                },
+                {
+                    "instanceID": 25406
+                },
+                {
+                    "instanceID": 25408
+                }
+            ],
+            "AnimController2D": {
+                "instanceID": 25410
+            },
+            "AnimController": {
+                "instanceID": 24116
+            }
+        },
+        "Player2DDefaults": {
+            "AnimController": {
+                "instanceID": 25410
+            },
+            "IdleStates": {
+                "instanceID": 25412
+            },
+            "WalkStates": {
+                "instanceID": 25414
+            },
+            "DeathStates": {
+                "instanceID": 25416
+            },
+            "AbilityStates": [
+                {
+                    "instanceID": 25418
+                },
+                {
+                    "instanceID": 25420
+                }
+            ]
+        }
+    },
+    "GizmoIconPaths": {
+        "BreakableBase": "Assets/GWLPXL/ARPG/Gizmos/TestAttackable.png",
+        "BreakableDropLocation": "Assets/GWLPXL/ARPG/Gizmos/TestDropLocation.png",
+        "SearchableBase": "Assets/GWLPXL/ARPG/Gizmos/SearchableIcon.png"
+    },
+    "PingObjects": {
+        "TypesPing": {
+            "instanceID": 25422
+        }
+    },
+    "InspectObjects": {
+        "Equipment": {
+            "Equipment": {
+                "instanceID": 18006
+            },
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 17.0
+            }
+        },
+        "Player": {
+            "PlayerViewOptions": [
+                "Attributes",
+                "Inventory",
+                "Class",
+                "Abilities",
+                "Auras"
+            ],
+            "ToolBarSelector": 0,
+            "Attributes": {
+                "instanceID": 17986
+            },
+            "Inventory": {
+                "instanceID": 0
+            },
+            "ActorClass": {
+                "instanceID": 0
+            },
+            "Abilities": {
+                "instanceID": 0
+            },
+            "Auras": {
+                "instanceID": 0
+            }
+        },
+        "Enemy": {
+            "EnemyViewOptions": [
+                "Attributes",
+                "Inventory",
+                "Class",
+                "Abilities",
+                "Auras",
+                "Loot Drops"
+            ],
+            "ToolBarSelector": 0,
+            "Attributes": {
+                "instanceID": 0
+            },
+            "Inventory": {
+                "instanceID": 0
+            },
+            "ActorClass": {
+                "instanceID": 0
+            },
+            "Abilities": {
+                "instanceID": 0
+            },
+            "Auras": {
+                "instanceID": 0
+            }
+        }
+    },
+    "GeneratedTemp": {
+        "Equipment": {
+            "MinILevelCurve": 1,
+            "MaxILevelCurve": 100,
+            "ILevel": 1,
+            "Equipment": {
+                "instanceID": -11290
+            },
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "PowerCurves": [
+                {
+                    "Description": "Base Stat",
+                    "Curve": {
+                        "serializedVersion": "2",
+                        "m_Curve": [
+                            {
+                                "serializedVersion": "3",
+                                "time": 0.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 1.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 2.0,
+                                "value": 0.019999999552965165,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 3.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 4.0,
+                                "value": 0.029999999329447748,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 5.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 6.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 7.0,
+                                "value": 0.04500000178813934,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 8.0,
+                                "value": 0.05000000074505806,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 9.0,
+                                "value": 0.054999999701976779,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 10.0,
+                                "value": 0.05999999865889549,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 11.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 12.0,
+                                "value": 0.07000000029802323,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 13.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 14.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 15.0,
+                                "value": 0.08500000089406967,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 16.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 17.0,
+                                "value": 0.0949999988079071,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 18.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 19.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 20.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 21.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 22.0,
+                                "value": 0.11999999731779099,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 23.0,
+                                "value": 0.125,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 24.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 25.0,
+                                "value": 0.13500000536441804,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 26.0,
+                                "value": 0.14000000059604646,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 27.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 28.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 29.0,
+                                "value": 0.1550000011920929,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 30.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 31.0,
+                                "value": 0.16500000655651093,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 32.0,
+                                "value": 0.17000000178813935,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 33.0,
+                                "value": 0.17499999701976777,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 34.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 35.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 36.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 37.0,
+                                "value": 0.19499999284744264,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 38.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 39.0,
+                                "value": 0.20499999821186067,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 40.0,
+                                "value": 0.20999999344348908,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 41.0,
+                                "value": 0.2150000035762787,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 42.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 43.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 44.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 45.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 46.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 47.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 48.0,
+                                "value": 0.25,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 49.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 50.0,
+                                "value": 0.25999999046325686,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 51.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 52.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 53.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 54.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 55.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 56.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 57.0,
+                                "value": 0.29499998688697817,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 58.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 59.0,
+                                "value": 0.3050000071525574,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 60.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 61.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 62.0,
+                                "value": 0.3199999928474426,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 63.0,
+                                "value": 0.32499998807907107,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 64.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 65.0,
+                                "value": 0.33500000834465029,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 66.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 67.0,
+                                "value": 0.3449999988079071,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 68.0,
+                                "value": 0.3499999940395355,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 69.0,
+                                "value": 0.35499998927116396,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 70.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 71.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 72.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 73.0,
+                                "value": 0.375,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 74.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 75.0,
+                                "value": 0.38499999046325686,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 76.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 77.0,
+                                "value": 0.39500001072883608,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 78.0,
+                                "value": 0.4000000059604645,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 79.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 80.0,
+                                "value": 0.4099999964237213,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 81.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 82.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 83.0,
+                                "value": 0.42500001192092898,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 84.0,
+                                "value": 0.4300000071525574,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 85.0,
+                                "value": 0.4350000023841858,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 86.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 87.0,
+                                "value": 0.4449999928474426,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 88.0,
+                                "value": 0.44999998807907107,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 89.0,
+                                "value": 0.45500001311302187,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 90.0,
+                                "value": 0.46000000834465029,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 91.0,
+                                "value": 0.4650000035762787,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 92.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 93.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 94.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 95.0,
+                                "value": 0.48500001430511477,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 96.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 97.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 98.0,
+                                "value": 0.009999999776482582,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 99.0,
+                                "value": 0.5049999952316284,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            }
+                        ],
+                        "m_PreInfinity": 2,
+                        "m_PostInfinity": 2,
+                        "m_RotationOrder": 4
+                    }
+                },
+                {
+                    "Description": "First Trait",
+                    "Curve": {
+                        "serializedVersion": "2",
+                        "m_Curve": [
+                            {
+                                "serializedVersion": "3",
+                                "time": 2.0,
+                                "value": 2.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 4.0,
+                                "value": 4.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 7.0,
+                                "value": 7.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 8.0,
+                                "value": 7.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 9.0,
+                                "value": 8.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 10.0,
+                                "value": 9.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 12.0,
+                                "value": 12.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 15.0,
+                                "value": 15.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 17.0,
+                                "value": 17.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 22.0,
+                                "value": 22.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 23.0,
+                                "value": 24.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 25.0,
+                                "value": 24.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 26.0,
+                                "value": 28.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 29.0,
+                                "value": 31.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 31.0,
+                                "value": 30.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 32.0,
+                                "value": 33.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 33.0,
+                                "value": 30.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 37.0,
+                                "value": 34.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 39.0,
+                                "value": 41.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 40.0,
+                                "value": 37.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 41.0,
+                                "value": 38.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 48.0,
+                                "value": 44.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 50.0,
+                                "value": 53.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 57.0,
+                                "value": 52.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 59.0,
+                                "value": 61.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 62.0,
+                                "value": 56.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 63.0,
+                                "value": 59.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 65.0,
+                                "value": 61.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 67.0,
+                                "value": 71.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 68.0,
+                                "value": 63.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 69.0,
+                                "value": 67.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 73.0,
+                                "value": 72.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 75.0,
+                                "value": 73.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 77.0,
+                                "value": 79.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 78.0,
+                                "value": 82.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 80.0,
+                                "value": 79.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 83.0,
+                                "value": 83.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 84.0,
+                                "value": 91.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 85.0,
+                                "value": 86.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 87.0,
+                                "value": 78.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 88.0,
+                                "value": 96.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 89.0,
+                                "value": 97.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 90.0,
+                                "value": 96.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 91.0,
+                                "value": 100.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 95.0,
+                                "value": 99.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            },
+                            {
+                                "serializedVersion": "3",
+                                "time": 99.0,
+                                "value": 89.0,
+                                "inSlope": 0.0,
+                                "outSlope": 0.0,
+                                "tangentMode": 0,
+                                "weightedMode": 0,
+                                "inWeight": 0.0,
+                                "outWeight": 0.0
+                            }
+                        ],
+                        "m_PreInfinity": 2,
+                        "m_PostInfinity": 2,
+                        "m_RotationOrder": 4
+                    }
+                }
+            ],
+            "DamageValues": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "CurvedEq": [
+                {
+                    "instanceID": -11294
+                },
+                {
+                    "instanceID": -11296
+                },
+                {
+                    "instanceID": -11298
+                },
+                {
+                    "instanceID": -11302
+                },
+                {
+                    "instanceID": -11304
+                },
+                {
+                    "instanceID": -11308
+                },
+                {
+                    "instanceID": -11310
+                },
+                {
+                    "instanceID": -11312
+                },
+                {
+                    "instanceID": -11316
+                },
+                {
+                    "instanceID": -11320
+                },
+                {
+                    "instanceID": -11324
+                },
+                {
+                    "instanceID": -11328
+                },
+                {
+                    "instanceID": -11330
+                },
+                {
+                    "instanceID": -11334
+                },
+                {
+                    "instanceID": -11336
+                },
+                {
+                    "instanceID": -11338
+                },
+                {
+                    "instanceID": -11342
+                },
+                {
+                    "instanceID": -11344
+                },
+                {
+                    "instanceID": -11348
+                },
+                {
+                    "instanceID": -11350
+                },
+                {
+                    "instanceID": -11352
+                },
+                {
+                    "instanceID": -11354
+                },
+                {
+                    "instanceID": -11356
+                },
+                {
+                    "instanceID": -11360
+                },
+                {
+                    "instanceID": -11364
+                },
+                {
+                    "instanceID": -11366
+                },
+                {
+                    "instanceID": -11370
+                },
+                {
+                    "instanceID": -11374
+                },
+                {
+                    "instanceID": -11376
+                },
+                {
+                    "instanceID": -11378
+                },
+                {
+                    "instanceID": -11382
+                },
+                {
+                    "instanceID": -11384
+                },
+                {
+                    "instanceID": -11388
+                },
+                {
+                    "instanceID": -11392
+                },
+                {
+                    "instanceID": -11396
+                },
+                {
+                    "instanceID": -11398
+                },
+                {
+                    "instanceID": -11400
+                },
+                {
+                    "instanceID": -11402
+                },
+                {
+                    "instanceID": -11406
+                },
+                {
+                    "instanceID": -11408
+                },
+                {
+                    "instanceID": -11412
+                },
+                {
+                    "instanceID": -11416
+                },
+                {
+                    "instanceID": -11420
+                },
+                {
+                    "instanceID": -11422
+                },
+                {
+                    "instanceID": -11424
+                },
+                {
+                    "instanceID": -11426
+                },
+                {
+                    "instanceID": -11428
+                },
+                {
+                    "instanceID": -11430
+                },
+                {
+                    "instanceID": -11432
+                },
+                {
+                    "instanceID": -11436
+                },
+                {
+                    "instanceID": -11438
+                },
+                {
+                    "instanceID": -11442
+                },
+                {
+                    "instanceID": -11444
+                },
+                {
+                    "instanceID": -11446
+                },
+                {
+                    "instanceID": -11448
+                },
+                {
+                    "instanceID": -11450
+                },
+                {
+                    "instanceID": -11452
+                },
+                {
+                    "instanceID": -11454
+                },
+                {
+                    "instanceID": -11458
+                },
+                {
+                    "instanceID": -11460
+                },
+                {
+                    "instanceID": -11464
+                },
+                {
+                    "instanceID": -11466
+                },
+                {
+                    "instanceID": -11468
+                },
+                {
+                    "instanceID": -11472
+                },
+                {
+                    "instanceID": -11476
+                },
+                {
+                    "instanceID": -11478
+                },
+                {
+                    "instanceID": -11482
+                },
+                {
+                    "instanceID": -11484
+                },
+                {
+                    "instanceID": -11488
+                },
+                {
+                    "instanceID": -11492
+                },
+                {
+                    "instanceID": -11496
+                },
+                {
+                    "instanceID": -11498
+                },
+                {
+                    "instanceID": -11500
+                },
+                {
+                    "instanceID": -11502
+                },
+                {
+                    "instanceID": -11506
+                },
+                {
+                    "instanceID": -11508
+                },
+                {
+                    "instanceID": -11512
+                },
+                {
+                    "instanceID": -11514
+                },
+                {
+                    "instanceID": -11518
+                },
+                {
+                    "instanceID": -11522
+                },
+                {
+                    "instanceID": -11524
+                },
+                {
+                    "instanceID": -11528
+                },
+                {
+                    "instanceID": -11530
+                },
+                {
+                    "instanceID": -11532
+                },
+                {
+                    "instanceID": -11536
+                },
+                {
+                    "instanceID": -11540
+                },
+                {
+                    "instanceID": -11544
+                },
+                {
+                    "instanceID": -11546
+                },
+                {
+                    "instanceID": -11550
+                },
+                {
+                    "instanceID": -11554
+                },
+                {
+                    "instanceID": -11558
+                },
+                {
+                    "instanceID": -11562
+                },
+                {
+                    "instanceID": -11566
+                },
+                {
+                    "instanceID": -11568
+                },
+                {
+                    "instanceID": -11570
+                },
+                {
+                    "instanceID": -11572
+                },
+                {
+                    "instanceID": -11576
+                },
+                {
+                    "instanceID": -11578
+                },
+                {
+                    "instanceID": -11580
+                },
+                {
+                    "instanceID": -11582
+                }
+            ]
+        },
+        "Attributes": {
+            "Generated": false,
+            "Attributes": {
+                "instanceID": 0
+            },
+            "MinILevelCurve": 1,
+            "MaxILevelCurve": 100,
+            "Level": 1,
+            "ScollableEq": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "PowerCurves": [],
+            "CurvedAttributes": [
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                },
+                {
+                    "instanceID": 0
+                }
+            ]
+        }
+    }
+}

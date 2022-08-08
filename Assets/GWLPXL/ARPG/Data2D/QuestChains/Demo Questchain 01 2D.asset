@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449b227acaa54e04682e4c08ece72ba5, type: 3}
+  m_Name: Demo Questchain 01 2D
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: a0ce47821b7b6514d8fb6dbbf4067011, type: 3}
+  ID:
+    Name: Demo Questchain 01 2D
+    ID: 1
+    Questchain: {fileID: 11400000}
+  questChainName: Demo Questchain 01
+  isRepeatable: 0
+  StartType: 1
+  questStartTemplates:
+  - {fileID: 11400000, guid: 782f0a952e29deb499b56a0fbe8adf4e, type: 2}
+  requirements: []
+  states:
+  - StateName: UnAvailable
+    QuestTemplate: {fileID: 0}
+    State: 30
+    Lines:
+    - DescriptiveName: Quest Giver 2D
+      Actor: {fileID: 11400000, guid: 782f0a952e29deb499b56a0fbe8adf4e, type: 2}
+      QuestGiverText: Will you kill those two enemies over there for me?
+    QuestLogEntry: 'Objective: Kill 2 enemies'
+  - StateName: Available
+    QuestTemplate: {fileID: 0}
+    State: 0
+    Lines:
+    - DescriptiveName: Quest Giver 2D
+      Actor: {fileID: 11400000, guid: 782f0a952e29deb499b56a0fbe8adf4e, type: 2}
+      QuestGiverText: Will you kill those two enemies over there for me?
+    QuestLogEntry: 'Objective: Kill 2 Enemies'
+  - StateName: Completed
+    QuestTemplate: {fileID: 0}
+    State: 10
+    Lines: []
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  - StateName: RewardsCollected
+    QuestTemplate: {fileID: 0}
+    State: 20
+    Lines: []
+    QuestLogEntry: 'Objective: Find a Unicorn.'
+  quests:
+  - {fileID: 11400000, guid: 55dbe0b2bcca02143a243cf1348c0a8b, type: 2}
+  rewardType: 0
+  questGiverTemplates:
+  - {fileID: 11400000, guid: 782f0a952e29deb499b56a0fbe8adf4e, type: 2}
+  chainRewards:
+  - {fileID: 11400000, guid: b4ce8325e6ea1204b9cb4250f82efb01, type: 2}

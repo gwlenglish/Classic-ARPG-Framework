@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1540e87e0f163478db3ddcc85ad47e, type: 3}
+  m_Name: Shop Keeper 2D Inventory
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 3cdf720a37af92444a3c5d8c8861cd07, type: 3}
+  EquipEvent: {fileID: 0}
+  UnEquipEvent: {fileID: 0}
+  ID:
+    Name: Shop Keeper 2D Inventory
+    ID: 5
+    SOReference: {fileID: 11400000}
+  inventoryName: Shop Keeper 2D
+  ItemInventorySize: 25
+  currentCurrency: 100
+  startingEquipment: []
+  startingItems:
+  - {fileID: 11400000, guid: b0123bd7d93516847ada320fb394dc47, type: 2}
+  - {fileID: 11400000, guid: a0604c043727fbb43b81dd8eb5a367e0, type: 2}
+  startingGold: 1000

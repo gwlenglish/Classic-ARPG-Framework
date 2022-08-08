@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &460654737340698776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2960665648214240743}
+  - component: {fileID: 2800327191793293613}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2960665648214240743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460654737340698776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4432033706952700274}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2800327191793293613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460654737340698776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: -0}
+--- !u!1 &4432033706953059666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4432033706952700274}
+  - component: {fileID: -3272160173365429320}
+  - component: {fileID: 7376247964432215661}
+  - component: {fileID: 6675976837610229751}
+  m_Layer: 0
+  m_Name: Fist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4432033706952700274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432033706953059666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2960665648214240743}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3272160173365429320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432033706953059666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9a4215cfef0ae47a9eb8ec003450fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offsets:
+  - positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 90, y: 0, z: 0}
+    meshScale: {x: 0, y: 0, z: 0}
+    forUser: {fileID: 11400000, guid: 0c4deae43ee7be444a26ce098ef496ee, type: 2}
+  - positionOffset: {x: 0, y: 0.001, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    meshScale: {x: 0.001, y: 0.002, z: 0.001}
+    forUser: {fileID: 11400000, guid: 82c7244542b92ac4b868ee79308e9d83, type: 2}
+  meshTransform: {fileID: 2960665648214240743}
+--- !u!54 &7376247964432215661
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432033706953059666}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6675976837610229751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4432033706953059666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17456e84c0b073d429694d5ff43e1866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageEvents:
+    SceneEvents:
+      OnDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnPhysicalDamagedOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnElementalDamageOther:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentEnabled:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDamageComponentDisabled:
+        m_PersistentCalls:
+          m_Calls: []
+  sotEvents:
+    SceneEvents:
+      OnSoTApply:
+        m_PersistentCalls:
+          m_Calls: []
+  damage: {fileID: 11400000, guid: 3ac28202d930d5a49a55f9c6ed74ff48, type: 2}
+  meleeOptions: {fileID: 11400000, guid: 69526d7c50c13a547abcb3699407079b, type: 2}

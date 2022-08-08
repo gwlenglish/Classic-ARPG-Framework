@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0088858c5979c6942b38571df567dd49, type: 3}
+  m_Name: Explore Areas 1- 3 DEMO
+  m_EditorClassIdentifier: 
+  goals:
+  - Area: {fileID: 11400000, guid: 89f96387017bf3046a2b28975aafc457, type: 2}
+    Discovered: 0
+  - Area: {fileID: 11400000, guid: 565e5f6048f80a44b89f5c70745dcb3a, type: 2}
+    Discovered: 0
+  - Area: {fileID: 11400000, guid: a932a94f1c446bd4da36750a3424dd78, type: 2}
+    Discovered: 0

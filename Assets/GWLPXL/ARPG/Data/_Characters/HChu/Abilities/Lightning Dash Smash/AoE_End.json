@@ -1,0 +1,38 @@
+{
+    "config": {
+        "instanceID": 24302
+    },
+    "abilityStartProjectile": {
+        "Rotation": 0,
+        "ProjectilePrefab": {
+            "instanceID": 0
+        },
+        "Offsets": {
+            "StartOffset": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+            },
+            "XTiltAngle": 0.0,
+            "YTiltAngle": 0.0,
+            "ZTiltAngle": 0.0
+        }
+    },
+    "abilityEndProjectile": {
+        "Rotation": 0,
+        "ProjectilePrefab": {
+            "instanceID": 24304
+        },
+        "Offsets": {
+            "StartOffset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "XTiltAngle": 0.0,
+            "YTiltAngle": 0.0,
+            "ZTiltAngle": 0.0
+        }
+    },
+    "additionalProjectiles": []
+}

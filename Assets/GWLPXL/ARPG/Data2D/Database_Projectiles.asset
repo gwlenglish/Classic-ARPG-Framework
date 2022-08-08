@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4bb4b17a4d73b44ace65d43c62c645, type: 3}
+  m_Name: Database_Projectiles
+  m_EditorClassIdentifier: 
+  searchFolders:
+  - Assets/GWLPXL/ARPG/Data2D
+  slots:
+  - DescriptiveName: Bullet 2D
+    ID:
+      Name: 
+      ID: 1
+      Instance: {fileID: 11400000, guid: 98f72e1e1d02d9d409aae597dff2439c, type: 2}
+    Instance: {fileID: 11400000, guid: 98f72e1e1d02d9d409aae597dff2439c, type: 2}
+  - DescriptiveName: Flame 2D
+    ID:
+      Name: 
+      ID: 2
+      Instance: {fileID: 11400000, guid: c333156f7b7e68c429b4e54138171f75, type: 2}
+    Instance: {fileID: 11400000, guid: c333156f7b7e68c429b4e54138171f75, type: 2}
+  - DescriptiveName: Magic Ball 2D
+    ID:
+      Name: 
+      ID: 3
+      Instance: {fileID: 11400000, guid: 0b736e87e9bff3c4aa0244ee85df7d09, type: 2}
+    Instance: {fileID: 11400000, guid: 0b736e87e9bff3c4aa0244ee85df7d09, type: 2}
+  - DescriptiveName: Arrow 2D
+    ID:
+      Name: Arrow 2D
+      ID: 4
+      Instance: {fileID: 11400000, guid: bd078320bb47e0d4f82378dcc78ed335, type: 2}
+    Instance: {fileID: 11400000, guid: bd078320bb47e0d4f82378dcc78ed335, type: 2}

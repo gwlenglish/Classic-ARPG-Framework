@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 17832
+    },
+    "lootPrefabOverride": {
+        "instanceID": 0
+    },
+    "ID": {
+        "Name": "2D Drop Table",
+        "ID": 0,
+        "LootDrops": {
+            "instanceID": 17388
+        }
+    },
+    "AllPossibleItems": [
+        {
+            "instanceID": 16496
+        }
+    ],
+    "LootTable": [
+        {
+            "Description": "Battle Axe 2D_100",
+            "RelativePercent": 100.0,
+            "RangeFrom": 0,
+            "RangeTo": 50,
+            "Item": {
+                "instanceID": 16496
+            }
+        }
+    ]
+}

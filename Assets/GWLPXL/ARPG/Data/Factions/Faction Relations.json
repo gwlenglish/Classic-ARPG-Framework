@@ -1,0 +1,59 @@
+{
+    "config": {
+        "instanceID": 0
+    },
+    "MatchNameWithType": true,
+    "Relations": [
+        {
+            "DescriptiveName": "Humans",
+            "Primary": 1,
+            "Values": [
+                {
+                    "DescriptiveName": "RockMonsters",
+                    "Faction": 2,
+                    "Value": 0
+                }
+            ]
+        },
+        {
+            "DescriptiveName": "RockMonsters",
+            "Primary": 2,
+            "Values": [
+                {
+                    "DescriptiveName": "Humans",
+                    "Faction": 1,
+                    "Value": 0
+                }
+            ]
+        }
+    ],
+    "Tiers": [
+        {
+            "instanceID": 36552
+        },
+        {
+            "instanceID": 36554
+        },
+        {
+            "instanceID": 36550
+        }
+    ],
+    "Information": [
+        {
+            "DescriptiveName": "Humans",
+            "Faction": 1,
+            "FactionLogo": {
+                "instanceID": 0
+            },
+            "FactionBio": ""
+        },
+        {
+            "DescriptiveName": "Rockies",
+            "Faction": 2,
+            "FactionLogo": {
+                "instanceID": 0
+            },
+            "FactionBio": ""
+        }
+    ]
+}

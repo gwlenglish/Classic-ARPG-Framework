@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72184cf486ccf843a4fca13c31b93cf, type: 3}
+  m_Name: AbilityController_Demo_HChu 2D
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: f2f710ed1538ca146a2ae89084094915, type: 3}
+  id:
+    Name: Hchu
+    ID: 3
+    AbilityController: {fileID: 11400000}
+  Data:
+    AutoName: 1
+    AutoAssignUniqueID: 0
+    Name: Demo_HChu 2D
+    Description: For the Demo Scene, 2D version
+    UniqueID: 3
+  BasicAttacks:
+  - {fileID: 11400000, guid: 33aa978971d83934a99559f84a4b2490, type: 2}
+  StartingAbilities:
+  - {fileID: 11400000, guid: 5737f3392dcb1ea4d995c74901cc9c1b, type: 2}
+  EquippedCap: 1
+  LearnedCap: 100

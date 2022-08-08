@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: LightningDashSmashBam
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 703907feb6a150d4f893c2caa9ea108f, type: 3}
+  id:
+    Name: 
+    ID: 14
+    Ability: {fileID: 11400000}
+  autoName: 0
+  Data:
+    Name: Dash Forward
+    Description: Casts a blast a bolt of chain lightning followed by a forward dash
+      into a smash.
+    DamageMultiplier: 1
+    Range: 10
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 740cdeeb5e28be140a2235edd82ca975, type: 2}
+    - {fileID: 11400000, guid: a62fa378428d01941b5f9edb80ce768d, type: 2}
+    - {fileID: 11400000, guid: f4a79277c18ce164ba556f019960787e, type: 2}
+    - {fileID: 11400000, guid: 60639f0b07bf72048b14fe69baa81f37, type: 2}
+    UniqueID: 7
+    Sprite: {fileID: 2206297794771097487, guid: d274d7b6131b1094fb3cf06d40b14134,
+      type: 3}
+    AnimationTrigger: BasicMelee
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 1
+  Delay: 0
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

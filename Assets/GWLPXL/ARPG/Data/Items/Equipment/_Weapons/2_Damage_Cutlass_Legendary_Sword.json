@@ -1,0 +1,64 @@
+{
+    "config": {
+        "instanceID": 16734
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 10,
+        "Item": {
+            "instanceID": 16612
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16736
+    },
+    "meshPrefab": {
+        "instanceID": 16738
+    },
+    "sprite": {
+        "instanceID": 16740
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "classRestriction": 0,
+    "slots": [
+        35
+    ],
+    "traitTiers": [
+        {
+            "ILevelMulti": 1.0,
+            "MaxNumberOfTraitsPerTier": 4,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        },
+        {
+            "ILevelMulti": 0.800000011920929,
+            "MaxNumberOfTraitsPerTier": 2,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        },
+        {
+            "ILevelMulti": 0.6000000238418579,
+            "MaxNumberOfTraitsPerTier": 1,
+            "PossibleTierDrops": {
+                "instanceID": 16678
+            }
+        }
+    ],
+    "stats": {
+        "baseName": "Cutlass",
+        "baseType": 1,
+        "baseStatMinValue": 1,
+        "baseStateILevelMulti": 1.0,
+        "nativeTraits": [],
+        "sockets": []
+    },
+    "wearablePefab": {
+        "instanceID": 16742
+    },
+    "enchantable": true,
+    "weaponType": 1
+}

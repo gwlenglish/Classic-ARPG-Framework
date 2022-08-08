@@ -1,0 +1,31 @@
+{
+    "config": {
+        "instanceID": 22740
+    },
+    "itemID": {
+        "Name": "",
+        "ID": 4,
+        "Item": {
+            "instanceID": 22618
+        }
+    },
+    "autoName": true,
+    "rarity": {
+        "instanceID": 16666
+    },
+    "meshPrefab": {
+        "instanceID": 0
+    },
+    "sprite": {
+        "instanceID": 0
+    },
+    "purchaseCost": 10,
+    "sellCost": 5,
+    "potionName": "Strength Increase",
+    "stackingAmount": 5,
+    "ModStatType": {
+        "Type": 0,
+        "ModAmount": 5,
+        "Duration": 5.0
+    }
+}

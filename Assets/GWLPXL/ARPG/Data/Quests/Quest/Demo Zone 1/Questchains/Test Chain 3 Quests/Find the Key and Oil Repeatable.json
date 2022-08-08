@@ -1,0 +1,72 @@
+{
+    "config": {
+        "instanceID": 16988
+    },
+    "ID": {
+        "Name": "The Key and Oil Repeatable",
+        "ID": 10,
+        "Quest": {
+            "instanceID": 16656
+        }
+    },
+    "questName": "Key 3",
+    "startType": 1,
+    "questStartTemplates": [
+        {
+            "instanceID": 16104
+        }
+    ],
+    "questStates": [
+        {
+            "StateName": "InProgress",
+            "QuestTemplate": {
+                "instanceID": 16656
+            },
+            "State": 1,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16104
+                    },
+                    "QuestGiverText": "Haven't you found them yet?"
+                }
+            ],
+            "QuestLogEntry": "Objective: Find a Unicorn."
+        },
+        {
+            "StateName": "Completed",
+            "QuestTemplate": {
+                "instanceID": 16656
+            },
+            "State": 10,
+            "Lines": [
+                {
+                    "DescriptiveName": "Quest Giver 1",
+                    "Actor": {
+                        "instanceID": 16104
+                    },
+                    "QuestGiverText": "Finally. "
+                }
+            ],
+            "QuestLogEntry": "Objective: Find a Unicorn."
+        }
+    ],
+    "QuestRewards": [
+        {
+            "instanceID": 16982
+        },
+        {
+            "instanceID": 16984
+        }
+    ],
+    "rewardType": 0,
+    "rewardGiverTemplate": [
+        {
+            "instanceID": 16104
+        }
+    ],
+    "logic": {
+        "instanceID": 16986
+    }
+}

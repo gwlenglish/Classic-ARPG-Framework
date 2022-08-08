@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af49d7f16adbb5142897886acd860634, type: 3}
+  m_Name: Ice Explode
+  m_EditorClassIdentifier: 
+  descriptiveName: Ice Explode
+  description: 'Explodes on impact and does 100% of the caster''s total damage as
+    ice damage to the surrounding enemies. '
+  autoName: 1
+  Vars:
+    Radius: 1
+    Angle: 180
+    PercentOfWpnDmg: 1
+    Element: 2
+    FXPrefab: {fileID: 0}
