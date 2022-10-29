@@ -58,6 +58,10 @@ namespace GWLPXL.ARPGCore.Animations.com
 
         public virtual void AddTicker() => TickManager.Instance.AddTicker(this);
 
+        public bool InState(string stateName, int layer = 0)
+        {
+            return animator.GetCurrentAnimatorStateInfo(layer).IsName(stateName);
+        }
 
         public virtual void DoTick()//helps sync the animator to the agent
         {
@@ -181,6 +185,7 @@ namespace GWLPXL.ARPGCore.Animations.com
             animator.SetFloat(param, value);
         }
 
+     
 
 
 

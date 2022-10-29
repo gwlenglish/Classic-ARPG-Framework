@@ -30,6 +30,8 @@ namespace GWLPXL.ARPGCore.Animations.com
         bool GetDelay();
         void DelayAnimation();
         void SetAnimatorState(string name, float blendduration = .02f, int layer = 0);
+
+        bool InState(string stateName, int layer = 0);
        
 
     }

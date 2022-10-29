@@ -40,39 +40,46 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
         {
             if (allowed == false) return allowed;
 
-            if (string.IsNullOrEmpty(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityButton))
-            {
-                switch (abilityInputs.ModiferKeys.ForceAbility.Type)
-                {
-                    case InputAbilityType.ToggleOnPressed:
-                        bool pressed = Input.GetKeyDown(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityKey);
-                        if (pressed)
-                        {
-                            abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;
-                        }
-                        break;
-                    case InputAbilityType.OnHeld:
-                        abilityInputs.ModiferKeys.ForceAbility.Active =  Input.GetKey(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityKey);
-                        break;
-                }
-            }
-            else
-            {
-                switch (abilityInputs.ModiferKeys.ForceAbility.Type)
-                {
-                    case InputAbilityType.ToggleOnPressed:
-                        bool pressed = Input.GetKeyDown(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityKey) || Input.GetKeyDown(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityButton);
-                        if (pressed)
-                        {
-                            abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;
-                        }
-                        break;
-                    case InputAbilityType.OnHeld:
-                        abilityInputs.ModiferKeys.ForceAbility.Active =  Input.GetKey(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityKey) || Input.GetButton(abilityInputs.ModiferKeys.ForceAbility.ForceAbilityButton);
-                        break;
+            string button = abilityInputs.ModiferKeys.ForceAbility.ForceAbilityButton;
+            KeyCode key = abilityInputs.ModiferKeys.ForceAbility.ForceAbilityKey;
+            InputAbilityType type = abilityInputs.ModiferKeys.ForceAbility.Type;
 
+            if (string.IsNullOrWhiteSpace(button) == false)
+            {
+                switch (type)
+                {
+                    case InputAbilityType.ToggleOnPressed:
+                        bool pressed = Input.GetButtonDown(button);
+                        if (pressed)
+                        {
+                            abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;
+                        }
+                        break;
+                    case InputAbilityType.OnHeld:
+                        abilityInputs.ModiferKeys.ForceAbility.Active = Input.GetButton(button);
+                        break;
                 }
             }
+
+
+            if (key != KeyCode.None)
+            {
+                switch (type)
+                {
+                    case InputAbilityType.ToggleOnPressed:
+                        bool pressed = Input.GetKeyDown(key);
+                        if (pressed)
+                        {
+                            abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;
+                        }
+                        break;
+                    case InputAbilityType.OnHeld:
+                        abilityInputs.ModiferKeys.ForceAbility.Active = Input.GetKey(key);
+                        break;
+                }
+            }
+
+
             return abilityInputs.ModiferKeys.ForceAbility.Active;
         }
         public Ability GetFirstBasicAttack()
@@ -80,20 +87,24 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
             if (allowed == false) return null;
 
             string buttonName = abilityInputs.AbilityInputs.BasicAttackButton;
-            if (string.IsNullOrEmpty(buttonName))//if button isn't assigned, go to key
+            KeyCode code = abilityInputs.AbilityInputs.BasicAttackKey;
+            if (string.IsNullOrWhiteSpace(buttonName) == false)
             {
-                if (Input.GetKey(abilityInputs.AbilityInputs.BasicAttackKey))
+                if (Input.GetButton(buttonName))
                 {
                     return hub.MyAbilities.GetRuntimeController().GetBasicAttack(hub);
                 }
             }
-            else
+
+
+            if (code != KeyCode.None)
             {
-                if (Input.GetButton(abilityInputs.AbilityInputs.BasicAttackButton) || Input.GetKey(abilityInputs.AbilityInputs.BasicAttackKey))
+                if (Input.GetKey(code))
                 {
                     return hub.MyAbilities.GetRuntimeController().GetBasicAttack(hub);
                 }
             }
+          
            
             return null;
         }
@@ -103,29 +114,32 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
             for (int i = 0; i < abilityInputs.AbilityInputs.Inputs.Length; i++)
             {
                 string buttonName = abilityInputs.AbilityInputs.Inputs[i].AbilityInputButton;
-                if (string.IsNullOrEmpty(buttonName))
+                KeyCode code = abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey;
+                int abilitySlot = abilityInputs.AbilityInputs.Inputs[i].AbilitySlot;
+                if (string.IsNullOrWhiteSpace(buttonName) == false)
                 {
-                    if (Input.GetKey(abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey))
+                    if (Input.GetButton(buttonName))
                     {
-                        if (hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilityInputs.AbilityInputs.Inputs[i].AbilitySlot) == forability)
-                        {
-                            return true;
-                        }
-                    }
-                }
-                else
-                {
-                    if (Input.GetButton(abilityInputs.AbilityInputs.Inputs[i].AbilityInputButton) || Input.GetKey(abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey))
-                    {
-                        if (hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilityInputs.AbilityInputs.Inputs[i].AbilitySlot) == forability)
+                        if (hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilitySlot) == forability)
                         {
                             return true;
                         }
                     }
                 }
 
-
-
+  
+                if (code != KeyCode.None)
+                {
+                    if (Input.GetKey(code))
+                    {
+                        if (hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilitySlot) == forability)
+                        {
+                            return true;
+                        }
+                    }
+                }
+              
+             
 
             }
 
@@ -138,22 +152,25 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
             for (int i = 0; i < abilityInputs.AbilityInputs.Inputs.Length; i++)
             {
                 string buttonName = abilityInputs.AbilityInputs.Inputs[i].AbilityInputButton;
-                if (string.IsNullOrEmpty(buttonName))
+                KeyCode code = abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey;
+                int abilitySlot = abilityInputs.AbilityInputs.Inputs[i].AbilitySlot;
+                if (string.IsNullOrWhiteSpace(buttonName) == false)
                 {
-                    if (Input.GetKey(abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey))
+                    if (Input.GetButton(buttonName))
                     {
-                        return hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilityInputs.AbilityInputs.Inputs[i].AbilitySlot);
-                    }
-                }
-                else
-                {
-                    if (Input.GetButton(abilityInputs.AbilityInputs.Inputs[i].AbilityInputButton) || Input.GetKey(abilityInputs.AbilityInputs.Inputs[i].AbilityInputKey))
-                    {
-                        return hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilityInputs.AbilityInputs.Inputs[i].AbilitySlot);
+                        return hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilitySlot);
+                      
                     }
                 }
 
 
+                if (code != KeyCode.None)
+                {
+                    if (Input.GetKey(code))
+                    {
+                        return hub.MyAbilities.GetRuntimeController().GetEquippedAbility(abilitySlot);
+                    }
+                }
 
                
             }

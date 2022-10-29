@@ -46,11 +46,9 @@ namespace GWLPXL.ARPGCore.Items.com
 
         public override void UsePotion(IAttributeUser onStatUser, IInventoryUser usersInventory, int inventorySlot)
         {
-
             onStatUser.GetRuntimeAttributes().ModifyNowResource(resource, restoreAmount);
+           // onStatUser.GetRuntimeAttributes().ModifyMaxResource(ResourceType.Health, 15);
             RemoveItemFromInventory(this, usersInventory.GetInventoryRuntime(), inventorySlot);
-
-
         }
 
         public override bool IsStacking()

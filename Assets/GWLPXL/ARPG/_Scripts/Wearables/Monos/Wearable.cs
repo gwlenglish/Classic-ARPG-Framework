@@ -43,8 +43,8 @@ namespace GWLPXL.ARPGCore.Wearables.com
     {
         [SerializeField]
         MappedOffsets[] Offsets = new MappedOffsets[0];
-        [SerializeField]
-        Transform meshTransform = null;
+        //[SerializeField]
+        //Transform meshTransform = null;
         Equipment equipment;
 
         public void SetMaps(IInventoryUser forUser)
@@ -55,10 +55,11 @@ namespace GWLPXL.ARPGCore.Wearables.com
             transform.localPosition = offsets.PositionOffset;
             transform.localEulerAngles = offsets.RotatationOffset;
             this.transform.localScale = new Vector3(1, 1, 1);
-            if (meshTransform != null)
-            {
-                meshTransform.localScale = offsets.MeshScale;
-            }
+            transform.localScale = offsets.MeshScale;
+            //if (meshTransform != null)
+            //{
+            //    meshTransform.localScale = offsets.MeshScale;
+            //}
         
             
 
@@ -103,8 +104,12 @@ namespace GWLPXL.ARPGCore.Wearables.com
             return Offsets[0];
           
         }
+        [System.Obsolete]
+        public void SetMeshTransform(Transform newTransform)
+        {
+          //  meshTransform = newTransform;
 
-        public void SetMeshTransform(Transform newTransform) => meshTransform = newTransform;
+        }
         
     }
 }

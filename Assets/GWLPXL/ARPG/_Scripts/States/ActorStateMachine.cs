@@ -91,7 +91,7 @@ namespace GWLPXL.ARPGCore.States.com
         {
 
             machine.Tick();
-            //Debug.Log(this.gameObject.name+ " " + machine.GetCurrentlyRunnnig());
+           // Debug.Log(this.gameObject.name+ " " + machine.GetCurrentlyRunnnig());
         }
 
         public virtual void RemoveTicker()

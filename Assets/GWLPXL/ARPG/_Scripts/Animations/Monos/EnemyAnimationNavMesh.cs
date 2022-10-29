@@ -170,5 +170,10 @@ namespace GWLPXL.ARPGCore.Animations.com
         {
             animator.SetFloat(param, value);
         }
+
+        public bool InState(string stateName, int layer = 0)
+        {
+           return animator.GetCurrentAnimatorStateInfo(layer).IsName(stateName);
+        }
     }
 }
