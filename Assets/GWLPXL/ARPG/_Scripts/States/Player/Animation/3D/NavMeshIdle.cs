@@ -55,11 +55,7 @@ namespace GWLPXL.ARPGCore.States.com
 
         public void Tick()
         {
-            bool instate = hub.GetActorHub().MyAnim.InState(vars.AnimatorStateName);
-            if (instate == false)
-            {
-                hub.GetActorHub().MyAnim.SetAnimatorState(vars.AnimatorStateName, vars.BlendDuration, vars.Layer);
-            }
+            
         }
     }
 }

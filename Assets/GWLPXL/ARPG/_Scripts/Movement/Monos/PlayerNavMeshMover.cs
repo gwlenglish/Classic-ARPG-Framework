@@ -129,16 +129,21 @@ namespace GWLPXL.ARPGCore.Movement.com
             Func<bool> CanMove() => () => (hub.MyHealth.IsDead() == false && hub.MyAbilities.GetInCooldown() == false && GetInventoryToggle() == false);
             Func<bool> UIOpen() => () => (GetInventoryToggle() == true);
             Func<bool> InCooldown() => () => hub.MyAbilities.GetInCooldown() == true;
-            At(mouseMove, agentDisabledAttack, InCooldown());
-            At(mouseMove, agentDisabledUI, UIOpen());
 
+            locoMachine.AddAnyTransition(mouseMove, CanMove());
+
+            At(mouseMove, agentDisabledAttack, InCooldown());
+            At(mouseMove, agentDisabledAttack, UsingAbility());
+            At(mouseMove, agentDisabledUI, UIOpen());
             At(mouseMove, hurt, IsHurt());
 
             At(agentDisabledAttack, mouseMove, CanMove());
             At(agentDisabledUI, mouseMove, CanMove());
 
             At(hurt, mouseMove, CanMove());
-            locoMachine.AddAnyTransition(agentDisabledUI, UsingAbility());
+ 
+
+            locoMachine.AddAnyTransition(agentDisabledAttack, UsingAbility());
             locoMachine.AddAnyTransition(playerDead, IsDead());
 
             ChangeState(mouseMove);

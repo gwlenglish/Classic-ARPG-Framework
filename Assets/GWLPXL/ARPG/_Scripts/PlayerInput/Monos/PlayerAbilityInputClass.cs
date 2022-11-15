@@ -49,7 +49,7 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
                 switch (type)
                 {
                     case InputAbilityType.ToggleOnPressed:
-                        bool pressed = Input.GetButtonDown(button);
+                        bool pressed = Input.GetButton(button);
                         if (pressed)
                         {
                             abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;
@@ -67,7 +67,7 @@ namespace GWLPXL.ARPGCore.PlayerInput.com
                 switch (type)
                 {
                     case InputAbilityType.ToggleOnPressed:
-                        bool pressed = Input.GetKeyDown(key);
+                        bool pressed = Input.GetKey(key);
                         if (pressed)
                         {
                             abilityInputs.ModiferKeys.ForceAbility.Active = !abilityInputs.ModiferKeys.ForceAbility.Active;

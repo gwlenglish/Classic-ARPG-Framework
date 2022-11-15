@@ -24,7 +24,7 @@ namespace GWLPXL.ARPGCore.States.com
         {
             //Player.MyMover.SetDesiredDestination(Player.transform.position, 1f);
             playerMover.MyMover.DisableMovement(true);
-            abilities.TryCastAbility(abilities.GetLastIntendedAbility());
+          //  abilities.TryCastAbility(abilities.GetLastIntendedAbility());
         }
 
 

@@ -713,6 +713,7 @@ namespace GWLPXL.ARPGCore.Abilities.com
             appliedAbilitiesByCategory[buff.GetCategory()] = null;
             appliedAbilities[buff] = false;
 
+          
             if (value.CoolDownRate > 0)
             {
                 AbilityCooldownVars cdvars = new AbilityCooldownVars(value.CoolDownRate, this, value, fromUser);

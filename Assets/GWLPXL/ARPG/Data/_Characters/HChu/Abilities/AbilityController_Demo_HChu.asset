@@ -30,12 +30,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1e6a5771174436346bebe45f0c13845c, type: 2}
   - {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
   StartingAbilities:
+  - {fileID: 11400000, guid: 854e0f0d8e042ab41bda95a173977825, type: 2}
   - {fileID: 11400000, guid: 2c161ab1ae7a1e846b0ff42ef87411ef, type: 2}
   - {fileID: 11400000, guid: 9ba0582b0ce61e14ebea4b6657bfc620, type: 2}
   - {fileID: 11400000, guid: 514c7a8960f803448a88e920f067837e, type: 2}
   - {fileID: 11400000, guid: c4b0ff4aef2602a46b9100fc73c7eb63, type: 2}
   - {fileID: 11400000, guid: ea9af99c57633554693a8ce5e887d00a, type: 2}
-  - {fileID: 11400000, guid: 854e0f0d8e042ab41bda95a173977825, type: 2}
   - {fileID: 11400000, guid: 6684ad7596de61e48a3df966e0d7b2ec, type: 2}
   - {fileID: 11400000, guid: 0cebf8470ca4dbe48aad2d3e1806b8d8, type: 2}
   EquippedCap: 2
