@@ -2,7 +2,9 @@ using GWLPXL.ARPGCore.Abilities.com;
 using GWLPXL.ARPGCore.Abilities.Mods.com;
 using GWLPXL.ARPGCore.com;
 using GWLPXL.ARPGCore.Statics.com;
-
+using GWLPXL.ARPGCore.StatusEffects.com;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "GWLPXL/ARPG/Abilities/Mods/New Chance to SOT Mod")]

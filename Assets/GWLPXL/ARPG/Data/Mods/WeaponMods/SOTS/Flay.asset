@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 739da2ded88426d4191a84c73e9b8c60, type: 3}
-  m_Name: Stun
+  m_Name: Flay
   m_EditorClassIdentifier: 
-  descriptiveName: Stun
-  description: 5 cold damage and freezes the target for 5 seconds
+  descriptiveName: Burn
+  description: 1 damage per tick, stacking 5 times
   autoName: 1
   ParentPrefabToDamageSource: 0
   TimeObjectLifetimeWithWeaponStatus: 1
@@ -22,11 +22,11 @@ MonoBehaviour:
     StatusOverTimeOptions:
       additionalSOTs:
       - Type: 0
-        ElementDamage: 2
+        ElementDamage: 0
         StatusEffects:
-        - {fileID: 11400000, guid: c35667d856ef2af418299d29ac43402d, type: 2}
+        - {fileID: 11400000, guid: cee12b22adacd1a42a3eeba8c3ac8c6c, type: 2}
         AmountPerTick: -5
-        Duration: 1
+        Duration: 6
         ClampStatusEffectToDuration: 0
         TickRate: 1
         StackAmount: 5

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
-  m_Name: Bash
+  m_Name: Flay
   m_EditorClassIdentifier: 
   config: {fileID: 4900000, guid: 6951f09cee4186744ba1e4427da1cb16, type: 3}
   id:

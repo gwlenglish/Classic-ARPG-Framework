@@ -9,8 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d64d0984701314dac14e0ffbb15bee, type: 3}
-  m_Name: Generate
+  m_Script: {fileID: 11500000, guid: bc98fb7efaa9b5042969188a732bb916, type: 3}
+  m_Name: Bleed
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
-  StatusChanges: []
+  Vars:
+    EffectName: Bleed
+    MaxStacks: 3
+    Duration: 5
+    RefreshOnApply: 1
+    MaxRefreshAmount: 3
+    ImmunityDuration: 0.25
+    Logics: []

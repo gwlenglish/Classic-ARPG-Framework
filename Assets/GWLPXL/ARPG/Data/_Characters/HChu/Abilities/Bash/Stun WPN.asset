@@ -9,13 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d98980513d475574b870527398d03395, type: 3}
-  m_Name: Stun
+  m_Script: {fileID: 11500000, guid: 739da2ded88426d4191a84c73e9b8c60, type: 3}
+  m_Name: Stun WPN
   m_EditorClassIdentifier: 
-  config: {fileID: 0}
-  chanceToApply: 15
-  SOT: {fileID: 11400000, guid: 37b400aba676e07418c94f735e8c6de4, type: 2}
-  SOTs:
+  descriptiveName: Stun
+  description: Stuns the target for .5 seconds
+  autoName: 1
+  ParentPrefabToDamageSource: 0
+  TimeObjectLifetimeWithWeaponStatus: 1
+  VFXPrefab: {fileID: 0}
+  Vars:
     StatusOverTimeOptions:
       additionalSOTs:
       - Type: 20
@@ -26,4 +29,4 @@ MonoBehaviour:
         Duration: 0
         ClampStatusEffectToDuration: 0
         TickRate: 0
-        StackAmount: 0
+        StackAmount: 1

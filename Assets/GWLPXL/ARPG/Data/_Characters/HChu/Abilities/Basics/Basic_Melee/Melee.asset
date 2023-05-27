@@ -20,7 +20,7 @@ MonoBehaviour:
       MaximumChargePercentPhys: 2
       MaximumChargePercentElemental: 2
     Wpnbuffs:
-    - {fileID: 11400000, guid: f0cd7c3e1bac4774f8ee9cd1412fd4e3, type: 2}
+    - {fileID: 11400000, guid: a56e9a461e7707a408300ee13643021b, type: 2}
   Requirements: []
   VFXPrefab: {fileID: 0}
   ParentToMelee: 1
