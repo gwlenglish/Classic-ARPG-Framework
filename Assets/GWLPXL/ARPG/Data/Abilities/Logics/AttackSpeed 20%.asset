@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38d64d0984701314dac14e0ffbb15bee, type: 3}
-  m_Name: Generate
+  m_Script: {fileID: 11500000, guid: 92f248c819d650a46a1db968fcff5b45, type: 3}
+  m_Name: AttackSpeed 20%
   m_EditorClassIdentifier: 
   config: {fileID: 0}
-  StatusChanges: []
+  Mod: {fileID: 11400000, guid: 1140dcbaf10907d43a0180f44b7b8e4f, type: 2}

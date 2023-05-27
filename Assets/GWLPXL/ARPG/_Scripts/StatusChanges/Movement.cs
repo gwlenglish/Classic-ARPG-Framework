@@ -25,7 +25,7 @@ namespace GWLPXL.ARPGCore.StatusEffects.com
     }
     [CreateAssetMenu(menuName = "GWLPXL/ARPG/StatusEffects/Logic/Slow")]
 
-    public class Slow : StatusEffectLogic//how can we get it to stack? add something that tracks move multi on the mover?
+    public class Movement : StatusEffectLogic//how can we get it to stack? add something that tracks move multi on the mover?
     {
         public SlowVars Vars = new SlowVars(0.5f);
 

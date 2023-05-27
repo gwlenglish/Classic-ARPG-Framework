@@ -8,10 +8,9 @@
         None = 0,
         CriticalHitChance = 1,
         CriticalHitDamage = 2,
-        /// <summary>
-        /// Calculated between 0 - 100, 0 being none and 100 being immune (100% resistance)
-        /// </summary>
-        KnockBackResistance = 101
+
+        KnockBackResistance = 101,
+        AttackSpeed = 102//need to implement
 
     }
 

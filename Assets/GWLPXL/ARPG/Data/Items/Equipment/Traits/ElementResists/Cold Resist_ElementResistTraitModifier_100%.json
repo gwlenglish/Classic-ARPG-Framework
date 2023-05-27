@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 19474
+        "instanceID": 19476
     },
     "AutoName": true,
     "traitID": {
         "Name": "Cold Resist_ElementResistTraitModifier_100%",
         "ID": 5,
         "Trait": {
-            "instanceID": 19338
+            "instanceID": 19340
         }
     },
     "traitName": "Cold Resist",

@@ -396,7 +396,20 @@ namespace GWLPXL.ARPGCore.Attributes.com
         {
             FindAbilityMod(ability)?.RemoveAllModifiersFromSource(source);
         }
+        private Other FindStat(OtherAttributeType whichOne)
+        {
+            Attribute[] value = GetAttributes(AttributeType.Other);
+            for (int i = 0; i < value.Length; i++)
+            {
+                Other stat = (Other)value[i];
+                if (stat.Type == whichOne)
+                {
+                    return stat;
+                }
+            }
 
+            return null;
+        }
         private Stat FindStat(StatType whichOne)
         {
             Attribute[] value = GetAttributes(AttributeType.Stat);
@@ -418,6 +431,20 @@ namespace GWLPXL.ARPGCore.Attributes.com
             action(FindStat(whichOne));
             var newValue = GetStatNowValue(whichOne);
             ResourceLinkAdditional(whichOne, newValue - oldValue);
+        }
+        private void ChangeOther(OtherAttributeType whichOne, Action<Other> action)
+        {
+            var oldValue = GetOtherAttributeNowValue(whichOne);
+            action(FindStat(whichOne));
+            var newValue = GetOtherAttributeNowValue(whichOne);
+        }
+        public virtual void AddModifierOther(OtherAttributeType whichone, AttributeModifier modifier)
+        {
+            ChangeOther(whichone, other => other.AddModifier(modifier));
+        }
+        public virtual void RemoveModifierOther(OtherAttributeType whichone, AttributeModifier modifier)
+        {
+            ChangeOther(whichone, other => other.RemoveModifier(modifier));
         }
         public virtual void AddModifierStat(StatType whichOne, AttributeModifier modifier)
         {

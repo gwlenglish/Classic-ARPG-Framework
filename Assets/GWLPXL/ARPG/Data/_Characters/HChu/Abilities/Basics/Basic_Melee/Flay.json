@@ -1,17 +1,17 @@
 {
     "config": {
-        "instanceID": 26842
+        "instanceID": 26844
     },
     "id": {
-        "Name": "Basic Melee HChu",
-        "ID": 10,
+        "Name": "Flay",
+        "ID": 28,
         "Ability": {
-            "instanceID": 26506
+            "instanceID": 32840
         }
     },
     "autoName": false,
     "Data": {
-        "Name": "Basic Melee",
+        "Name": "Flay",
         "Description": "Basic Melee",
         "DamageMultiplier": 1.0,
         "Range": 1.5,
@@ -19,7 +19,7 @@
         "ResourceType": 20,
         "Logics": [
             {
-                "instanceID": 26844
+                "instanceID": 26846
             }
         ],
         "UniqueID": 8,

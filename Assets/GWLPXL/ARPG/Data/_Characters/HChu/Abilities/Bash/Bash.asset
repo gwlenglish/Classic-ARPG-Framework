@@ -20,13 +20,16 @@ MonoBehaviour:
   autoName: 0
   Data:
     Name: Flay
-    Description: Basic Melee
+    Description: 'Bash the enemy with your weapon to deal damage. Has a 20% chance
+      of stunning the enemy for 0.5 seconds. )
+
+'
     DamageMultiplier: 1
     Range: 1.5
     ResourceCost: 0
     ResourceType: 20
     Logics:
-    - {fileID: 11400000, guid: a62fa378428d01941b5f9edb80ce768d, type: 2}
+    - {fileID: 11400000, guid: 775120ba4518f8f4bbacff2ff3dea3be, type: 2}
     UniqueID: 8
     Sprite: {fileID: 0}
     AnimationTrigger: BasicMelee

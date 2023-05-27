@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 19476
+        "instanceID": 19478
     },
     "AutoName": true,
     "traitID": {
         "Name": "Fire Resist_ElementResistTraitModifier_100%",
         "ID": 6,
         "Trait": {
-            "instanceID": 19340
+            "instanceID": 19342
         }
     },
     "traitName": "Fire Resist",

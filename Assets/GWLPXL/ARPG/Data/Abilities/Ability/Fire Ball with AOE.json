@@ -1,12 +1,12 @@
 {
     "config": {
-        "instanceID": 28684
+        "instanceID": 28688
     },
     "id": {
         "Name": "Fire Ball with AOE",
         "ID": 26,
         "Ability": {
-            "instanceID": 28016
+            "instanceID": 28018
         }
     },
     "autoName": false,
@@ -19,10 +19,10 @@
         "ResourceType": 20,
         "Logics": [
             {
-                "instanceID": 26862
+                "instanceID": 26864
             },
             {
-                "instanceID": 28676
+                "instanceID": 28680
             }
         ],
         "UniqueID": 6,

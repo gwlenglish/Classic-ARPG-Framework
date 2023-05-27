@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   config: {fileID: 4900000, guid: 6951f09cee4186744ba1e4427da1cb16, type: 3}
   id:
-    Name: Basic Melee HChu
-    ID: 10
+    Name: Basic Melee_HChu
+    ID: 27
     Ability: {fileID: 11400000}
   autoName: 0
   Data:

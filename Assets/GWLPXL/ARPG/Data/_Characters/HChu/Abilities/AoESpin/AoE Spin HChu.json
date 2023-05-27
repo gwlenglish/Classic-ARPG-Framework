@@ -1,12 +1,12 @@
 {
     "config": {
-        "instanceID": 28668
+        "instanceID": 28672
     },
     "id": {
         "Name": "",
         "ID": 4,
         "Ability": {
-            "instanceID": 28006
+            "instanceID": 28008
         }
     },
     "autoName": true,
@@ -20,7 +20,7 @@
         "Logics": [],
         "UniqueID": 4,
         "Sprite": {
-            "instanceID": 28670
+            "instanceID": 28674
         },
         "AnimationTrigger": "Spin",
         "AnimBlending": 0.019999999552965165,

@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 19482
+        "instanceID": 19484
     },
     "AutoName": true,
     "traitID": {
         "Name": "Minor Mana_MaxResourceTraitModifier_100%",
         "ID": 9,
         "Trait": {
-            "instanceID": 19346
+            "instanceID": 19348
         }
     },
     "traitName": "Minor Mana",

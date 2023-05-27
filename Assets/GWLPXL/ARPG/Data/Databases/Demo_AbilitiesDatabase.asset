@@ -45,12 +45,12 @@ MonoBehaviour:
       ID: 9
       Ability: {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
     Ability: {fileID: 11400000, guid: 7679ac1935518e84a923eb4600656ec5, type: 2}
-  - DescriptiveName: Basic Melee
+  - DescriptiveName: Flay
     ID:
       Name: Basic Melee HChu
       ID: 10
-      Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
-    Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
+      Ability: {fileID: 11400000, guid: 1fbf5d8cbf471db479509703ea921787, type: 2}
+    Ability: {fileID: 11400000, guid: 1fbf5d8cbf471db479509703ea921787, type: 2}
   - DescriptiveName: Quick Shot
     ID:
       Name: 
@@ -147,9 +147,21 @@ MonoBehaviour:
       ID: 26
       Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}
     Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}
-  - DescriptiveName: Bash
+  - DescriptiveName: Basic Melee
     ID:
-      Name: Bash
+      Name: Basic Melee_HChu
       ID: 27
-      Ability: {fileID: 11400000, guid: 4bff03488cfecd444bd50904d7c4279d, type: 2}
-    Ability: {fileID: 11400000, guid: 4bff03488cfecd444bd50904d7c4279d, type: 2}
+      Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
+    Ability: {fileID: 11400000, guid: 7ebef7d448a33f5448b9587cdfcea6a4, type: 2}
+  - DescriptiveName: Flay
+    ID:
+      Name: Flay
+      ID: 28
+      Ability: {fileID: 11400000, guid: 98541415e4c81d04f9f2fa6333587dcc, type: 2}
+    Ability: {fileID: 11400000, guid: 98541415e4c81d04f9f2fa6333587dcc, type: 2}
+  - DescriptiveName: Frenzy
+    ID:
+      Name: Frenzy
+      ID: 29
+      Ability: {fileID: 11400000, guid: ffabf5c4ffc35654eb50008663083464, type: 2}
+    Ability: {fileID: 11400000, guid: ffabf5c4ffc35654eb50008663083464, type: 2}
