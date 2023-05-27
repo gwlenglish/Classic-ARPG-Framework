@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 17128
+        "instanceID": 19472
     },
     "AutoName": true,
     "traitID": {
         "Name": "Lightning Attack_ElementAttackTraitModifier_100%",
         "ID": 4,
         "Trait": {
-            "instanceID": 16954
+            "instanceID": 19336
         }
     },
     "traitName": "Lightning Attack",

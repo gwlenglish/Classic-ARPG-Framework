@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 15098
+        "instanceID": 19478
     },
     "AutoName": true,
     "traitID": {
         "Name": "Lightning Resist_ElementResistTraitModifier_100%",
         "ID": 7,
         "Trait": {
-            "instanceID": 15084
+            "instanceID": 19342
         }
     },
     "traitName": "Lightning Resist",

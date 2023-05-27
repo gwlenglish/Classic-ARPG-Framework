@@ -28,8 +28,7 @@ MonoBehaviour:
     Logics:
     - {fileID: 11400000, guid: 7a6c190c80ea8c34bae95f8956f26fbb, type: 2}
     UniqueID: 7
-    Sprite: {fileID: 5968936892295483699, guid: d274d7b6131b1094fb3cf06d40b14134,
-      type: 3}
+    Sprite: {fileID: 5968936892295483699, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
     AnimationTrigger: Fireball
     AnimBlending: 0.02
     AnimationIndex: 0

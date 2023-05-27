@@ -123,8 +123,8 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
             if (autoName && this.name != descriptiveName)
             {
                 //rename logic
-                string path = UnityEditor.AssetDatabase.GetAssetPath(this);
-                UnityEditor.AssetDatabase.RenameAsset(path, descriptiveName);
+              //  string path = UnityEditor.AssetDatabase.GetAssetPath(this);
+              //  UnityEditor.AssetDatabase.RenameAsset(path, descriptiveName);
             }
 
 

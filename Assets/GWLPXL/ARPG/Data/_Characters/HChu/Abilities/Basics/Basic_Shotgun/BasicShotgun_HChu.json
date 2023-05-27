@@ -1,12 +1,12 @@
 {
     "config": {
-        "instanceID": 24738
+        "instanceID": 26834
     },
     "id": {
         "Name": "",
         "ID": 11,
         "Ability": {
-            "instanceID": 24470
+            "instanceID": 26502
         }
     },
     "autoName": false,
@@ -19,7 +19,7 @@
         "ResourceType": 20,
         "Logics": [
             {
-                "instanceID": 24740
+                "instanceID": 26836
             }
         ],
         "UniqueID": 8,

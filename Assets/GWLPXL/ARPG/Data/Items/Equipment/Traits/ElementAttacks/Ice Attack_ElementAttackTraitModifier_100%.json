@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 15094
+        "instanceID": 19470
     },
     "AutoName": true,
     "traitID": {
         "Name": "Ice Attack_ElementAttackTraitModifier_100%",
         "ID": 3,
         "Trait": {
-            "instanceID": 15080
+            "instanceID": 19334
         }
     },
     "traitName": "Ice Attack",

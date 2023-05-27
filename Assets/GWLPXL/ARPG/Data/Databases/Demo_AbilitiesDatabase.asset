@@ -147,3 +147,9 @@ MonoBehaviour:
       ID: 26
       Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}
     Ability: {fileID: 11400000, guid: 22200b72dc2dab140a9c1f15ece0a08c, type: 2}
+  - DescriptiveName: Bash
+    ID:
+      Name: Bash
+      ID: 27
+      Ability: {fileID: 11400000, guid: 4bff03488cfecd444bd50904d7c4279d, type: 2}
+    Ability: {fileID: 11400000, guid: 4bff03488cfecd444bd50904d7c4279d, type: 2}

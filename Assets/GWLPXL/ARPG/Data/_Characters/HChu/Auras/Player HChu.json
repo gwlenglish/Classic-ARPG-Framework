@@ -1,6 +1,6 @@
 {
     "config": {
-        "instanceID": 16626
+        "instanceID": 20436
     },
     "AuraControllerData": {
         "AutoName": false,
@@ -9,18 +9,18 @@
         "Description": "",
         "ID": 4,
         "ControllerRef": {
-            "instanceID": 16560
+            "instanceID": 20414
         }
     },
     "startingAuras": [
         {
-            "instanceID": 16628
+            "instanceID": 20438
         },
         {
-            "instanceID": 16630
+            "instanceID": 20440
         },
         {
-            "instanceID": 16632
+            "instanceID": 20442
         }
     ],
     "equippedcap": 3,

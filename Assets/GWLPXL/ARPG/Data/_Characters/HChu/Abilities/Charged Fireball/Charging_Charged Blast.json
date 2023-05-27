@@ -1,12 +1,12 @@
 {
     "config": {
-        "instanceID": 24782
+        "instanceID": 26894
     },
     "id": {
         "Name": "Charging_Charged Blast",
         "ID": 23,
         "Ability": {
-            "instanceID": 24474
+            "instanceID": 26522
         }
     },
     "autoName": false,
@@ -19,15 +19,15 @@
         "ResourceType": 1,
         "Logics": [
             {
-                "instanceID": 24784
+                "instanceID": 26896
             },
             {
-                "instanceID": 24786
+                "instanceID": 26898
             }
         ],
         "UniqueID": 7,
         "Sprite": {
-            "instanceID": 24738
+            "instanceID": 26858
         },
         "AnimationTrigger": "Charging",
         "AnimBlending": 0.019999999552965165,

@@ -28,8 +28,7 @@ MonoBehaviour:
     ResourceType: 1
     Logics: []
     UniqueID: 4
-    Sprite: {fileID: -5041531480436496497, guid: d274d7b6131b1094fb3cf06d40b14134,
-      type: 3}
+    Sprite: {fileID: -5041531480436496497, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
     AnimationTrigger: Spin
     AnimBlending: 0.02
     AnimationIndex: 0

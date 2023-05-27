@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 15092
+        "instanceID": 19468
     },
     "AutoName": true,
     "traitID": {
         "Name": "Fire Attack_ElementAttackTraitModifier_100%",
         "ID": 2,
         "Trait": {
-            "instanceID": 15078
+            "instanceID": 19332
         }
     },
     "traitName": "Fire Attack",

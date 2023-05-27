@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 22750
+        "instanceID": 25612
     },
     "AutoName": true,
     "traitID": {
         "Name": "Ability Mod 1_AbilityModTraitModifier_1%",
         "ID": 1,
         "Trait": {
-            "instanceID": 22628
+            "instanceID": 25492
         }
     },
     "traitName": "Ability Mod 1",

@@ -10,29 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
-  m_Name: Leap Smash
+  m_Name: Bash
   m_EditorClassIdentifier: 
-  config: {fileID: 4900000, guid: 7120d6e2a6c3e5a448c1562676b3fa01, type: 3}
+  config: {fileID: 4900000, guid: 4f16d9b75fec66a48b7272aea4eab438, type: 3}
   id:
-    Name: 
-    ID: 16
+    Name: Bash
+    ID: 27
     Ability: {fileID: 11400000}
   autoName: 0
   Data:
-    Name: Leap Smash
-    Description: 'Leaps then smashes into the ground, causing fire damage to anyone
-      inside. '
+    Name: Bash
+    Description: Bash
     DamageMultiplier: 1
-    Range: 4
+    Range: 1
     ResourceCost: 0
     ResourceType: 20
     Logics:
-    - {fileID: 11400000, guid: 2552c1ba0f322804cb7c7cecb7bf09bf, type: 2}
-    - {fileID: 11400000, guid: a62fa378428d01941b5f9edb80ce768d, type: 2}
-    - {fileID: 11400000, guid: 3b76b4cd2f7a5ec4c9583f8a1b0121da, type: 2}
-    UniqueID: 7
-    Sprite: {fileID: 4699321930567004572, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
-    AnimationTrigger: BasicMelee
+    - {fileID: 11400000, guid: 9f7451c7663d86d48ab0beaa1e102054, type: 2}
+    UniqueID: 0
+    Sprite: {fileID: 0}
+    AnimationTrigger: Ability
     AnimBlending: 0.02
     AnimationIndex: 0
   category: 1
@@ -40,7 +37,7 @@ MonoBehaviour:
   CoolDownRate: 1
   Duration: 1
   CanLoop: 0
-  AddDelay: 1
+  AddDelay: 0
   Delay: 0
   ForwardSightAngle: 180
   interruptOptions:

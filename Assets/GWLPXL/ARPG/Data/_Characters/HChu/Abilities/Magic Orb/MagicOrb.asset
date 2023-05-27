@@ -28,8 +28,7 @@ MonoBehaviour:
     Logics:
     - {fileID: 11400000, guid: 52a69f7e7c163f7449ff5146d12afe5b, type: 2}
     UniqueID: 7
-    Sprite: {fileID: -4741709788121682056, guid: d274d7b6131b1094fb3cf06d40b14134,
-      type: 3}
+    Sprite: {fileID: -4741709788121682056, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
     AnimationTrigger: Ability
     AnimBlending: 0.02
     AnimationIndex: 0

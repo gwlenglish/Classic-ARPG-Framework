@@ -32,8 +32,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: f4a79277c18ce164ba556f019960787e, type: 2}
     - {fileID: 11400000, guid: 60639f0b07bf72048b14fe69baa81f37, type: 2}
     UniqueID: 7
-    Sprite: {fileID: 2206297794771097487, guid: d274d7b6131b1094fb3cf06d40b14134,
-      type: 3}
+    Sprite: {fileID: 2206297794771097487, guid: d274d7b6131b1094fb3cf06d40b14134, type: 3}
     AnimationTrigger: BasicMelee
     AnimBlending: 0.02
     AnimationIndex: 0

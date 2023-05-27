@@ -1,13 +1,13 @@
 {
     "config": {
-        "instanceID": 15104
+        "instanceID": 19488
     },
     "AutoName": true,
     "traitID": {
         "Name": "Vitality_StatTraitModifier_100%",
         "ID": 15,
         "Trait": {
-            "instanceID": 15090
+            "instanceID": 19352
         }
     },
     "traitName": "Vitality",
