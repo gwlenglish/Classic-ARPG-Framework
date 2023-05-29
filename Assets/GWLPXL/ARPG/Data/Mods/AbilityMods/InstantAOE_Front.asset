@@ -17,7 +17,7 @@ MonoBehaviour:
     Radius: 5
     Angle: 20
     PercentOfWpnDmg: 0.3
-    Element: 2
+    Element: 0
     FXPrefab: {fileID: 0}
     PhysicsType: 0
   VFX: {fileID: 0}

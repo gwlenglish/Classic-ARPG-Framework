@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b67e5fd73ae5a45ac07785b3390a97, type: 3}
+  m_Name: Triple Threat
+  m_EditorClassIdentifier: 
+  descriptiveName: 
+  description: A series of 3 attacks, 70%, 50%, and 30%
+  autoName: 0
+  ParentPrefabToDamageSource: 0
+  TimeObjectLifetimeWithWeaponStatus: 1
+  VFXPrefab: {fileID: 0}
+  Vars:
+    Vars:
+    - AdditionalDamage:
+        physicalMultipler:
+          minD: 0
+          maxD: 0
+          percentOfCasterAttack: 0.7
+        elementMultipliers: []
+    - AdditionalDamage:
+        physicalMultipler:
+          minD: 0
+          maxD: 0
+          percentOfCasterAttack: 0.5
+        elementMultipliers: []
+    - AdditionalDamage:
+        physicalMultipler:
+          minD: 0
+          maxD: 0
+          percentOfCasterAttack: 0.3
+        elementMultipliers: []

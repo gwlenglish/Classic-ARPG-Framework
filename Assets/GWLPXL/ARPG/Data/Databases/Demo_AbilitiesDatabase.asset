@@ -165,3 +165,21 @@ MonoBehaviour:
       ID: 29
       Ability: {fileID: 11400000, guid: ffabf5c4ffc35654eb50008663083464, type: 2}
     Ability: {fileID: 11400000, guid: ffabf5c4ffc35654eb50008663083464, type: 2}
+  - DescriptiveName: Lunging Strike
+    ID:
+      Name: Lunging
+      ID: 30
+      Ability: {fileID: 11400000, guid: 5002937bf9a17ee4fa56f3fa76a66887, type: 2}
+    Ability: {fileID: 11400000, guid: 5002937bf9a17ee4fa56f3fa76a66887, type: 2}
+  - DescriptiveName: Rend
+    ID:
+      Name: Rend
+      ID: 31
+      Ability: {fileID: 11400000, guid: c38ea91caa5402645816f80aafef8505, type: 2}
+    Ability: {fileID: 11400000, guid: c38ea91caa5402645816f80aafef8505, type: 2}
+  - DescriptiveName: Hammer of the Ancients
+    ID:
+      Name: Hammer of the Ancients
+      ID: 32
+      Ability: {fileID: 11400000, guid: 46cedafb986bcdb40baa976c72f6fa81, type: 2}
+    Ability: {fileID: 11400000, guid: 46cedafb986bcdb40baa976c72f6fa81, type: 2}

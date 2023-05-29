@@ -13,8 +13,8 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
 
     public class ApplyAdditionalActorPercentDamage : WeaponStatusChanges
     {
-
-
+        [Range(1, 100)]
+        public int ChanceToApply = 100;
         public DamageSourceVars_Actor Vars = new DamageSourceVars_Actor();
 
 
@@ -22,7 +22,12 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
         Dictionary<Transform, WeaponBuffTracker> trackerdic = new Dictionary<Transform, WeaponBuffTracker>();//and something to track to enable/disable
         public override void Apply(Transform[] weapons, IActorHub forUser)
         {
-            Enable(weapons, forUser, trackerdic);
+            int chance = Random.Range(0, 101);
+            if (chance <= ChanceToApply)
+            {
+                Enable(weapons, forUser, trackerdic);
+            }
+         
         }
 
         public override void Remove(Transform[] weapons, IActorHub forUser)

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739da2ded88426d4191a84c73e9b8c60, type: 3}
   m_Name: Flay
   m_EditorClassIdentifier: 
-  descriptiveName: Burn
+  descriptiveName: Flay
   description: 1 damage per tick, stacking 5 times
   autoName: 1
   ParentPrefabToDamageSource: 0

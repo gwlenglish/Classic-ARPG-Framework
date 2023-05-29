@@ -1,0 +1,45 @@
+{
+    "config": {
+        "instanceID": 0
+    },
+    "id": {
+        "Name": "Hammer of the Ancients",
+        "ID": 32,
+        "Ability": {
+            "instanceID": -5622
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Hammer of the Ancients",
+        "Description": "",
+        "DamageMultiplier": 1.0,
+        "Range": 1.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 20,
+        "Logics": [],
+        "UniqueID": 0,
+        "Sprite": {
+            "instanceID": 0
+        },
+        "AnimationTrigger": "Ability",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": false,
+    "Delay": 0.0,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

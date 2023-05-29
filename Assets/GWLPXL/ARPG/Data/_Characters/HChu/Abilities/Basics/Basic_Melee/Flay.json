@@ -1,25 +1,25 @@
 {
     "config": {
-        "instanceID": 26844
+        "instanceID": 26848
     },
     "id": {
         "Name": "Flay",
         "ID": 28,
         "Ability": {
-            "instanceID": 32840
+            "instanceID": 28026
         }
     },
     "autoName": false,
     "Data": {
         "Name": "Flay",
-        "Description": "Basic Melee",
+        "Description": "Flay the enemy to deal damage and inflict bleed for six seconds. \r\n",
         "DamageMultiplier": 1.0,
         "Range": 1.5,
         "ResourceCost": 0.0,
         "ResourceType": 20,
         "Logics": [
             {
-                "instanceID": 26846
+                "instanceID": 26850
             }
         ],
         "UniqueID": 8,

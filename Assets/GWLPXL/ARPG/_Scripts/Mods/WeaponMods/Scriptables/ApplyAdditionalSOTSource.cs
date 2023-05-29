@@ -12,6 +12,8 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
     public class ApplyAdditionalSOTSource : WeaponStatusChanges
     {
         //needs vars
+        [Range(1, 101)]
+        public int Chance = 101;
         public AdditionalSoTSourceVars Vars = new AdditionalSoTSourceVars();
 
         [System.NonSerialized]
@@ -19,7 +21,12 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
 
         public override void Apply(Transform[] weapons, IActorHub forUser)
         {
-            Enable(weapons, forUser, trackerdic);
+            int chance = Random.Range(0, 101);
+            if (chance < Chance)
+            {
+                Enable(weapons, forUser, trackerdic);
+            }
+         
         }
 
         public override void Remove(Transform[] weapons, IActorHub forUser)

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ce771da5092504a8ee744eb15552a3, type: 3}
+  m_Name: 100% Attack
+  m_EditorClassIdentifier: 
+  descriptiveName: Demo +10% Attack
+  description: Does 100% of attack
+  autoName: 1
+  ParentPrefabToDamageSource: 0
+  TimeObjectLifetimeWithWeaponStatus: 1
+  VFXPrefab: {fileID: 0}
+  Vars:
+    AdditionalDamage:
+      physicalMultipler:
+        minD: 0
+        maxD: 0
+        percentOfCasterAttack: 1
+      elementMultipliers: []

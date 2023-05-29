@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c71587b2fc63142b682ce344f41da5, type: 3}
+  m_Name: Melee Cleave
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 811634d3083b60a4296a0ac38cdfb569, type: 3}
+  Vars:
+    DamageOverride: {fileID: 0}
+    MeleeOptionsOverride: {fileID: 0}
+    ChargeOptions:
+      MaximumChargePercentPhys: 2
+      MaximumChargePercentElemental: 2
+    Wpnbuffs:
+    - {fileID: 11400000, guid: f6e08fce833313a41afe22a070d7ed23, type: 2}
+  Requirements: []
+  VFXPrefab: {fileID: 0}
+  ParentToMelee: 1

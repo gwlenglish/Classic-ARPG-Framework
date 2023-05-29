@@ -1,0 +1,52 @@
+{
+    "config": {
+        "instanceID": 36938
+    },
+    "id": {
+        "Name": "Rend",
+        "ID": 31,
+        "Ability": {
+            "instanceID": -5334
+        }
+    },
+    "autoName": false,
+    "Data": {
+        "Name": "Rend",
+        "Description": "",
+        "DamageMultiplier": 1.0,
+        "Range": 1.0,
+        "ResourceCost": 0.0,
+        "ResourceType": 1,
+        "Logics": [
+            {
+                "instanceID": 37446
+            },
+            {
+                "instanceID": 37812
+            }
+        ],
+        "UniqueID": 0,
+        "Sprite": {
+            "instanceID": 0
+        },
+        "AnimationTrigger": "Ability",
+        "AnimBlending": 0.019999999552965165,
+        "AnimationIndex": 0
+    },
+    "category": 1,
+    "AddCooldown": true,
+    "CoolDownRate": 1.0,
+    "Duration": 1.0,
+    "CanLoop": false,
+    "AddDelay": false,
+    "Delay": 0.0,
+    "ForwardSightAngle": 180.0,
+    "interruptOptions": {
+        "CollisionLayers": [],
+        "PhysicsType": 0,
+        "OnCasterDamaged": false,
+        "OnCasterDied": true,
+        "InterruptEffects": [],
+        "Abilities": []
+    }
+}

@@ -1,12 +1,12 @@
 {
     "config": {
-        "instanceID": 26840
+        "instanceID": 26844
     },
     "id": {
         "Name": "BasicFlameThrower HChu",
         "ID": 21,
         "Ability": {
-            "instanceID": 26506
+            "instanceID": 26510
         }
     },
     "autoName": false,
@@ -19,7 +19,7 @@
         "ResourceType": 20,
         "Logics": [
             {
-                "instanceID": 26842
+                "instanceID": 26846
             }
         ],
         "UniqueID": 0,

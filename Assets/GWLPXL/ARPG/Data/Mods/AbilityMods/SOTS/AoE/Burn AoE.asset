@@ -18,10 +18,11 @@ MonoBehaviour:
     Angle: 180
     Type: 0
   DoT_Vars:
-    TypeToDrain: 0
+    Type: 0
     ElementDamage: 1
-    Effects: 
+    StatusEffects: []
     AmountPerTick: -3
     Duration: 5
+    ClampStatusEffectToDuration: 0
     TickRate: 1
     StackAmount: 5
