@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c331c98855e3f0042adc9c6594c303cf, type: 3}
+  m_Name: Maul Fortify
+  m_EditorClassIdentifier: 
+  config: {fileID: 0}
+  Duration: 3
+  Mod: {fileID: 11400000, guid: 802a0d2043ed2114e9d0210c37e91f4a, type: 2}

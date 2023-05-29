@@ -5,13 +5,13 @@ using GWLPXL.ARPGCore.StatusEffects.com;
 
 using UnityEngine;
 
-public class ModTicker : ITick
+public class StatModTicker : ITick
 {
     float t;
-    ModifyOTher m;
+    ModStatStatus m;
     IActorHub u;
     bool removed;
-    public ModTicker(float duration, IActorHub user, ModifyOTher m)
+    public StatModTicker(float duration, IActorHub user, ModStatStatus m)
     {
         removed = false;
         this.u = user;
@@ -25,7 +25,7 @@ public class ModTicker : ITick
 
     public void DoTick()
     {
-        u.MyStats.GetRuntimeAttributes().RemoveModifierOther(m.Type, m.Modifier);
+        u.MyStats.GetRuntimeAttributes().RemoveModifierStat(m.Type, m.Modifier);
         removed = true;
         RemoveTicker();
     }
@@ -37,18 +37,18 @@ public class ModTicker : ITick
 
     public void RemoveTicker()
     {
-        if (removed == false) u.MyStats.GetRuntimeAttributes().RemoveModifierOther(m.Type, m.Modifier);
+        if (removed == false) u.MyStats.GetRuntimeAttributes().RemoveModifierStat(m.Type, m.Modifier);
         TickManager.Instance.RemoveTicker(this);
     }
 }
 
-[CreateAssetMenu(menuName = "GWLPXL/ARPG/Abilities/Mods/NEW_OtherStatMod_Duration")]
-public class OtherModDuration : AbilityLogic
+[CreateAssetMenu(menuName = "GWLPXL/ARPG/Abilities/Mods/NEW_Stat_Duration")]
+public class StatModDuration : AbilityLogic
 {
     [Tooltip("if Duration is 0 or less, will end with ability")]
-    public float Duration = 3;
+    public float Duration = 0;
 
-    public ModifyOtherStat Mod;
+    public ModifyStat Mod;
 
     public override bool CheckLogicPreRequisites(IActorHub forUser)
     {
@@ -60,6 +60,10 @@ public class OtherModDuration : AbilityLogic
         ///does it on duration
         if (Duration > 0)
         {
+            //let ticker handle
+        }
+        else
+        {
             Mod.UnDoLogic(skillUser);
             Remove(skillUser.MyTransform);
         }
@@ -70,7 +74,7 @@ public class OtherModDuration : AbilityLogic
         Mod.DoLogic(skillUser);
         if (Duration > 0)
         {
-            ModTicker ticker = new ModTicker(Duration, skillUser, Mod.Vars);
+            StatModTicker ticker = new StatModTicker(Duration, skillUser, Mod.Vars);
             ticker.AddTicker();
 
         }

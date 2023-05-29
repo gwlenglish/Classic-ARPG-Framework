@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6fb360537c3844fa7d5e26236e0e0a, type: 3}
+  m_Name: Blade of Wind
+  m_EditorClassIdentifier: 
+  config: {fileID: 4900000, guid: 74703a6de2966b142b0074895154e53d, type: 3}
+  id:
+    Name: Magic Ball
+    ID: 6
+    Instance: {fileID: 11400000}
+  ProjectileVars:
+    descriptiveName: Blade of Wind
+    description: Blade of Wind
+    speed: 5
+    disableOnTouch: 1
+    friendlyFire: 0
+    lifetime: 3
+    blockingLayers:
+      serializedVersion: 2
+      m_Bits: 41943041
+    block: 1

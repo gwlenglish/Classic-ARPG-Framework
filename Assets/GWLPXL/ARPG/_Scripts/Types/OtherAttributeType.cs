@@ -10,7 +10,8 @@
         CriticalHitDamage = 2,
 
         KnockBackResistance = 101,
-        AttackSpeed = 102//need to implement
+        AttackSpeed = 102,//need to implement
+        Movement = 103,//need to implmement
 
     }
 

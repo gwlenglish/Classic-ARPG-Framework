@@ -28,7 +28,7 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
     /// Applies a stat buff
     /// </summary>
     [CreateAssetMenu(menuName = "GWLPXL/ARPG/Abilities/Mods/NEW_StatIncrease_Percent")]
-
+    [System.Obsolete]
     public class InstantStatIncrease_Percent : AbilityLogic
     {
         public StatModPercentVars Vars = new StatModPercentVars(StatType.Strength, .10f);

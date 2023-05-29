@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41bab357332525d4096c5eac884b85ec, type: 3}
+  m_Name: Wind Shear
+  m_EditorClassIdentifier: 
+  config: {fileID: 0}
+  id:
+    Name: 
+    ID: 0
+    Ability: {fileID: 0}
+  autoName: 0
+  Data:
+    Name: 
+    Description: 
+    DamageMultiplier: 1
+    Range: 1
+    ResourceCost: 0
+    ResourceType: 20
+    Logics:
+    - {fileID: 11400000, guid: 2c786ba41b3e0c140bd82942a60a1810, type: 2}
+    - {fileID: 11400000, guid: 0f99113b113bf71419607e5bb794d006, type: 2}
+    UniqueID: 0
+    Sprite: {fileID: 0}
+    AnimationTrigger: Ability
+    AnimBlending: 0.02
+    AnimationIndex: 0
+  category: 1
+  AddCooldown: 1
+  CoolDownRate: 1
+  Duration: 1
+  CanLoop: 0
+  AddDelay: 0
+  Delay: 0
+  ForwardSightAngle: 180
+  interruptOptions:
+    CollisionLayers: []
+    PhysicsType: 0
+    OnCasterDamaged: 0
+    OnCasterDied: 1
+    InterruptEffects: []
+    Abilities: []

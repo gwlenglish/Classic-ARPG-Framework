@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace GWLPXL.ARPGCore.StatusEffects.com
 {
+
    [System.Serializable]
     public class ModifyOTher
     {

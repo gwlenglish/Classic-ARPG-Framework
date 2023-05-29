@@ -26,7 +26,7 @@ namespace GWLPXL.ARPGCore.Abilities.Mods.com
     /// Applies a stat buff
     /// </summary>
     [CreateAssetMenu(menuName = "GWLPXL/ARPG/StatusChanges/Abilities/NEW_StatIncrease_Flat")]
-
+    [System.Obsolete]
     public class InstantStatIncrease_Flat : AbilityLogic
     {
         public StatModFlatVars Vars = new StatModFlatVars(StatType.Strength, 10);
